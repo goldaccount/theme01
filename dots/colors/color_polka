@@ -1,0 +1,35 @@
+activeborder=#fe3c79
+inactiveborder=#3595e9
+
+#[colors]
+text1=#fa3e7b
+text2=#3595e9
+text3=#9b6ba9
+text4=#fa85d3
+text5=#2cfff9
+text1d=#bb2830
+text2d=#20598c
+text3d=#fff989
+text4d=#9b6ba9
+text5d=
+focus1=#fa85d3
+focus1d=#9b6ba9
+active=#fa3e7b
+inactive=#3595e9
+warn=#bb2830
+bg1=#303030
+bg2=#f8ed9e
+
+#red	#bb2830
+#pink	#fe3c79
+#lpurpl	#fa85d3
+#white	#ffffff
+#lyello #f8ed9e
+#yellow	#fff989
+#blue	#3595e9
+#grey	#303030
+#cyan	#2cfff9
+#purple	#9b6ba9
+#skin	#fff6ef
+#ddark	#190101
+

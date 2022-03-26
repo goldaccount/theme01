@@ -1,0 +1,45 @@
+#!/bin/zsh
+export activeborder="#ffb8d1"
+export inactiveborder="#91acd1"
+
+#;[colors]
+text1=#ffb8d1
+text2=#ffb8d1
+#text3=#91acd1
+text3=#fbf1c7
+text4=#c2ffdf
+text5=#f92672
+text1d=#b28092
+text2d=#b28092
+text3d=#c8c09f
+text4d=#9bccb2
+text5d=#ae1a4f
+focus1=#c2ffdf
+focus1d=#9bccb2
+active=#c2ffdf
+inactive=#9bccd2
+warn=#fe8019
+bg1=#5a5475
+bg2=#8077a8
+
+#;purple
+#background = #5a5475
+#;hotpink
+#lightbackground = #fbf1c7
+#background-transparent = #f25a5475
+#;white
+#foreground = #f8f8f2
+#;lightpurple
+#selected = #8077a8
+#red = #F92672
+#darkred = #F92672
+#traybackground = #A8757B
+#yellow = #ffea00
+#teal = #c2ffdf
+#orange = #fe8019
+#darkorange = #d65d0e
+#lightpink = #ffb8d1
+#purple = #716799
+#lightpurple = #a093c7
+#lightblue  = #91acd1
+#bluewhite  = #d2d4de

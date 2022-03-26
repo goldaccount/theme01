@@ -1,0 +1,29 @@
+#!/bin/zsh
+export activeborder=#f7b500
+export inactiveborder=#cacac8
+
+text1=#f7b500
+text2=#f1f1f1
+text3=#f7b500
+text4=#cb0802
+text5=#fdedd4
+text1d=#ac7e00
+text2d=#ac7e00
+text3d=#a8a8a8
+text4d=#8e0501
+text5d=#cabda9
+focus1=#f7b500
+focus1d=#ac7e00
+active=#f1f1f1
+inactive=#cacac8
+warn=#8e0501
+bg2=#343237
+bg1=#242326
+
+#f7b500	yellow	ac7e00
+#343237	black	242326
+#f1f1f1	white	a8a8a8
+#cb0802	red	8e0501
+#0a0a0a	deep black	080808
+#cacac8	gray	8d8d8c
+#fdedd4	skin	cabda9

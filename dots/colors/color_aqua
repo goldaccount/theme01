@@ -1,0 +1,58 @@
+#!/bin/zsh
+export activeborder="#c14fa4"
+export inactiveborder="#837eb6"
+
+#;[colors]
+text1=#a3bbea
+text2=#eaabda
+;text2=#a3bbea
+text3=#eaabda
+text4=#5cc2d0
+text5=#eeaa97
+text1d=#78366c
+text2d=#50528f
+text3d=#6c88bd
+text4d=#462b4f
+text5d=#5cc2d0
+focus1=#a4e7f8
+focus1d=#5cc2d0
+active=#eaabda
+inactive=#78366c
+warn=#eeaa97
+bg1=#50528f
+bg2=#462b4f
+
+#eaabda	light pink
+#b0eafb	light cyan
+#a3bbea	light purple
+#c14fa4	deep pink
+#a4e7f8	light cyan
+#78366c	deeper pink
+#50528f deep purple
+#6c88bd light blue
+#462b4f deeper purple
+#5cc2d0 cyan
+#eeaa97	skin
+#4d4d8b deep blue
+#837eb6 light blue
+#;purple
+#background = #5a5475
+#;hotpink
+#lightbackground = #fbf1c7
+#background-transparent = #f25a5475
+#;white
+#foreground = #f8f8f2
+#;lightpurple
+#selected = #8077a8
+#red = #F92672
+#darkred = #F92672
+#traybackground = #A8757B
+#yellow = #ffea00
+#teal = #c2ffdf
+#orange = #fe8019
+#darkorange = #d65d0e
+#lightpink = #ffb8d1
+#purple = #716799
+#lightpurple = #a093c7
+#lightblue  = #91acd1
+#bluewhite  = #d2d4de

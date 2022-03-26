@@ -1,0 +1,23 @@
+#!/bin/zsh
+export activeborder=
+export inactiveborder=
+
+text1=
+text2=
+text3=
+text3=
+text4=
+text5=
+text1d=
+text2d=
+text3d=
+text4d=
+text5d=
+focus1=
+focus1d=
+active=
+inactive=
+warn=
+bg1=
+bg2=
+
