@@ -1,6 +1,6 @@
 #!/bin/zsh
-export activeborder=#27fac6
-export inactiveborder=#364474
+activeborder=#27fac6
+inactiveborder=#364474
 
 text1=#27fac6
 text2=#edc3e9
@@ -17,8 +17,8 @@ focus1d=#2c3964
 active=#4499cc
 inactive=#2e7aa7
 warn=#fdfeab
-bg1=#364474
-bg2=#2a3459
+bg2=#4a5681
+bg1=#2a3459
 
 
 #main	#b2facb	light springgreen

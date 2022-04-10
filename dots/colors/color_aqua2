@@ -1,14 +1,14 @@
 #!/bin/zsh
-export activeborder="#ffb8d1"
-export inactiveborder="#91acd1"
+activeborder="#ffb8d1"
+inactiveborder="#91acd1"
 
 #;[colors]
 text1=#ffb8d1
 text2=#ffb8d1
-#text3=#91acd1
+;text3=#91acd1
 text3=#fbf1c7
 text4=#c2ffdf
-text5=#f92672
+text5=#f360c0
 text1d=#b28092
 text2d=#b28092
 text3d=#c8c09f
@@ -24,7 +24,7 @@ bg2=#8077a8
 
 #;purple
 #background = #5a5475
-#;hotpink
+#;hotpink = e360c0
 #lightbackground = #fbf1c7
 #background-transparent = #f25a5475
 #;white

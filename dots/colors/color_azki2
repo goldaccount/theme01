@@ -2,9 +2,10 @@
 inactiveborder=#4b3444
 activeborder=#99203e
 
-text1=#d95177
+text1=#3d293d
 text2=#efa3bf
-text3=#a5346a
+text3=#d95177
+#text3=#a5346a
 text4=#6befc0
 text5=#b796dc
 text1d=#b796dc
@@ -18,7 +19,8 @@ active=#b796dc
 inactive=#92203e
 warn=#efa3bf
 bg1=#3d293d
-bg2=#5d4856
+bg2=#d95177
+;bg2=#5d4856
 
 
 #pink	#d95177
@@ -36,3 +38,4 @@ bg2=#5d4856
 #whited	#d5c4e6
 #whitepurple	#a59aa8
 
+customtext="(▰╹◡╹▰)⚒"

@@ -1,6 +1,6 @@
 #!/bin/zsh
-export activeborder="#c14fa4"
-export inactiveborder="#837eb6"
+activeborder="#c14fa4"
+inactiveborder="#837eb6"
 
 #;[colors]
 text1=#a3bbea

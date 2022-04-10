@@ -1,6 +1,6 @@
 #!/bin/zsh
-export activeborder=
-export inactiveborder=
+activeborder=
+inactiveborder=
 
 text1=
 text2=
