@@ -5,9 +5,9 @@
 # hotkeys
 # Screenshot
 Print
-	scrot -u -q 100 $HOME/'%Y%m%d_%H%M%S.png'
+	$HOME/bin/shota
 shift + Print
-	scrot -q 100 $HOME/'%Y%m%d_%H%M%S.png'
+	$HOME/bin/shotw
 # Media Next
 XF86AudioNext
 	mpc next
@@ -21,11 +21,16 @@ XF86AudioRaiseVolume
 	/home/rnx/sh/masterup.sh
 XF86AudioPlay
 	mpc toggle
-#
+# Lock screen
+super + F11
+	xlock
 # terminal emulator
 super + Return
 #	xfce4-terminal
 	kitty
+# terminal dropdown
+super + shift + Return
+	bspc rule -a kitty -o state=floating follow=on focus=on rectangle=620x50+650+20; kitty &
 
 # program launcher
 super + @space

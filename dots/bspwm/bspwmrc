@@ -1,4 +1,4 @@
-#! /bin/sh
+#!/bin/zsh
 
 sxhkd &
 $HOME/bin/custominit
@@ -24,5 +24,7 @@ bspc rule -a display state=floating follow=on manage=off
 bspc rule -a mpv desktop='^5' state=floating follow=on
 bspc rule -a galculator state=floating focus=on
 bspc rule -a feh state=floating follow=on
+bspc rule -a galculator state=floating follow=on
+bspc rule -a "*:Toolkit:Picture-in-Picture" state=floating sticky=on follow=off rectangle=640x360+5+840
 #bspc rule -a Kupfer.py focus=on
 #bspc rule -a Screenkey manage=off
