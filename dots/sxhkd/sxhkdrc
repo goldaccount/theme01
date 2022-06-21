@@ -30,7 +30,7 @@ super + Return
 	kitty
 # terminal dropdown
 super + shift + Return
-	bspc rule -a kitty -o state=floating follow=on focus=on rectangle=620x50+650+20; kitty &
+	kitty --class dropdown &
 
 # program launcher
 super + @space
