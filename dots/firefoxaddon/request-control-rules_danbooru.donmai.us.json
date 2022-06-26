@@ -1,0 +1,51 @@
+[
+  {
+    "uuid": "84ac7000-51e5-4074-8f20-62ba5fbf4604",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "danbooru.donmai.us"
+      ],
+      "path": [
+        "*?q=*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname}{pathname/\\?q=*/}",
+    "paramsFilter": {
+      "values": [
+        "?q=*",
+        "\\?q=*",
+        "q=*"
+      ]
+    }
+  },
+  {
+    "uuid": "156171ed-fd30-4f75-866c-e3c29046204c",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.donmai.us"
+      ],
+      "path": [
+        "*sample*"
+      ]
+    },
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname}{pathname//sample\\//original/|//sample-/}",
+    "paramsFilter": {
+      "values": [
+        "sample"
+      ]
+    },
+    "types": [
+      "image"
+    ]
+  }
+]

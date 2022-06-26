@@ -1,0 +1,24 @@
+[mpd]
+mpd_music_dir = "/var/lib/mpd/music"
+mpd_host = "192.168.1.3"
+
+[global]
+
+mouse_support = "yes"
+colors_enabled = "yes"
+main_window_color = "cyan"
+progressbar_color = "white"
+progressbar_elapsed_color = "red"
+color1 = "white"
+color2 = "cyan"
+enable_window_title = "yes"
+external_editor = "vim" 
+
+visualizer_fifo_path = /tmp/mpd.fifo
+visualizer_output_name = "Fifo-visualizer"
+visualizer_in_stereo = yes
+visualizer_sync_interval = 30
+visualizer_type = ellipse
+visualizer_look = へ❄
+#spectrum,wave,wave_filled,ellipse
+visualizer_color = black,white,red,cyan

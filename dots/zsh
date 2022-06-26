@@ -1,0 +1,4 @@
+.zshenv, .zprofile, .zshrc, .zlogin
+autoload -Uz zsh-newuser-install
+zsh-newuser-install -f
+

@@ -1,0 +1,376 @@
+sw_volume: 41
+audio_device_state:1:HTTP Stream
+audio_device_state:1:ALSA
+audio_device_state:1:FIFO Visualizer
+state: pause
+current: 169
+time: 145.727000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:Mmusic/HLL/Songs/AyundaRisu_ALiCEu/01. ALiCE&u.flac
+1:Mmusic/HLL/Songs/白上フブキ_HappinessWorld/01. Happiness World.flac
+2:Mmusic/HLL/Songs/GawrGura_REFLECT/01. REFLECT.flac
+3:Mmusic/HLL/Songs/hololive_en_myth_image/04 Sharkventure!!.mp3
+4:Mmusic/HLL/Songs/HakosBaelz_PlayDice/01.Play Dice!.mp3
+5:Mmusic/HLL/Songs/HoloMyth_JourneyLikeaThousandYears/01. Journey Like a Thousand Years 千年の旅.flac
+6:Mmusic/HLL/Songs/Hololive_ShinySmilyStory/01. Shiny Smily Story.mp3
+7:Mmusic/HLL/Songs/hololive_Blue_Clapper/01  BLUE CLAPPER.mp3
+8:Mmusic/HLL/Songs/hololive_Blue_Clapper/02  BLUE CLAPPER(Instrumental).mp3
+9:Mmusic/HLL/Songs/Hololive_Bouquet/01.Shiny Smily Story (Bouquet ver.).flac
+10:Mmusic/HLL/Songs/Hololive_Bouquet/02.夢見る空へ (Bouquet ver.).flac
+11:Mmusic/HLL/Songs/Hololive_Bouquet/03.キラメキライダー☆ (Bouquet ver.).flac
+12:Mmusic/HLL/Songs/Hololive_Bouquet/04.今宵はHalloween Night! (Bouquet ver.).flac
+13:Mmusic/HLL/Songs/Hololive_Bouquet/05.BLUE CLAPPER (Bouquet ver.).flac
+14:Mmusic/HLL/Songs/Hololive_Bouquet/06.百花繚乱花吹雪 (Bouquet ver.).flac
+15:Mmusic/HLL/Songs/Hololive_Bouquet/07.至上主義アドトラック (Bouquet ver.).flac
+16:Mmusic/HLL/Songs/Hololive_Bouquet/09.Candy-Go-Round (Bouquet ver.).flac
+17:Mmusic/HLL/Songs/Hololive_Bouquet/09.でいり〜だいあり〜! (Bouquet ver.).flac
+18:Mmusic/HLL/Songs/Hololive_Bouquet/10.Suspect (Bouquet ver.).flac
+19:Mmusic/HLL/Songs/Hololive_Bouquet/11.STARDUST SONG (Bouquet ver.).flac
+20:Mmusic/HLL/Songs/Hololive_Bouquet/12.Dreaming Days (Bouquet ver.).flac
+21:Mmusic/HLL/Songs/Hololive_Bouquet/13.あすいろClearSky (Bouquet ver.).flac
+22:Mmusic/HLL/Songs/Hololive_Bouquet/14.大切フォトグラフ (Bouquet ver.).flac
+23:Mmusic/HLL/Songs/Hololive_Dreaming_Days/01. Dreaming Days.flac
+24:Mmusic/HLL/Songs/Hololive_Dreaming_Days/02. Dreaming Days(Instrumental).flac
+25:Mmusic/HLL/Songs/hololive_PrismMelody/01. Prism Melody.flac
+26:Mmusic/HLL/Songs/Hololive_STARDUST_SONG/01. STARDUST SONG.flac
+27:Mmusic/HLL/Songs/Hololive_STARDUST_SONG/02. STARDUST SONG (Instrumental).flac
+28:Mmusic/HLL/Songs/hololive_Suspect/01  Suspect.mp3
+29:Mmusic/HLL/Songs/hololive_Suspect/02  Suspect(Instrumental).mp3
+30:Mmusic/HLL/Songs/Hololive_Asuiro_ClearSky/01. あすいろClearSky.mp3
+31:Mmusic/HLL/Songs/Hololive_Asuiro_ClearSky/02. あすいろClearSky(Instrumental).mp3
+32:Mmusic/HLL/Songs/Hololive_Kirameki_raida/01 キラメキライダー☆.mp3
+33:Mmusic/HLL/Songs/Hololive_Kirameki_raida/02 キラメキライダー☆(Instrumental).mp3
+34:Mmusic/HLL/Songs/Hololive_Daily_Diary/01. でいり〜だいあり〜!.flac
+35:Mmusic/HLL/Songs/Hololive_Daily_Diary/02. でいり〜だいあり〜!(Instrumental).flac
+36:Mmusic/HLL/Songs/Hololive_Halloween_Night_Tonight/01. 今宵はHalloween Night!.flac
+37:Mmusic/HLL/Songs/Hololive_Halloween_Night_Tonight/02. 今宵はHalloween Night!(Instrumental).flac
+38:Mmusic/HLL/Songs/Hololive_Yumemiru_sora_e/01 夢見る空へ.mp3
+39:Mmusic/HLL/Songs/Hololive_Yumemiru_sora_e/02 夢見る空へ (Instrumental).mp3
+40:Mmusic/HLL/Songs/Hololive_Hyakka_Ryoran_Hanafubuki/01. 百花繚乱花吹雪.flac
+41:Mmusic/HLL/Songs/Hololive_Hyakka_Ryoran_Hanafubuki/02. 百花繚乱花吹雪(Instrumental).flac
+42:Mmusic/HLL/Songs/Hololive_Shijoshugi_ad_truck/01  至上主義アドトラック.mp3
+43:Mmusic/HLL/Songs/Hololive_Shijoshugi_ad_truck/02  至上主義アドトラック(Instrumental).mp3
+44:Mmusic/HLL/Songs/hololive_Daybreak/10 Shiny Smily Story (Daybreak ver.).flac
+45:Mmusic/HLL/Songs/Entity_Voices/01. id：entity voices.flac
+46:Mmusic/HLL/Songs/Entity_Voices/02. id：entity voices (Japanese ver.).flac
+47:Mmusic/HLL/Songs/Something_remix/01.#あくあ色ぱれっと (-TEKINA--remix-).mp3
+48:Mmusic/HLL/Songs/Something_remix/02.至上主義アドトラック (-TEKINA--remix-).mp3
+49:Mmusic/HLL/Songs/Something_remix/03.NEXT COLOR PLANET (-TEKINA--remix-).mp3
+50:Mmusic/HLL/Songs/holostars_JourneyToFindStars/01.JOURNEY to FIND STARS.mp3
+51:Mmusic/HLL/Songs/hololive_Daybreak/03 diorama (Daybreak ver.).flac
+52:Mmusic/HLL/Songs/IRyS_Journey/01.Only in Hope.flac
+53:Mmusic/HLL/Songs/IRyS_Journey/02.Joy with You.flac
+54:Mmusic/HLL/Songs/IRyS_Journey/03.Nameless Sadness.flac
+55:Mmusic/HLL/Songs/IRyS_Journey/04.Bare your teeth.flac
+56:Mmusic/HLL/Songs/IRyS_Journey/05.Sink again, Rise again.flac
+57:Mmusic/HLL/Songs/IRyS_Journey/06.Flower of hope.flac
+58:Mmusic/HLL/Songs/IRyS_SeeTheWorld/1.01. See the world.flac
+59:Mmusic/HLL/Songs/IRyS_SparkOfJoy/01. Sparks of Joy.m4a
+60:Mmusic/HLL/Songs/MoonaHoshinova_HighTide/01. High Tide.flac
+61:Mmusic/HLL/Songs/MoonaHoshinova_Ai_no_Chiisana_Uta/01 愛の小さな歌.mp3
+62:Mmusic/HLL/Songs/hololive_en_myth_image/01 Lively Bopping to Death's Knocking.mp3
+63:Mmusic/HLL/Songs/Mori_DawnBlue/01.Dawn Blue.mp3
+64:Mmusic/HLL/Songs/Mori_end_of_a_life/01.end of a life.flac
+65:Mmusic/HLL/Songs/Mori_offwithheads/01 Off With Their Heads.flac
+66:Mmusic/HLL/Songs/Mori_Your_Mori/01 Mori Calliope - The Grim Reaper is a Live-Streamer.flac
+67:Mmusic/HLL/Songs/Mori_Your_Mori/02 Mori Calliope - Red.flac
+68:Mmusic/HLL/Songs/Mori_Your_Mori/03 Mori Calliope - guh.flac
+69:Mmusic/HLL/Songs/Mori_Your_Mori/04 Mori Calliope - いじめっ子Bully.flac
+70:Mmusic/HLL/Songs/Mori_YourMori_lofi/01. The Grim Reaper is a Live-Streamer (Lofi Ver.).flac
+71:Mmusic/HLL/Songs/Mori_YourMori_lofi/02. Red (Lofi Ver.).flac
+72:Mmusic/HLL/Songs/Mori_YourMori_lofi/03. guh (Lofi Ver.).flac
+73:Mmusic/HLL/Songs/Mori_YourMori_lofi/04. いじめっ子Bully (Lofi Ver.).flac
+74:Mmusic/HLL/Songs/Mori_YourMori_lofi/05. The Grim Reaper is a Live-Streamer (Lofi Ver. Instrumental).flac
+75:Mmusic/HLL/Songs/Mori_CursedNight/01_01_Cursed Night.flac
+76:Mmusic/HLL/Songs/Mori_deadBeats/01. ReaperかRapper! 自己紹介ラップ.flac
+77:Mmusic/HLL/Songs/Mori_deadBeats/02. 失礼しますが、RIP♡.flac
+78:Mmusic/HLL/Songs/Mori_deadBeats/03. DEAD BEATS.flac
+79:Mmusic/HLL/Songs/Mori_deadBeats/04. Live Again.flac
+80:Mmusic/HLL/Songs/Mori_GawrGura_Q/01. Q.flac
+81:Mmusic/HLL/Songs/Mori_UnAlive/01. UnAlive.flac
+82:Mmusic/HLL/Songs/Mori_UnAlive/02. Q ft. Gawr Gura.flac
+83:Mmusic/HLL/Songs/Mori_UnAlive/03. Dead On Arrival.flac
+84:Mmusic/HLL/Songs/Mori_UnAlive/04. Graveyard Shift ft. BOOGEY VOXX.flac
+85:Mmusic/HLL/Songs/Mori_UnAlive/05. Lose-Lose Days.flac
+86:Mmusic/HLL/Songs/Mori_UnAlive/06. HUGE W.flac
+87:Mmusic/HLL/Songs/Mori_UnAlive/07. Resting Power.flac
+88:Mmusic/HLL/Songs/Mori_UnAlive/08. Scuffed Up Age.flac
+89:Mmusic/HLL/Songs/Mori_UnAlive/09. Ouroboros.flac
+90:Mmusic/HLL/Songs/Mori_UnAlive/10. UnAlive (Japanese Version).flac
+91:Mmusic/HLL/Songs/Mori_UnAlive/11. UnAlive (Instrumental).flac
+92:Mmusic/HLL/Songs/NanashiMumei_aNewStart/01. A New Start.flac
+93:Mmusic/HLL/Songs/hololive_en_myth_image/03 Kanalumi.mp3
+94:Mmusic/HLL/Songs/OuroKronii_Daydream/01. Daydream.flac
+95:Mmusic/HLL/Songs/PavoliaReine_Gate_Open-START/01. Gate Open：START!.flac
+96:Mmusic/HLL/Songs/PavoliaReine_Gate_Open-START/02. Gate Open：START! (Japanese Ver.).flac
+97:Mmusic/HLL/Songs/PavoliaReine_loveme/01.あの青空のせいだ.mp3
+98:Mmusic/HLL/Songs/PavoliaReine_loveme/02.Love Me Love Me.mp3
+99:Mmusic/HLL/Songs/hololive_en_myth_image/02 Krispy Fry-fry Party.mp3
+100:Mmusic/HLL/Songs/hololive_en_myth_image/05 Misteavous Myth-buster.mp3
+101:Mmusic/HLL/Songs/AkiRosenthal_Shallys/1.01. シャルイース.flac
+102:Mmusic/HLL/Songs/Pentas_HOLOSTARS/01.Pentas.mp3
+103:Mmusic/HLL/Songs/hololive_OnikemoDance/01.おにけもだんす.flac
+104:Mmusic/HLL/Songs/さくらみこ_マイネームイズエリート☆/01.マイネームイズエリート☆.mp3
+105:Mmusic/HLL/Songs/さくらみこ_花月ノ夢/01. 花月ノ夢.flac
+106:Mmusic/HLL/Songs/さくらみこ_SakuraKaze/01.サクラカゼ.mp3
+107:Mmusic/HLL/Songs/さくらみこ_SakuraKaze/02.サクラカゼ(Instrumental).mp3
+108:Mmusic/HLL/Songs/さくらみこ_SakuraHitension/01_さくら色ハイテンション!.flac
+109:Mmusic/HLL/Songs/さくらみこ_SakuraHitension/02_さくら色ハイテンション!(Instrumental).flac
+110:Mmusic/HLL/Songs/SakuraMikoKorone_Showtime/01.みっころね×しょうたいむ‼︎.flac
+111:Mmusic/HLL/Songs/ときのそら_RePlay/01 ときのそら - HOT LIMIT.flac
+112:Mmusic/HLL/Songs/ときのそら_RePlay/02 ときのそら - ロマンスの神様.flac
+113:Mmusic/HLL/Songs/ときのそら_RePlay/03 ときのそら - ファンサ.flac
+114:Mmusic/HLL/Songs/ときのそら_RePlay/04 ときのそら - MASAYUME CHASING.flac
+115:Mmusic/HLL/Songs/ときのそら_RePlay/05 ときのそら - 怪物.flac
+116:Mmusic/HLL/Songs/ときのそら_RePlay/06 ときのそら - アンドロイドガール.flac
+117:Mmusic/HLL/Songs/ときのそら_RePlay/07 ときのそら - God knows....flac
+118:Mmusic/HLL/Songs/ときのそら_RePlay/08 ときのそら - Butterfly.flac
+119:Mmusic/HLL/Songs/ときのそら_RePlay/09 ときのそら - まっさらブルージーンズ.flac
+120:Mmusic/HLL/Songs/ときのそら_RePlay/10 ときのそら - 嘘.flac
+121:Mmusic/HLL/Songs/ときのそら_RePlay/11 ときのそら - 赤いスイートピー.flac
+122:Mmusic/HLL/Songs/ときのそら_RePlay/12 ときのそら - この世界で.flac
+123:Mmusic/HLL/Songs/ときのそら_RePlay/13 ときのそら - KING.flac
+124:Mmusic/HLL/Songs/ときのそら_RePlay/14 ときのそら - エイリアンエイリアン.flac
+125:Mmusic/HLL/Songs/ときのそら_RePlay/15 ときのそら - 太陽系デスコ.flac
+126:Mmusic/HLL/Songs/NatsuiroMatsuri_Kimi_to_nagameru/01.君と眺める夏の花 (feat. 夏色まつり).mp3
+127:Mmusic/HLL/Songs/ロボ子さん_コトノハ/01. コトノハ.flac
+128:Mmusic/HLL/Songs/hololive_Daybreak/06 コトノハ (Daybreak ver.).flac
+129:Mmusic/HLL/Songs/NinomaeInanis_VIOLET/01.VIOLET.mp3
+130:Mmusic/HLL/Songs/不知火フレア_Smile_Go/01 Smile & Go!!.mp3
+131:Mmusic/HLL/Songs/UsadaPekora_いいわけバニー/01. いいわけバニー.flac
+132:Mmusic/HLL/Songs/いんたらくとふぁんたじあ/01. いんたらくとふぁんたじあ.flac
+133:Mmusic/HLL/Songs/夏色まつり_HiHi_HiTension/01.HiHiハイテンション!.flac
+134:Mmusic/HLL/Songs/夜空メル_かぷっとNightSky/01. かぷっとNightSky.flac
+135:Mmusic/HLL/Songs/Hololive_Plasmagic_Season/01. Plasmagic Seasons!.flac
+136:Mmusic/HLL/Songs/Hololive_Plasmagic_Season/02. Plasmagic Seasons!(Instrumental).flac
+137:Mmusic/HLL/Songs/大神ミオ_Howling/01. Howling.flac
+138:Mmusic/HLL/Songs/大神ミオ_Howling/02. わんわんわおーん.flac
+139:Mmusic/HLL/Songs/大空スバル_ぷ・れ・あ・で・す!/01.ぷ・れ・あ・で・す!.flac
+140:Mmusic/Vocaloid/HatsuneMiku_マジカルミライ2021/02.ダーリンダンス.mp3
+141:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc3/10 トリノコシティ .mp3
+142:Mmusic/Vocaloid/DECO27_キメラ/01. キメラ (feat. 初音ミク).flac
+143:Mmusic/Vocaloid/DECO27_MANNEQUIN/01 ＤＥＣＯ＊２７ - ヴァンパイア.flac
+144:Mmusic/Vocaloid/DECO27_MANNEQUIN/02 ＤＥＣＯ＊２７ - アニマル.flac
+145:Mmusic/Vocaloid/DECO27_MANNEQUIN/05 ＤＥＣＯ＊２７ - シンデレラ.flac
+146:Mmusic/Vocaloid/DECO27_MANNEQUIN/08 ＤＥＣＯ＊２７ - パラサイト.flac
+147:Mmusic/Vocaloid/DECO27_MANNEQUIN/09 ＤＥＣＯ＊２７ - ジレンマ.flac
+148:Mmusic/Vocaloid/DECO27_MANNEQUIN/10 ＤＥＣＯ＊２７ - おじゃま虫Ⅱ.flac
+149:Mmusic/Vocaloid/DECO27_MANNEQUIN/11 ＤＥＣＯ＊２７ - モザイクロール (Reloaded).flac
+150:Mmusic/Vocaloid/DECO27_MILGRAM_Umbilical/03 おじゃま虫 (ユノ Cover) .mp3
+151:Mmusic/Vocaloid/DECO27_Cinderella/01. シンデレラ feat. 初音ミク.flac
+152:Mmusic/Vocaloid/DECO27_Vampire_remix/01 ヴァンパイア (TeddyLoid Remix).flac
+153:Mmusic/Vocaloid/DECO27_モザイクロール/01 DECO-27 - モザイクロール (Reloaded).flac
+154:Mmusic/Vocaloid/DECO27_Vampire/01. ヴァンパイア.flac
+155:Mmusic/Vocaloid/DECO27_UndeadAlice/12. 乙女解剖 (TeddyLoid Alllies Remix).flac
+156:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc5/05 テレカクシ思春期 .mp3
+157:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc5/12 エイリアンエイリアン .mp3
+158:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc5/11 ゴーストルール .mp3
+159:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc5/17 ロキ .mp3
+160:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc5/15 ヒバナ .mp3
+161:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc4/05 千本桜 -F edition- .mp3
+162:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc4/01 からくりピエロ .mp3
+163:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc3/12 タイムマシン .mp3
+164:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc2/11 愛言葉 .mp3
+165:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc2/07 magnet .mp3
+166:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc2/05 Palette .mp3
+167:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc1/10 桜ノ雨 .mp3
+168:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc1/06 メルト .mp3
+169:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/14.ヴィラン (アレンジ ver.).mp3
+170:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/12.ロキ.mp3
+171:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/06.ヴィラン.mp3
+172:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/02.ロキ (アレンジ ver.).mp3
+173:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/04.ラブカ (リミックス ver.).mp3
+174:Mmusic/Vocaloid/HatsuneMiku_Vocalodelight/03.Henceforth.mp3
+175:Mmusic/Vocaloid/HatsuneMiku_ProjectSekai_MoreMoreJump/07 MORE MORE JUMP！ - 恋愛裁判.flac
+176:Mmusic/HLL/Songs/OozoraSubaru_TaiyoShoujo/01 大空スバル - 太陽少女.flac
+177:Mmusic/HLL/Songs/天音かなた_Tokusya_Seizon/01. 特者生存ワンダラダー!!.flac
+178:Mmusic/HLL/Songs/hololive_Daybreak/09 マドロミ (Daybreak ver.).flac
+179:Mmusic/HLL/Songs/天音かなた・常闇トワ_マドロミ/01.マドロミ.flac
+180:Mmusic/HLL/Songs/HimemoriLuna_絶対忠誠♡なのなのら!/01. 絶対忠誠♡なのなのら！.flac
+181:Mmusic/HLL/Songs/姫森ルーナ_絶対忠誠♡なのなのら!/01. 絶対忠誠♡なのなのら！.flac
+182:Mmusic/HLL/Songs/TakanashiKiara_Hinotori/01_01_HINOTORI.flac
+183:Mmusic/HLL/Songs/宝鐘マリン_x_Yunomi_Unison/01. Unison.flac
+184:Mmusic/HLL/Songs/桃鈴ねね_Momonone/01.モモノネ.mp3
+185:Mmusic/HLL/Songs/OmaruPolka_ペルソナ/01. Pastel Tea Time.flac
+186:Mmusic/HLL/Songs/OmaruPolka_ペルソナ/02. ペルソナ.flac
+187:Mmusic/HLL/Songs/HOLOGRAM CIRCUS.尾丸ポルカ.mp3
+188:Mmusic/HLL/Songs/OmaruPolka_Po/01. ぽ.flac
+189:Mmusic/HLL/Songs/TokoyamiTowa_BornToBeReal/01. born to be real.flac
+190:Mmusic/HLL/Songs/TokoyamiTowa_AKUMA/01. AKUMA.flac
+191:Mmusic/HLL/Songs/TokoyamiTowa_FACT/01. FACT.flac
+192:Mmusic/HLL/Songs/常闇トワ_Palette/01 Palette.mp3
+193:Mmusic/HLL/Songs/影山シエン_BEGINNING/01.BEGINNING.mp3
+194:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/01. Stellar Stellar.flac
+195:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/02. NEXT COLOR PLANET （Still Still Stellar ver.）.flac
+196:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/03. 天球、彗星は夜を跨いで （Still Still Stellar ver.）.flac
+197:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/04. GHOST （Still Still Stellar ver.）.flac
+198:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/05. バイバイレイニー （Still Still Stellar ver.）.flac
+199:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/06. 自分勝手Dazzling （Still Still Stellar ver.）.flac
+200:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/07. Bluerose （Still Still Stellar ver.）.flac
+201:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/08. comet （Still Still Stellar ver.）.flac
+202:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/09. Andromeda.flac
+203:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/10. Je t'aime。.flac
+204:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/11. Starry Jet.flac
+205:Mmusic/HLL/Songs/星街すいせい_Still_Still_Stellar/12. 駆けろ （Still Still Stellar ver.）.flac
+206:Mmusic/HLL/Songs/星街すいせい_自分勝手Dazzling/01. 自分勝手Dazzling.flac
+207:Mmusic/HLL/Songs/星街すいせい_自分勝手Dazzling/02. バイバイレイニー.flac
+208:Mmusic/HLL/Songs/星街すいせい_駆けろ__天球、彗星は夜を跨いで/01. 駆けろ.flac
+209:Mmusic/HLL/Songs/星街すいせい_駆けろ__天球、彗星は夜を跨いで/02. 天球、彗星は夜を跨いで.flac
+210:Mmusic/HLL/Songs/星街すいせい&戌亥とこ_OUT_OF_FRAME/01 星街すいせい & 戌亥とこ - OUT OF FRAME.flac
+211:Mmusic/HLL/Songs/hololive_Daybreak/01 Stellar Stellar (Daybreak ver.).flac
+212:Mmusic/HLL/Songs/hololive_Daybreak/08 駆けろ (Daybreak ver.).flac
+213:Mmusic/HLL/Songs/湊あくあ_aqua_iro_palette/01. aqua iro palette.flac
+214:Mmusic/HLL/Songs/hololive_Daybreak/05 海想列車 (Daybreak ver.).flac
+215:Mmusic/HLL/Songs/MinatoAqua_Aquatime_Select/01. 海想列車.flac
+216:Mmusic/HLL/Songs/MinatoAqua_Aquatime_Select/02. あいわな.flac
+217:Mmusic/HLL/Songs/MinatoAqua_Aquatime_Select/03. uni-birth.flac
+218:Mmusic/HLL/Songs/MinatoAqua_Aquatime_Select/04. きらきら.flac
+219:Mmusic/HLL/Songs/湊あくあ_uni-birth/01. uni-birth.flac
+220:Mmusic/HLL/Songs/MinatoAqua_IWanna/01. あいわな.flac
+221:Mmusic/HLL/Songs/MinatoAqua_ForTheWin2022/01. あくたんのこと好きすぎ☆ソング.flac
+222:Mmusic/HLL/Songs/MinatoAqua_ForTheWin2022/02. For The Win (2022 ver.).flac
+223:Mmusic/HLL/Songs/湊あくあ_Kirakira/01. きらきら.flac
+224:Mmusic/HLL/Songs/湊あくあ_Kirakira/02. きらきら (Instrumental).flac
+225:Mmusic/HLL/Songs/MinatoAqua_KaisouTrain/01.海想列車.flac
+226:Mmusic/HLL/Songs/Hololive_HACHA-MECHA_World/01  Hacha-Mecha ミラクル.mp3
+227:Mmusic/HLL/Songs/hololive_Daybreak/04 アイリス (Daybreak ver.).flac
+228:Mmusic/HLL/Songs/潤羽るしあ_Iris/01 アイリス.mp3
+229:Mmusic/HLL/Songs/猫又おかゆ_デタバレネコ/01.デタバレネコ.mp3
+230:Mmusic/HLL/Songs/ShishiroBotan_LionessPride/01.Lioness' Pride.mp3
+231:Mmusic/HLL/Songs/白上フブキ_SayFanfare/01  Say!ファンファーレ!.mp3
+232:Mmusic/HLL/Songs/ShirakamiFubuki_わくわくエブリデイ/01.わくわくエブリデイ.mp3
+233:Mmusic/HLL/cover/20210904_njeUgc0a5ko.m4a
+234:Mmusic/HLL/20211028/20210924_5A_RqpENxvg.m4a
+235:Mmusic/HLL/Songs/Infinity.mp3
+236:Mmusic/HLL/Songs/AiraniIofifteen_QAE/01. Q&A=E.flac
+237:Mmusic/HLL/Songs/hololive_Daybreak/07 ほめのび (Daybreak ver.).flac
+238:Mmusic/HLL/Songs/百鬼あやめ_-宵の余、良い！/01.宵の余、良い!.flac
+239:Mmusic/HLL/Songs/紫咲シオン_MageOfViolet/01.MAGE OF VIOLET.mp3
+240:Mmusic/HLL/Songs/花咲みやび_開花宣言/01.開花宣言.flac
+241:Mmusic/HLL/Songs/角巻わため_Everlasting_Soul/01. Everlasting Soul.flac
+242:Mmusic/HLL/Songs/hololive_Daybreak/02 キミだけのメロディ (Daybreak ver.).flac
+243:Mmusic/HLL/Songs/角巻わため_mayday_mayday/01. mayday、mayday.flac
+244:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/01. クソザコ回線回線卒業！のうた.flac
+245:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/01. クソザコ回線回線卒業！のうた.flac
+246:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/02. はらぺこのうた.flac
+247:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/02. はらぺこのうた.flac
+248:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/03. わための子守唄.flac
+249:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/03. わための子守唄.flac
+250:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/04. わためラップ.flac
+251:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/04. わためラップ.flac
+252:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/05. てぇてぇのうた.flac
+253:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/05. てぇてぇのうた.flac
+254:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/06. ホロライブ言えるかな？.flac
+255:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/06. ホロライブ言えるかな？.flac
+256:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/07. 曇天羊.flac
+257:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/07. 曇天羊.flac
+258:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/09. 曇天羊 feat. Mori Calliope.flac
+259:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/08. 愛昧ショコラーテ.flac
+260:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/08. 愛昧ショコラーテ.flac
+261:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/01.おはようのうた.flac
+262:Mmusic/HLL/Songs/角巻わため_Watame_no_uta/09. 曇天羊 feat. Mori Calliope.flac
+263:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/02.mayday,mayday.flac
+264:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/03.キミだけのメロディ.flac
+265:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/04.sweet night, sweet time….flac
+266:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/06.Everlasting Soul.flac
+267:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/07.Holidays!.flac
+268:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/08.御伽の詩と永久なるミライ.flac
+269:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/09.RAINBOW.flac
+270:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/10.My song.flac
+271:Mmusic/HLL/Songs/TsunomakiWatame_WatamenoUta_vol2/11.ししわたクッキング (feat. 獅白ぼたん).flac
+272:Mmusic/HLL/Songs/雪花ラミィ_明日への境界線/01. 明日への境界線.flac
+273:Mmusic/AZKi/Fake.Fake.Fake.m4a
+274:Mmusic/AZKi/フェリシア.m4a
+275:Mmusic/AZKi/without_U/01 without U.mp3
+276:Mmusic/AZKi/without_U/02 コトノハ.mp3
+277:Mmusic/AZKi/without_U/03 嘘嘘嘘嘘.mp3
+278:Mmusic/AZKi/without_U/10 のんびりと、.mp3
+279:Mmusic/AZKi/without_U/11 フロンティアローカス.mp3
+280:Mmusic/AZKi/AZKi_オーバーライト/01 AZKi - オーバーライト.flac
+281:Mmusic/AZKi/AZKi_オーバーライト/02 AZKi - Existlog.flac
+282:Mmusic/AZKi/AZKi & 星街すいせい – The Last Frontier(FLAC)/01 AZKi & 星街すいせい - The Last Frontier.flac
+283:Mmusic/AZKi/AZKi - 最強x最弱ガール(FLAC)/01. 最強×最弱ガール.flac
+284:Mmusic/AZKi/Azki_画面の中の君が好き_FLAC/01.画面の中の君が好き.flac
+285:Mmusic/AZKi/ReCreating_world/11. 猫ならばいける.mp3
+286:Mmusic/AZKi/ReCreating_world/12. 発光体ソーラーサイクル.mp3
+287:Mmusic/AZKi/ReCreating_world/13. in this world.mp3
+288:Mmusic/AZKi/AZKi_KoinoTakuhaibin/02. ひとくち、ちょうだい？ (feat. AZKi).flac
+289:Mmusic/AZKi/瀬名航_恋の宅配便_feat._AZKi/01. 恋の宅配便 (feat. AZKi).flac
+290:Mmusic/HLL/Songs/IRyS_あかつきと花/01. あかつきと花.flac
+291:Mmusic/HLL/Songs/Kanata_中空の庭/01. 中空の庭.flac
+292:Mmusic/HLL/Songs/Korone_DoggyGodsStreet/01.Doggy god's street.flac
+293:Mmusic/HLL/Songs/Laplus_合縁事変/01.合縁事変.mp3
+294:Mmusic/HLL/Songs/KanataTowa_Overtime/01.Over Time.mp3
+295:Mmusic/HLL/Songs/Mori_MeraMera/01.MERA MERA.mp3
+296:Mmusic/HLL/Songs/Mori_Suisei_CapSule/01. CapSule.flac
+297:Mmusic/HLL/Songs/NEGIU_ねぎゆーのパないうた/01.PANIGHT.mp3
+298:Mmusic/HLL/Songs/Ollie_JollieJollie/01. JOLLIE JOLLIE.flac
+299:Mmusic/HLL/Songs/Mel_キャラメルデビル/01. キャラメル・デビル.flac
+300:Mmusic/HLL/Songs/Suisei_OutOfFrame/01. OUT OF FRAME.flac
+301:Mmusic/HLL/Songs/Roboco_Rirubi/01. リルビ.flac
+302:Mmusic/HLL/Songs/TokoyamiTowa_FACT/01. FACT.flac
+303:Mmusic/HLL/Songs/ときのそら_HappyMeowthday/01 ときのそら - Happy Meowthday!!.flac
+304:Mmusic/HLL/Songs/ときのそら_HappyMeowthday/02 ときのそら - そらを超えて.flac
+305:Mmusic/HLL/Songs/星街すいせい_TEMPLATE_Wicked/01.TEMPLATE.mp3
+306:Mmusic/HLL/Songs/星街すいせい_TEMPLATE_Wicked/02.Wicked (feat. Mori Calliope).mp3
+307:Mmusic/HoneyWorks/CHiCO_HoneyWorks_BibittoLove_Rikekoi/01 CHiCO with HoneyWorks & まふまふ - ビビっとラブ.flac
+308:Mmusic/HoneyWorks/CHiCO_HoneyWorks_ビビっとラブ/02 それいけ！サラリーマン.flac
+309:Mmusic/HoneyWorks/CHiCO_HoneyWorks_ビビっとラブ/05 ビビっとラブ -CHiCO ぼっち Ver.-.flac
+310:Mmusic/HoneyWorks/CHiCO_HoneyWorks_ビビっとラブ/06 ビビっとラブ -雪村心夜×氷室菖蒲 キャラクター Ver.-.flac
+311:Mmusic/HoneyWorks/CHiCO_HoneyWorks_鬼ノ森/01. 鬼ノ森.flac
+312:Mmusic/HoneyWorks/CHiCO_HoneyWorks_鬼ノ森/02. 醜い生き物.flac
+313:Mmusic/HoneyWorks/HoneyWorks_ロメオ/01 HONEYWORKS feat. 榎本虎太朗 (CV-花江夏樹) & 柴崎健（CV：江口拓也） - ロメオ.flac
+314:Mmusic/Yoasobi/YOASOBI_好きだ/01 YOASOBI - 好きだ.flac
+315:Mmusic/o/Aether_Prayer/aether_Prayer.mp3
+316:Mmusic/o/ClarisTrysail_オルゴール/01. オルゴール.flac
+317:Mmusic/o/CocoTsuki_Bloom/01. Bloom.mp3
+318:Mmusic/o/CocoTsuki_Reincarnation/01.革命デュアリズム (Cover).mp3
+319:Mmusic/o/CocoTsuki_Reincarnation/02.天ノ弱 (Cover).mp3
+320:Mmusic/o/CocoTsuki_Reincarnation/03.デリヘル呼んだら君が来た (Cover).mp3
+321:Mmusic/o/CocoTsuki_Reincarnation/04.爆笑 (Cover).mp3
+322:Mmusic/o/CocoTsuki_Reincarnation/05.コールボーイ (Cover).mp3
+323:Mmusic/o/CocoTsuki_Reincarnation/06.Gimme×Gimme (Cover).mp3
+324:Mmusic/o/CocoTsuki_Reincarnation/07.ヴィラン (Cover).mp3
+325:Mmusic/o/CocoTsuki_Reincarnation/08.エンヴィーベイビー (Cover).mp3
+326:Mmusic/o/CocoTsuki_Reincarnation/09.ラブカ？ (Cover).mp3
+327:Mmusic/o/CocoTsuki_Reincarnation/10.命にふさわしい (Cover).mp3
+328:Mmusic/o/CocoTsuki_Reincarnation/11.点描の唄 (Cover).mp3
+329:Mmusic/o/CocoTsuki_Reincarnation/12.め組のひと (Cover).mp3
+330:Mmusic/o/ShigureUi_まだ雨はやまない/01 しぐれうい - シンカケイスケッチ.flac
+331:Mmusic/o/ShigureUi_まだ雨はやまない/01.シンカケイスケッチ.mp3
+332:Mmusic/o/ShigureUi_まだ雨はやまない/02 しぐれうい - もうそう♡えくすぷれす (Cover).flac
+333:Mmusic/o/ShigureUi_まだ雨はやまない/02.もうそう♡えくすぷれす (Cover).mp3
+334:Mmusic/o/ShigureUi_まだ雨はやまない/03 しぐれうい - 放課後マーメイド.flac
+335:Mmusic/o/ShigureUi_まだ雨はやまない/03.放課後マーメイド.mp3
+336:Mmusic/o/ShigureUi_まだ雨はやまない/04 しぐれうい - 寝・逃・げでリセット! (Cover).flac
+337:Mmusic/o/ShigureUi_まだ雨はやまない/04.寝・逃・げでリセット! (Cover).mp3
+338:Mmusic/o/ShigureUi_まだ雨はやまない/05 しぐれうい - インドア系ならトラックメイカー (Cover).flac
+339:Mmusic/o/ShigureUi_まだ雨はやまない/05.インドア系ならトラックメイカー (Cover).mp3
+340:Mmusic/o/ShigureUi_まだ雨はやまない/06 しぐれうい - 粛聖!! ロリ神レクイエム☆.flac
+341:Mmusic/o/ShigureUi_まだ雨はやまない/06.粛聖!! ロリ神レクイエム☆.mp3
+342:Mmusic/o/ShigureUi_まだ雨はやまない/07 しぐれうい - ルル (Cover).flac
+343:Mmusic/o/ShigureUi_まだ雨はやまない/07.ルル (Cover).mp3
+344:Mmusic/o/ShigureUi_まだ雨はやまない/08 しぐれうい - 夕立のりぼん (Cover).flac
+345:Mmusic/o/ShigureUi_まだ雨はやまない/08.夕立のりぼん (Cover).mp3
+346:Mmusic/o/ShigureUi_まだ雨はやまない/09 しぐれうい - 花ざかりWeekend✿ (Cover).flac
+347:Mmusic/o/ShigureUi_まだ雨はやまない/09.花ざかりWeekend✿ (Cover).mp3
+348:Mmusic/o/ShigureUi_まだ雨はやまない/10 しぐれうい - プラチナジェット (Cover).flac
+349:Mmusic/o/ShigureUi_まだ雨はやまない/10.プラチナジェット (Cover).mp3
+350:Mmusic/o/ShigureUi_まだ雨はやまない/11 しぐれうい - rainy lady.flac
+351:Mmusic/o/ShigureUi_まだ雨はやまない/11.rainy lady.mp3
+352:Mmusic/o/ShigureUi_まだ雨はやまない/12 しぐれうい - Pris-Magic!.flac
+353:Mmusic/o/ShigureUi_まだ雨はやまない/12.Pris-Magic!.mp3
+354:Mmusic/o/鈴木このみ_GloriousDay/01 鈴木このみ - Glorious Day.flac
+355:Mmusic/o/雨宮天_Love-Evidence/02 SOS.flac
+356:Mmusic/o/雨宮天_Love-Evidence/01 Love-Evidence.flac
+357:Mmusic/HLL/Songs/猫又おかゆ_デタバレネコ/01.デタバレネコ.mp3
+358:Mmusic/HLL/Songs/猫又おかゆ_デタバレネコ/02.デタバレネコ (Instrumental).mp3
+359:Mmusic/Vocaloid/Project_DIVA_MEGA39s_10th_Anniversary/Hatsune Miku Project DIVA MEGA39's 10th Anniversary Collection/Disc4/11 アカツキアライヴァル .mp3
+playlist_end

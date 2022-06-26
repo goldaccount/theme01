@@ -1,0 +1,27 @@
+add mpd to group pulse-access, pulse, pulse-rt
+give permission + ownership of /var/log/mpd/mpd.log to mpd
+
+audio_output {
+	type		"pulse"
+	name		"Pulse Output"
+#	server		"remote_server"		# optional
+#	sink		"remote_server_sink"	# optional
+}
+
+audio_output {
+	type		"alsa"
+	name		"MPD"
+	device		"pulse"
+	mixer_control	"Master"
+}
+
+audio_output {
+	type		"fifo"
+	name		"FIFO Visualizer"
+	path		"/tmp/mpd.fifo"
+	format		"44100:16:2"
+}
+
+Install pulsemixer
+Turn off profile for card to pass control to MPD
+Assign profile to card to take control from MPD and return to X11 apps

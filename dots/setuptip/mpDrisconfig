@@ -1,0 +1,2 @@
+mkdir .~/.config/mpDris2 && cp /usr/share/doc/mpdris2/examples/mpDris2.conf ~/.config/mpDris2/.
+ln -s /usr/share/applications/mpdris2.desktop ~/.config/autostart/.
