@@ -119,5 +119,6 @@ map ctrl+pgup previous_tab
 
 
 # BEGIN_KITTY_THEME
+# Aqua
 include current-theme.conf
 # END_KITTY_THEME
