@@ -1,0 +1,16 @@
+# settings
+
+(GimpGegl-gegl-c2g-config "2021-09-15 12:55:48"
+    (time 1631685348)
+    (radius 300)
+    (samples 4)
+    (iterations 10)
+    (enhance-shadows no))
+(GimpGegl-gegl-c2g-config "2021-09-15 12:31:23"
+    (time 1631683883)
+    (radius 306)
+    (samples 9)
+    (iterations 23)
+    (enhance-shadows no))
+
+# end of settings

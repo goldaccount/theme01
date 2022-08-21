@@ -1,4 +1,13 @@
 # GIMP gimp-warp-tool options
 
+(effect-size 135.480000)
+(effect-hardness 45.500000)
+(effect-strength 20.700000)
+(stroke-spacing 20.000000)
+(interpolation lohalo)
+(high-quality-preview yes)
+(real-time-preview yes)
+(stroke-periodically yes)
+(n-animation-frames 23)
 
 # end of gimp-warp-tool options

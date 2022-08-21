@@ -1,0 +1,26 @@
+# GIMP tool preset file
+
+(icon-name "gimp-tool-paintbrush")
+(name "Brush1px")
+(tool-options "GimpPaintOptions"
+    (tool "gimp-paintbrush-tool")
+    (foreground (color-rgb 0.556863 0.670588 0.607843))
+    (background (color-rgb 0.121569 0.286275 0.239216))
+    (brush "2. Hardness 100")
+    (dynamics "Dynamics Off")
+    (gradient "FG to BG (RGB)")
+    (palette "Color History")
+    (brush-size 1.000000)
+    (brush-hardness 0.820000)
+    (brush-force 0.490000)
+    (brush-view-type list))
+(use-fg-bg no)
+(use-brush yes)
+(use-dynamics yes)
+(use-mypaint-brush no)
+(use-gradient no)
+(use-pattern no)
+(use-palette no)
+(use-font no)
+
+# end of GIMP tool preset file

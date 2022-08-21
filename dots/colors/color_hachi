@@ -1,4 +1,5 @@
 #!/bin/zsh
+#Hachi theme
 activeborder=#f7b500
 inactiveborder=#cacac8
 
