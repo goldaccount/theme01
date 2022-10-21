@@ -1,0 +1,589 @@
+[
+  {
+    "settings": {
+      "openEditInWindow": false,
+      "openEditInWindow.popup": false,
+      "windowPosition": {
+        "height": 840,
+        "left": 390,
+        "top": 132,
+        "width": 936
+      },
+      "show-badge": true,
+      "disableAll": false,
+      "exposeIframes": true,
+      "exposeStyleName": false,
+      "newStyleAsUsercss": false,
+      "styleViaXhr": false,
+      "patchCsp": false,
+      "config.autosave": true,
+      "schemeSwitcher.enabled": "system",
+      "schemeSwitcher.nightStart": "18:00",
+      "schemeSwitcher.nightEnd": "06:00",
+      "popup.breadcrumbs": true,
+      "popup.breadcrumbs.usePath": false,
+      "popup.enabledFirst": true,
+      "popup.stylesFirst": true,
+      "popup.autoResort": false,
+      "popup.borders": false,
+      "popup.findSort": "u",
+      "manage.onlyEnabled": false,
+      "manage.onlyLocal": false,
+      "manage.onlyUsercss": false,
+      "manage.onlyEnabled.invert": false,
+      "manage.onlyLocal.invert": false,
+      "manage.onlyUsercss.invert": false,
+      "manage.actions.expanded": true,
+      "manage.backup.expanded": true,
+      "manage.filters.expanded": true,
+      "manage.newUI": true,
+      "manage.newUI.favicons": false,
+      "manage.newUI.faviconsGray": true,
+      "manage.newUI.targets": 3,
+      "manage.newUI.sort": "title,asc",
+      "editor.options": {},
+      "editor.toc.expanded": true,
+      "editor.options.expanded": true,
+      "editor.lint.expanded": true,
+      "editor.publish.expanded": true,
+      "editor.lineWrapping": true,
+      "editor.smartIndent": true,
+      "editor.indentWithTabs": false,
+      "editor.tabSize": 4,
+      "editor.keyMap": "sublime",
+      "editor.theme": "default",
+      "editor.beautify": {
+        "selector_separator_newline": true,
+        "newline_before_open_brace": false,
+        "newline_after_open_brace": true,
+        "newline_between_properties": true,
+        "newline_before_close_brace": true,
+        "newline_between_rules": false,
+        "preserve_newlines": true,
+        "end_with_newline": false,
+        "indent_conditional": true
+      },
+      "editor.beautify.hotkey": "",
+      "editor.lintDelay": 300,
+      "editor.linter": "csslint",
+      "editor.lintReportDelay": 500,
+      "editor.matchHighlight": "token",
+      "editor.autoCloseBrackets": true,
+      "editor.autocompleteOnTyping": false,
+      "editor.contextDelete": false,
+      "editor.selectByTokens": true,
+      "editor.appliesToLineWidget": true,
+      "editor.autosaveDraft": 10,
+      "editor.livePreview": true,
+      "editor.colorpicker": true,
+      "editor.colorpicker.hexUppercase": false,
+      "editor.colorpicker.hotkey": "",
+      "editor.colorpicker.color": "transparent",
+      "editor.colorpicker.maxHeight": 300,
+      "hotkey._execute_browser_action": "",
+      "hotkey.openManage": "",
+      "hotkey.styleDisableAll": "",
+      "sync.enabled": "none",
+      "iconset": 0,
+      "badgeDisabled": "#ffffff",
+      "badgeNormal": "#000000",
+      "headerWidth.edit": 280,
+      "headerWidth.install": 280,
+      "headerWidth.manage": 280,
+      "popupWidth": 246,
+      "updateInterval": 24
+    },
+    "order": {
+      "main": [],
+      "prio": []
+    }
+  },
+  {
+    "installDate": 1531023939605,
+    "name": "Night",
+    "enabled": false,
+    "sections": [
+      {
+        "code": "html,\nhead,\nbody,\ntable,\ntd,\ntr,\narticle,\nspan,\ndiv,\ninput,\nul,\nli,\npre, \ncode,\ndl,\ndt,\ndd,\np {\n    background-color: #111 !important;\n    color: #AAA !important;\n    caret-color: #FFF !important;\n}\n\na {\n    color: #0B0 !important;\n}\n\na:visited {\n    color: #080 !important;\n}\n\n::selection,\noption {\n    background-color: #888 !important;\n    color: #EEE !important;\n    caret-color: red !important;\n}",
+        "domains": [
+          "https://holodex.stoplight.io/docs/"
+        ],
+        "regexps": [
+          "^(?!.*(pixiv|discord.com|nico|holodex.net|youtube|twitter|binance|tradingview|192.168.1.9|192.168.1.3|hole)).*"
+        ]
+      }
+    ],
+    "id": 6,
+    "_id": "31997948-c485-4ddd-ba41-0ce180c641bf",
+    "_rev": 1665476582853,
+    "updateDate": 1641917936853
+  },
+  {
+    "installDate": 1531023939667,
+    "name": "Youtube",
+    "enabled": true,
+    "sections": [
+      {
+        "code": "iframe, #tp-yt-paper-dialog, #related, #comments, #alerts, #reorder, #logo, end/*Top right nav*/, #chips-wrapper,\nytd-playlist-sidebar-renderer, ytd-mini-guide-renderer,\n.ytp-fullerscreen-edu-button,\n.ytp-youtube-button, .ytp-ad-persistent-progress-bar-container, .video-ads,\n.html5-endscreen, .ytp-ce-element, ytd-live-chat-frame,\n.ytp-pause-overlay,\n.ytp-prev-button, .ytp-play-button, .ytp-next-button, .sytp-gradient-bottom, .ytp-gradient-top, #voice-search-button, chat,\n.ytp-subtitles-button, .annotation, .ytp-large-play-button, .ytd-mini-guide-renderer, .ytp-size-button, .ytp-fullscreen-button, .ytp-miniplayer-button, .ytp-chrome-top\n{\n \tdisplay: none !important;\n}\n\n#masthead-container, .ytp-chrome-controls, .tp-yt-paper-tabs, yt-live-chat-header-renderer {\n \topacity: 0.0 !important;\n    position: fixed !important;\n}\n\n/*Control bar*/\n\n.ytp-time-display {\n    text-shadow: 1px 2px #000, -1px 1px 5px black, -2px 0px 5px black, 0px 0px 5px black;\n}\n\n.ytp-chrome-controls {\n    /*-webkit-text-stroke-width: 1px;\n    -webkit-text-stroke-color: #FFF;*/\n    position: relative !important;\n    bottom: 10px !important;\n} \n\n.ytp-pip-button {\n    opacity: 0.9 !important;\n}\n\n/*Seekbar thumbnail*/\nytp-tooltip ytp-bottom ytp-preview {\n    \n}\n\n.ytp-tooltip-text {\n    text-shadow: 1px 2px #000, 0px 0px 10px #000 !important;\n}\n\n.ytp-exp-bottom-control-flexbox .ytp-chrome-controls {\n    display: block !important;\n}\n\n/*.ytp-chrome-bottom:hover, */\n#masthead-container:hover, .ytp-chrome-controls:hover, #masthead-container:active, #masthead-container:focus, .tp-yt-paper-tabs:hover {\n    opacity: 0.9 !important;\n}\n\n#container.ytd-masthead, #search {\n    height: 25px;\n    width: 100%;\n    display: flex !important;\n}\n\ncenter {\n    left: 15% !important;\n    position: fixed !important;\n    width: 50% !important;\n}\n\nsearch-icon-legacy {\n    display: none !important;\n}\n\ntp-yt-paper-button {\n    border: none !important;\n}\n\n/*Gradient*/\n.ytp-exp-bigger-button-like-mobile .ytp-gradient-bottom, .ytp-big-mode .ytp-big-mode .ytp-gradient-bottom,\n.ytp-gradient-bottom {\n    max-height: 1px !important;\n    z-index: 24;\n    background-position: bottom;\n    background-image: linear-gradient(transparent,#555);\n}\n\n/*Caption*/\n.ytp-caption-window-container {\n    display: inline !important;\n}\n\n#top, #page-manager.ytd-app {\n\tmargin-top: 5px !important;   \n}\n\n\n/*Info\n.ytd-watch-flexy {\n    max-width: 80% !important;\n    min-width: 50% !important;\n    flex: 0;\n}*/\nytd-watch-flexy[flexy] #secondary.ytd-watch-flexy {\n    width: 50% !important;\n}\nh1.title {\n \tposition: relative !important;\n    top: 93% !important;\n    z-index: 100 !important;\n    opacity: 0 !important;\n    text-shadow: 1px 2px #000 !important;\n    /*background: rgba(0,0,0,0.4) !important;*/\n    /*background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));*/\n    /*background: radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2));*/\n}\n#background,\n.banner-visible-area,\n#channel-container {\n \tdisplay: none !important;\n}\n\n.ytp-chrome-bottom, .ytp-chome-top {\n    background-color: transparent !important;\n}\n\napp-toolbar, .ytp-menuitem, h1.title:hover,\n#tabs-container {\n    opacity: 0.5 !important;\n}\n\n.ytp-swatch-background-color {\n    background-color: #FFF !important;\n}\n\n.ytd-browse {\n    padding-left: 0px !important;\n}\n\n.guide-icon.ytd-guide-entry-renderer, a {\n    background-color: transparent !important;\n    color: #DDD !important;\n}\n\n.ytp-progress-bar {\n    position: relative !important;\n    bottom: -620% !important;\n}\n\n.ytp-scrubber-button {\n    width: 5px !important;\n    border-radius: 0px !important;\n}\n\n/*Chat*/\n\n#input-panel {\n    opacity: 0.1 !important;\n    height: 10px !important;\n}\n\n#input-panel:hover {\n    opacity: 0.9 !important;\n    height: 25% !important;\n    transition: 0.25s !important;\n}",
+        "domains": [
+          "www.youtube.com",
+          "www.youtube-nocookie.com"
+        ]
+      }
+    ],
+    "id": 7,
+    "updateDate": 1662896581028,
+    "_id": "1944f6e9-73fc-4bf1-bfbc-42e77bfb0a2a",
+    "_rev": 1665713819913
+  },
+  {
+    "installDate": 1531023939696,
+    "name": "Ali",
+    "enabled": false,
+    "sections": [
+      {
+        "code": ".use-coupons-info-lang-limit {\n \tfont-size: 20px !important;   \n}\n\n.ui-mask, .ui-newuser-layer-dialog, #J_xiaomi_dialog, .next-overlay-wrapper {\n    display: none !important;\n}",
+        "domains": [
+          "aliexpress.com"
+        ]
+      }
+    ],
+    "id": 8,
+    "updateDate": 1572657449343,
+    "_id": "755e5da7-2fc9-46bf-a5fd-9d9bbe009edd",
+    "_rev": 1660225319186
+  },
+  {
+    "installDate": 1531023939734,
+    "name": "Hide",
+    "enabled": true,
+    "sections": [
+      {
+        "code": "span.facade-of-protection-zoom,\n.spaceball,\n.bix-fan,\n#ads,\n#TB_window,\n.bn-left, #bttop, #Content_ThongTinVB_spScan, #idTabs, .__mucluc, #right-column,  .NoiDungChiaSe, /*Thuvienphapluat*/\n#ec-modal, /*Tomshardware*/\n.tooltip, .item-tooltip, /*Tnc*/\n.promote-banner, .tipv2-content, .tipv2, .tipv2-content, .avatar-img, .banner-noti-browser, .conversation-list__banner__full-mode, .zl-mini-notification, /*zalo*/\n.home-container, /*geez fuck you cat*/\n.GalleryNav--next, .fluid-droparound-overlay, /*flickr*/\n.comment_area, .aside .viewer, .challenge_spot, #footer, /*Webtoons*/\n.noticeDefault-362Ko2, .channelNotices-41mJbj,/*Discord*/\n.modal__overlay, /*AssDrop*/\n.ub-emb-bar-frame,\n#onetag-sticky-footer, /*Zerochan*/\n.adsplay-banner-container, .goto-box, .iframe-pause, .play-pause-button, /*FPT*/\n.picture-sidebar-box, .picture-control-wrapper, .ad_banner, .site-banner, .o-padding-sides, .everypage-footer, .o-padding-all, .o-col-md-gut-lg, footer, .comments-list-wrapper, .tag-cloud, /*Luscious.net*/\n.uniad-zonetype-preload-overlay, .uniad-zonetype-preload-container, #uniad-balloon-wrapper, .uniad-zonetype-floatleft, .uniad-zonetype-floatright, .ad-topcomment-pc, #PauseAd, .ad-container, #sidebar, .ad-after-comment, .afs_ads, /*FilmMoi.net*/\n#smart_push_smio_overlay, #smart_push_smio_window, /*fitgirl*/\n.js-consent-banner, /*Stack exchange, superuser*/\n.global-navigation,.fandom-sticky-header, .bottom-ads-container, #mixed-content-footer, #WikiaBar, .notifications-placeholder, .page__right-rail, /*fandom*/\n.post-header, #RESShortcutsViewport, .promoted, .promotedlink, #siteTable_organic,.side, .awardings-bar, .infobar, .title /*Reddit*/\n{\n    z-index: -1 !important;\n \tdisplay: none !important;   \n}\n\n#sr-header-area, #srList {\n    position: fixed !important;\n}\n\n#sr-header-area {\n    opacity: 0.3 !important;\n}\n\n#srLeftContainer:hover {\n \topacity: 1.0 !important;   \n}",
+        "domains": [
+          "translatess.google.com",
+          "flickr.com",
+          "reddit.com",
+          "thuvienphapluat.vn",
+          "linhkienlammusic.com",
+          "flickr.com",
+          "webtoons.com",
+          "gfycat.com",
+          "chat.zalo.me",
+          "discordapp.com",
+          "tnc.com.vn",
+          "tomshardware.com",
+          "drop.com",
+          "bulbapedia.bulbagarden.net",
+          "zerochan.net",
+          "fptplay.vn",
+          "phimmoi.net",
+          "luscious.net",
+          "sonixgvn.net",
+          "stackexchange.com",
+          "superuser.com",
+          "askubuntu.com",
+          "stackoverflow.com",
+          "fitgirl-repacks.site",
+          "duckduckgo.com",
+          "fandom.com"
+        ]
+      },
+      {
+        "code": "/*Game*/\n.qc-cmp2-container, /*raider.io*/\n.modal, .video-overlay, .modal-hider, .privacy-popup, .age-gate-popup, /*dbd*/\n.brid, .widget-loaded, .ipsItemControls, .cTopicPostArea, /*icy*/\n.qc-cmp-cleanslate /*warcraftlogs*/ {\n    z-index: -1 !important;\n    display: none !important;\n}\n\nbody {\n    overflow: scroll !important;\n}",
+        "domains": [
+          "warcraftlogs.com",
+          "icy-veins.com",
+          "raider.io",
+          "deadbydaylight.com"
+        ]
+      },
+      {
+        "code": ".links, .results {\n    user-select: auto !important;\n    cursor: auto !important;\n}",
+        "urlPrefixes": [
+          "https://duckduckgo.com/"
+        ]
+      }
+    ],
+    "id": 9,
+    "updateDate": 1662685183036,
+    "_id": "c7788665-a407-4bd5-9147-ef59af39a2b6",
+    "_rev": 1665206370798
+  },
+  {
+    "installDate": 1531617181930,
+    "enabled": false,
+    "name": "DT",
+    "sections": [
+      {
+        "code": "body, table, tr, td, p, div, blockquote, span {\n    background-color: #222 !important;\n    color: #AAA !important;\n}\n\n.avatar {\n    display: none !important;\n}\n\na {\n    color: #FFF !important;\n}\n\n#container {\n    max-width: 60%;\n}\n\n.content {\n    width: 65%;\n    overflow: scroll;\n}\n\n.postprofile {\n    width: 50px !important;\n}\n\n.postbody {\n    left: -10%;\n    position: relative;\n}\n\nblockquote {\n    border: 1px solid #888;\n}\n\n.hr-divider {\n    border-top: solid !important;\n}\n\nimg {\n    max-width: 100%;\n}",
+        "urls": [],
+        "urlPrefixes": [],
+        "domains": [
+          "deskthority.net"
+        ],
+        "regexps": []
+      }
+    ],
+    "id": 11,
+    "_id": "0a9be28e-fda2-4682-8c9d-a873b6a3ca47",
+    "_rev": 1660225319186
+  },
+  {
+    "enabled": false,
+    "installDate": 1562738611321,
+    "name": "Reddittest",
+    "sections": [
+      {
+        "code": "#header {\n    border-bottom: 1px solid #000;\n    position:relative;\n    background-color: #fff;\n    line-height: 3.5em;\n}\n\n#header-img.default-header {\n    visibility: hidden;\n    display: none;\n}\n\n.pagename {\n    font-family: Helvetica;\n}\n\n.pagename a {\n    color: #f00;\n}\n\n.pagename a:hover {\n    color: #090;\n    text-decoration: none;\n}\n\n#header.tabmenu {\n    display:inline-block;\n    margin-left: 2em;\n    background: none;\n    margin: 12px 0 0;\n    height: 42px;\n    line-height: 42px;\n    border: none;\n}\n\n.tabmenu {\n    list-style-type: none;\n    white-space: nowrap;\n    vertical-align: bottom;\n}\n\n.tabmenu li {\n    display: inline;\n    font-weight: bold;\n}\n\n.tabmenu li a, .tabmenu li.selected a {\n    color: #0aa;\n    border: none;\n    background: none;\n    padding: 3px 5px;\n}\n\n.tabmenu li.selected a {\n    color: #a00;\n    background: rgb(130,130,0,100);\n    \n}\n\n/*Color:\nBase: #c71585\nHighlight: #9f116a\nBG: #ffb8c6\nBanner: #ec46ae\nPost title: #0266B3\n*/",
+        "urlPrefixes": [
+          "https://www.reddit.com/r/amrilato/",
+          "https://old.reddit.com/r/amrilato/"
+        ]
+      }
+    ],
+    "updateDate": 1562815264076,
+    "id": 12,
+    "_id": "6aeef8f4-66c1-4264-ad46-fc9492ac59df",
+    "_rev": 1660225319186
+  },
+  {
+    "enabled": false,
+    "installDate": 1567500713608,
+    "name": "Stealth",
+    "sections": [
+      {
+        "code": "/*Stealth*/\n.ytd-thumbnail {\n    opacity: 0 !important;\n}\n\n.ytd-thumbnail:hover, #video-title {\n    opacity: 0.8 !important;\n    color: #222 !important;\n}\n\n#video-title:hover {\n    color: #FFF !important;\n    opacity: 0.8 !important;\n}\n\n\n.html5-video-player .video-stream {\n    height: 10px !important;\n}\n\n.ytp-cued-thumbnail-overlay {\n    display: none !important;\n}\n",
+        "domains": [
+          "youtube.com"
+        ]
+      },
+      {
+        "code": "body {\n    background: #000 !important;\n}\n\n.vnimg {\n    opacity: 0 !important;\n}\n\n.vnimg:hover {\n    opacity: 0.5 !important; \n}\n",
+        "domains": [
+          "vndb.org"
+        ]
+      }
+    ],
+    "updateDate": 1567648366995,
+    "id": 13,
+    "_id": "83855aa3-4136-473d-a991-37800c0543ac",
+    "_rev": 1665596707536
+  },
+  {
+    "enabled": true,
+    "installDate": 1601612326067,
+    "name": "Klipper",
+    "sections": [
+      {
+        "code": ".btn-block {\n    height: 45px !important;\n    margin: 5px 0px !important;\n}",
+        "domains": [
+          "octopi1.local"
+        ]
+      }
+    ],
+    "updateDate": 1601885744536,
+    "_id": "e5331799-c27b-4432-a021-550376fb3cd1",
+    "_rev": 1660225319186,
+    "id": 14
+  },
+  {
+    "enabled": true,
+    "installDate": 1627708479706,
+    "name": "Holodex",
+    "sections": [
+      {
+        "code": "html, body, div, a, text {\n    user-select: auto !important;\n    cursor: auto !important;\n}\n\n/*Global transition param*/\n* {\n    transition: 0.2s !important;\n}\n\n.v-snack__wrapper {\n    display: none !important;\n}\n\n.v-btn--fab, v-overlay--absolute  /*Play button hover*/\n{\n    user-select: text !important; \n    display: none;\n}\n\n.v-overlay--active { /*Black dim overlay of controls (Multiview)*/\n        opacity: 0.01 !important;\n} \n\n.v-main  /*Main video container*/\n{ position: inherit !important; top: 0px !important}\n\n.v-application py-1 {\n    opacity: 0.1 !important;\n    height: 0px !important;\n}\n\n.v-application .py-1:hover {\n    opacity: 0.9 !important;\n    height: 7% !important;\n}\n\n/*Make video links selectable*/\n.v-list-item--link {\n    cursor: auto !important;\n    user-select: text !important;\n}\n\n/*Various buttons*/\n.v-btn:not(.v-btn--round).v-size--x-small {\n    position: relative !important;\n    top: -10px !important;\n    background: none !important;\n    opacity: 0.1 !important;\n}\n\n.v-btn:not(.v-btn--round).v-size--x-small:hover { opacity: 0.5 !important;}\n\n.v-application .pa-lg-3 { padding: 2px !important; }\n\n/*Chat and TL panels*/\n.watch-live-chat, .show-tl-overlay .tl-overlay.tl-full-height {\n    padding-bottom: 0 !important;\n    min-height: 50px !important;\n}\n\nactive-message {\n    position: absolute;\n    z-index:1000;\n}\n\n.cell-control { height: 1px !important; }\n\n#top-bar, /*Top nav bar + search*/\n.mv-toolbar \n{ \n    top: -45px !important; \n    z-index:10 !important;\n    position:fixed !important;\n}\n \n#top-bar:hover, /*Top nav bar + search*/\n.mv-toolbar:hover \n{ \n    top: 0px !important; \n}\n\n/*Nav bar*/\n.v-tabs {\n    position: relative !important;\n    top: -10px !important;\n    height: 1px !important;\n    margin-bottom: 40px !important;\n}\n\n.v-tabs-bar {\n    height: 2px !important;\n    padding: 5px !important;\n    opacity: 0.7 !important;\n}\n\n.v-tabs-bar:hover {\n    height: 50px !important;\n}\n\n#top-bar, .music-player-bar, .channels-tabs, .nav-scroll, .v-menu__content, .mv-toolbar,.video-card-action {\n    opacity: 0.01 !important;\n}\n\n#top-bar:hover, .music-player-bar:hover, .channels-tabs:hover, .nav-scroll:hover, .v-menu__content:hover, .mv-toolbar:hover, .video-thumbnail:hover, .video-card-action:hover {\n    opacity: 0.9 !important;\n}\n\n/*All video thumbnails*/\n.video-thumbnail    \n{\n    opacity: 0.4 !important;\n}\n\n/*Video thumbnail round*/\n.v-application .rounded {\n    border-radius: 10px !important;\n}\n\nsong-card-artwork {\n    width: 100px !important;\n    height: 100px !important;\n}\n\n/*Music player*/\n.music-player-bar {\n    background-image: linear-gradient(#000,#333) !important;\n    height: 1em !important;\n    bottom: 0% !important;\n}\n\n.music-player-bar:hover {\n    bottom: 0px !important;\n    height: 5em !important;\n}\n\n.song-player-container {\n    top: 63% !important;\n    right: 2% !important;\n    opacity: 0.3 !important;\n}\n\n.song-player-container:hover {\n    opacity: 1 !important;\n}\n\n.nav-scroll {\n    left: -11% !important;\n    z-index: 50 !important;\n}\n\n.nav-scroll:hover {\n    left: 0% !important;\n}\n\n.ytp-pip-button, .ytp-settings-button {\n    display: inline !important;\n}\n\n/*Multiview Resize*/\n.vue-resizable-handle.h-s { \n    left: 25% !important;\n    width: 10% !important;\n}\n\n/*Multiview cell padding*/\n.mv-cell.edit-mode {\n    padding: 1px !important;\n}\n\n.mv-cell.edit-mode:hover {\n    padding: 35px !important;\n}",
+        "domains": [
+          "holodex.net"
+        ]
+      },
+      {
+        "code": "/*Main div*/\n.v-main  {\n    padding-top: 50px !important;\n}\n/*Chat and TL panels*/\n.pa-5, .d-flex .sidebar .flex-column {\n    display: none !important;\n}\n\n/*Main video container, exclude playlist video thumbnail*/\n.v-application div.d-flex {\n    display: block !important;;\n}\n\n/*Playlist video thumbnail duration*/\n.video-duration {\n    display: flex !important;\n    position: relative !important;\n    bottom: -30px !important;\n    right: -90px !important;\n    max-width: 60px !important;\n    opacity: 0.6 !important;\n}\n\n.watch-live-chat {\n    top: -500px;\n    height: 1300px;\n}\n\n.watch-live-chat.show-tl-overlay .tl-overlay {\n    height: 100% !important;\n}\n\n/*CC*/\n.subtitle-text {\n    position: relative;\n    bottom: -25px !important;\n}\n\n.watch-live-chat {\n    right: -300px;\n}\n\n.tl-body.archive { \n    height: 100%;\n}\n\n.watch-live-chat:hover {\n    right: 0px;\n    opacity: 0.75 !important;\n    transition: 0.25s !important;\n}\n\n.watch-live-chat {\n    opacity: 0 !important;\n}\n\n.watch-btn-group {\n    position: relative;\n    left: 80%;\n}",
+        "regexps": [
+          "https://holodex.net/watch/.*"
+        ]
+      },
+      {
+        "code": "/*Music containers*/\n\n.org-music-container, #songSearchTable {\n    opacity: 0.3 !important;\n}\n\n.org-music-container:hover  {\n    opacity: 0.75 !important;\n}\n.v-btn--fab {\n    display: inline !important;\n}",
+        "urlPrefixes": [
+          "https://holodex.net/music"
+        ],
+        "regexps": [
+          "https://holodex.net/channel/.*/music.*"
+        ]
+      },
+      {
+        "code": "/*opacity*/\n.css-19qj2kq, .css-1d7va4uz, /*Top bar*/.css-1sigv9r /*1row*/, .css-677ueb, .css-1t0zh9u , .css-1hjhz8m /*2row*/, .css-mekskw, .css-saedyi /*3row*/, .css-1rfnyk0 /*4row*/, .css-1ducnjr /*3rowoverlay*/, .css-rzv0oi /*Play symbol*/, .chakra-button,\n/*Search page-navigation*/ .css-x2306x-pagination\n{\n    opacity: 0.3 !important;\n}\n\n.css-19qj2kq:hover,  .css-1d7va4u:hover, .css-1sigv9r:hover, .css-677ueb:hover, .css-1t0zh9u:hover, .css-1hjhz8m:hover, .css-mekskw:hover, .css-saedyi:hover, .css-1rfnyk0:hover, .chakra-button:hover, .css-x2306x-pagination:hover {\n    transition: 0.5s opacity !important;\n    opacity: 1 !important;\n}\n\n/*Top bar*/\n.css-19qj2kq, .css-1d7va4u {\n    /*position: fixed !important;*/\n    top: 0;\n   /*left: 25vw;*/\n}\n\n.css-19qj2kq:hover, .css-1d7va4u:hover {\n    top: 0;\n}\n\n/*Search input*/\n.css-1mtw2bt {\n    margin-left: 13vw !important;\n    width: 50vw !important;\n}\n\n/*Channel cover*/\n.css-5aywnk, .css-yk85r0 {\n    opacity: 0.4;\n}\n\n/*Left nav*/\n.css-12v309e, .css-1s7fmfb {\n    position: relative;\n    width: 8vw;\n    overflow: hidden;\n    opacity: 1 !important;\n    transition: .25s width;\n}\n\n.css-12v309e:hover, .css-1s7fmfb:hover {\n    width: 8vw;\n    transition: .25s width;\n}\n/*Center div .css-1uqo04t css-um87gk new*/\n.css-1j7rd59, .css-1sq36xt, .css-um87gk {\n    margin-top: 1vw !important;\n    max-width: 100% !important;\n    opacity: 1 !important;\n}\n\n.css-622vwz {\n    background-color: rgba(50,50,50,1);\n}\n\n/*Main newest streams*/\n.snaplist {\n    max-width: 70vw !important;\n    margin-left: 0 !important;\n}\n/*Center div scroll dots*/\n.css-kjyef9 {\n    margin-left: 10vw !important;\n}\n\n/*Playlist table, Channel all songs*/\n.css-1hgw51i, .css-26osun,\n/*Playlist background*/\n.css-12sar92 {\n    background-color: rgba(50,50,50,.25);\n}\n\n/*Footer*/\n.css-1kmyg41 {\n    display: none !important;\n}\n\n/*Bottom player*/\n.css-971clj, .css-1apjtf3 {\n    bottom: 0;\n    height: 10px;\n}\n\n.css-971clj:hover, .css-1apjtf3:hover {\n    bottom: 0;\n    height: 7%;\n    transition: 0.25s;\n}\n\n/*Progress bar*/\n.css-1tqc7q6 {\n    background: linear-gradient(to right, var(--chakra-colors-teal-300), var(--chakra-colors-red-500));\n}\n\n/*Volume slider*/\n.css-awcgr6 {\n    margin-right: var(--chakra-space-3);\n}\n\n/*Filter*/\n.css-46f6tu {\n    background-color: rgba(50,50,50,0.5) !important;\n}\n\n/*Message*/\n.toast-3-title, .css-2xo9js {\n    display: none !important;\n}",
+        "urlPrefixes": [
+          "https://music-staging.holodex.net/",
+          "https://music.holodex.net/"
+        ]
+      },
+      {
+        "code": "/*Seek bar, Put song button*/\n.rel-fgC, .v-application .success {\n    /*background: #85e783 !important;*/\n    /*background: var(--v-primary-base) !important;*/\n}\n\n/*Seek grabber*/\n.v-slider__thumb {\n    width: 9px !important;\n    border-radius: 2px !important;\n}\n\n/*\n.v-application .red, .v-application .red.accent-3 {\n    background-color: #999 !important;\n}\n*/\n\n/*Time button*/\n.tweak-btn, .v-application .success {\n    z-index: 5000 !important;\n}\n\n/*Time button, seek, reload button*/\n/*.v-application .red.accent-3, /*Small seek bar bg*/\n.v-application .red, /*Button, small seek bar*/\n/*rel-fgC, /*Big seek bar*/\n.v-application .success  /*Put song button*/\n{\n    /*background-color: #f44336 !important;*/\n    background: linear-gradient(to bottom,var(--v-primary-base),var(--v-primary-darken3)) !important;\n}\n\n/*Big seek bar*/\n.rel-start .v-slider__track-background {\n    background: linear-gradient(to left,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;\n}\n\n.rel-end .v-slider__track-fill {\n    background: linear-gradient(to right,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;\n}\n\n/*Big seek bar thumb*/\n.v-slider__thumb::after {\n    background-color: var(--v-primary-lighten1) !important;\n}\n/*Small seek bar bg*/\n.rel-start .red.accent-3 {\n    background: linear-gradient(to left,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;\n}\n\n.rel-end .red.accent-3  {\n     background: linear-gradient(to right,var(--v-primary-lighten2),var(--v-primary-base)) !important;\n}\n\n.v-progress-linear {\n    background: var(--v-primary-darken4) !important; \n}\n/*Disable background*/\n.v-progress-linear__background\n/*Disable apple music icon*/\n{\n    display: none !important;\n}\n\n/*Search results*/\nv-menu__content, menuable__content__active, .v-autocomplete__content {\n    max-width: 5vw !important;\n}",
+        "urlPrefixes": [
+          "https://holodex.net/edit/video",
+          "https://staging.holodex.net/edit/video"
+        ]
+      }
+    ],
+    "updateDate": 1662260289225,
+    "_id": "0c50c85f-98a2-4d31-9655-dcfbbd1e9eb8",
+    "_rev": 1665589978523,
+    "id": 15
+  },
+  {
+    "enabled": true,
+    "installDate": 1629310343084,
+    "name": "Discor",
+    "sections": [
+      {
+        "code": "* {\n    user-select: text !important;  \n}\n*::selection {\n    background-color: #555 !important;\n    color: #000 !important;\n}\n\na {\n    color: #0AF !important;\n}\n\n/*Servers*/\n[class^=wrapper] {\n    /*width: 80px !important;*/\n}\n\n[class^=wrapper]:hover/*, .wrapper-1_HaEi:hover*/ {\n   /*width: 120px !important;*/\n}\n\n/*Channels*/\n[class^=sidebar] {\n    width: 10px !important;\n    transition: 0s !important;\n}\n\n[class^=sidebar]:hover {\n    width: 200px !important;\n    transition: 0s !important;\n}\n\n[class^=\"notice\"], [class^=\"upsell\"],[id^=\"Subscribe\"],[class^=\"channelNotice\"]\n{\n    display: none !important;\n}\n\n[class^=\"tree\"], [class^=\"centerContent\"], [class^=\"playPausePop\"], [class^=\"playCenter\"] {\n    opacity: 0.01 !important;  \n}\n\n[class^=\"tree\"]:hover{\n    opacity: 0.5 !important;\n}\n\n[class^=\"title\"] {\n    height: 5px !important;\n    opacity:  0.1 !important;\n}\n\n[class^=\"title\"]:hover {\n    height: 25px !important;\n    opacity: 1 !important;\n}\n/*Chat*/\n[class^=\"container\"],\n[class^=\"chat\"], .wrapper-1_HaEi, container-1NXEtd {\n    background: #030303 !important;\n}\n/*Channels*/\n[class^=\"title\"],\n.container-1NXEtd, .panels-3wFtMD,\n/*Message*/\n.channelTextArea-1FufC0, .scrollableContainer-15eg7h, [class^=\"message\"],\n/*Search*/\n[class^=\"searchHeader\"], [class^=\"searchResult\"], .channelName-3w2Y3c\n{\n        background: #030303 !important;\n}\n\n.attachWrapper-3slhXI {\n    width: 25px !important;\n}\n\n.sansAttachButton-1ERHue {\n    padding-left: 0px !important;\n}\n\n.buttons-uaqb-5 {\n    display: block !important;\n    height: 1px !important;\n    position: relative !important;\n    margin-top: 3px !important;\n}\n\n.placeholder-1_mJY1, .slateTextArea-27tjG0 {\n    padding-right: 0px !important;\n}\n\n.buttons-uaqb-5 > .button-f2h6uQ, .icon-1d5zch,\n.shinyButton-2Q9MDB /*Get Nitro button*/\n{\n    display: none !important;\n}",
+        "domains": [
+          "discord.com"
+        ]
+      }
+    ],
+    "updateDate": 1663070916048,
+    "_id": "7418e55f-1cb5-4f66-8fc8-ed9b8a43dfd8",
+    "_rev": 1664804779300,
+    "id": 16
+  },
+  {
+    "enabled": true,
+    "installDate": 1630326979583,
+    "name": "Extension",
+    "sections": [
+      {
+        "code": "html, body, #header, .CodeMirror-gutter {\n    background-color: #000 !important;\n    color: #CC0000 !important;\n    caret-color: #0B0 !important;\n}\n\npre {\n    color: #0B0 !important;\n}\n::selection {\n    background-color: #080 !important;\n    color: red !important;\n}\n\n.CodeMirror-line {\n    color: #00AA00 !important;\n}\n\n.CodeMirror-activeline-background {\n    background-color: #444 !important;\n}\n\n.cm-s-default .cm-atom {\n    color: #0A0 !important;\n}\n\n.cm-s-default .cm-qualifier {\n    color: #0AA !important;\n}\n\n.cm-s-default .cm-tag {\n    color: #F0A !important;\n}\n\n.cm-s-default .cm-builtin {\n    color: #5AF !important;\n}\n\na, .disabled a:hover {\n    color: #A00 !important;\n}",
+        "regexps": [
+          "moz-extension.*.",
+          "moz-extension*."
+        ]
+      }
+    ],
+    "updateDate": 1662343905228,
+    "_id": "8a4038f6-1675-429b-8e80-7b0d0ff40f35",
+    "_rev": 1662343905228,
+    "id": 17
+  },
+  {
+    "enabled": true,
+    "installDate": 1630327427735,
+    "name": "Language",
+    "sections": [
+      {
+        "code": ".hgbeOc, .VjFXz, .VlPnLc, .BdDRKe, .j1rqpc, .ZyvIDe,\n#gt-ft-res, #gt-appbar, #gba, #gt-ft-mkt, .vk-box, .gb_T, .gb_Jf .gb_Ng, .gb_Uf, #gt-promo-lr, .gb_Sd, .gb_be, .gb_Wd, .gb_fe, .gb_6d, .gb_5d, .gb_2d, .gb_1d, .input-button-container, .notification-area, .gp-footer, /*Google translate*/\n.eSEOtericText, .lmt--mobile-hidden, #dl_cookieBanner, .dl_footer, .lmt__docTrans-tab-container, .dl_header, #iosAppAdPortal, /*DeepL*/\nheader, footer, input_methods, form.search .search_type /*Jisho.org*/\n{\n    display: none !important;\n}\n\nhtml, body, .RvYhPd, div, textarea, input,form.search .search-form_clear-button, form.search  .submit{\n    background: #111 !important;\n}\n\n\n.ita-hwt-ime-init-opaque {\n    opacity: 0.3!important;\n}\n\nhtml, body, .RvYhPd, div, textarea, input, h6 {\n    color: #FFF !important;\n}\n\na { \n    color: #090 !important;\n}\n\nform.search .search-form_clear-button, form.search .submit {\n    max-width: 10px !important;\n}\n\ncanvas.ita-hwt-canvas {\n    cursor: default;\n}\n",
+        "domains": [
+          "translate.google.com",
+          "deepl.com",
+          "jisho.org"
+        ]
+      }
+    ],
+    "updateDate": 1640838218841,
+    "_id": "151e6d2e-e6d4-4fb8-8316-eb490626ec6a",
+    "_rev": 1660225319186,
+    "id": 18
+  },
+  {
+    "enabled": false,
+    "installDate": 1632658187671,
+    "name": "YouTube alwayson",
+    "sections": [
+      {
+        "code": ".ytp-chrome-bottom, .ytp-chrome-controls {\n    opacity: 1 !important;\n}\n",
+        "domains": [
+          "youtube.com"
+        ]
+      }
+    ],
+    "updateDate": 1632658636663,
+    "_id": "2a7a9801-157f-4e49-9b09-ab5c824de477",
+    "_rev": 1665360351854,
+    "id": 19
+  },
+  {
+    "enabled": false,
+    "installDate": 1632818177792,
+    "name": "IMDB",
+    "sections": [
+      {
+        "code": "#footer, #header, [class^='MediaSheetstyles__MediaPanel'], [class^='TitleMainBelowTheFoldGroup__SidebarContainer']{\n    display: none !important;\n}\n\nhtml, body, div, section {\n    background-color: #111 !important;\n    color: #AAA !important;\n}\n\na {\n    color: #CCC !important;\n}",
+        "domains": [
+          "imdb.com"
+        ]
+      }
+    ],
+    "updateDate": 1632818205137,
+    "_id": "d5c2a13b-0740-4bdc-ad54-2ea2d4d125d6",
+    "_rev": 1660225319186,
+    "id": 21
+  },
+  {
+    "enabled": true,
+    "installDate": 1632818292053,
+    "name": "Imgur",
+    "sections": [
+      {
+        "code": ".sc-LzLrR, .kpinmb,._3AdmSAL,\n.Searchbar, .CoverChangeGallery, #right-content, #topbar, .post-action, div.take-me-up .text,.Dialog Introduction, .Navbar-logo, .EmeraldButton,\n.InteractiveBackground, .Message, .welcome, .TrendingTags, .HomeGrid, #bottom-apps-container, .upload-modal-terms,\n.post-header, .Gallery-Sidebar, .Gallery-EngagementBar, .App-cover, .NewCover, .GalleryCover, #humanMsg, .GalleryPage-betaOptOut, .post-image-options-container,\n.Footer, .BottomRecirc, .post-image-meta, \nFastGrid, /*Main page*/\n.ImageDescription, .PostContentMenu, .UploadPost-postTitleSticked /*imgur*/\n{\n    display: none !important;\n}\n\n.Upload-container {\n    margin-top: 5px !important;\n}\n\n.PostOptions {\n    position: absolute !important;\n    right: -350px !important;\n    opacity: 0 !important;\n}\n\n.UploadPost-file {\n    margin-bottom: 0 !important;\n}",
+        "domains": [
+          "imgur.com"
+        ]
+      }
+    ],
+    "updateDate": 1639217457551,
+    "_id": "1394a92b-46a2-45f8-aab8-5aba0a609afc",
+    "_rev": 1660225319186,
+    "id": 22
+  },
+  {
+    "enabled": true,
+    "installDate": 1633765030466,
+    "name": "vndb",
+    "sections": [
+      {
+        "code": "/*VNDB*/\n#menulist {\n        left: -150px !important;\n}\n\n#menulist:hover {\n    left: 0 !important;\n}\n\n#maincontent {\n    left: 10% !important;\n}\n\n.menubox, input.text, #menulist, .mainbox, div.maintabs > ul > li > a, div, summary, #screenshots p.rel {\n    background: rgba(20,20,20,0.5) !important;;\n}\n\n.menubox, label, input, #vntags, input.text, #menulist, .mainbox, div.maintabs > ul > li > a, div {\n    border-color: #333 !important;\n}\n\nh1, .grayedout, #tagops label {    \n    color: #AAA !important;\n}\n\na, .fake_link {\n    color: #080 !important;\n    background: none !important;\n}\n\na:hover {\n    background-color: none !important;\n}\n\nabbrv {\n    background-image: none !important;\n    background-color: #333 !important;\n}\n\ntable thead td, table tr.odd, table.stripe tbody tr:nth-child(2n+1):not(.nostripe), .docs table tbody tr:nth-child(2n+1) {  \n    background: rgba(50,50,50,0.5) !important;\n}\n\n#footer, #bgright, #support, #menulist h2 {\n    display: none! important;\n}\n\nbody {\n    background: none !important;\n    background-color: #000 !important;\n}",
+        "domains": [
+          "vndb.org"
+        ]
+      },
+      {
+        "code": "/*Anidb*/\nhtml, body, p, div, span, .g_odd, tr, td {\n    background-color: #111 !important;\n}\n\nhtml, body, p, div, span {\n    color: #AAA !important;\n}\n\na {\n    color: #0A0 !important;\n}\n\n#tabbed_pane_main_1xx, .clubs, .recommendations, .latest_discussions, #tabbed_pane_main_2xx, #userstats {\n        display: none !important;\n}",
+        "domains": [
+          "anidb.net"
+        ]
+      },
+      {
+        "code": ".stripe {\n    opacity: 0.01 !important;\n}\n\n.stripe:hover {\n    opacity: 0.08 !important;\n}",
+        "regexps": [
+          ".*\\?view=2-.*"
+        ]
+      }
+    ],
+    "updateDate": 1637837689917,
+    "_id": "33646f9e-10b1-4719-9900-f3abe093a41b",
+    "_rev": 1660225319186,
+    "id": 23
+  },
+  {
+    "enabled": false,
+    "installDate": 1636780961775,
+    "name": "Google Docs",
+    "sections": [
+      {
+        "code": "/*.docs-homescreen-container,\n.docs-homescreen-list-item,\n.docs-homescreen-floater-header,\nheader #gb,\n#docs-chrome,\n.kix-appview-editor,\nkix-page kix-page-header-clip-enabled docs-page kix-page-paginated kix-page-paginated-box-shadow docs-page-portrait\n{   \n    background-color: #333 !important;\n    color: #DDD !important;\n}\n*/\n#docs-butterbar-container {\n    display: none !important;\n}",
+        "domains": [
+          "docs.google.com"
+        ]
+      }
+    ],
+    "updateDate": 1636781074270,
+    "_id": "f6258937-ade8-4932-800b-1de15e84d7fb",
+    "_rev": 1660225319186,
+    "id": 24
+  },
+  {
+    "enabled": true,
+    "installDate": 1639530097746,
+    "name": "Sonixgvn",
+    "sections": [
+      {
+        "code": "#ivecxhwl-blanket, .onesignal-slidedown-container, ins , kbd /*sonixgvn*/\n{\n    display: none !important;\n}\n",
+        "domains": [
+          "sonixgvn.net"
+        ]
+      }
+    ],
+    "updateDate": 1639692012964,
+    "_id": "fd41f24c-6497-41b6-839f-c1badd02d784",
+    "_rev": 1660225319186,
+    "id": 25
+  },
+  {
+    "enabled": true,
+    "installDate": 1640823788775,
+    "name": "Niconico",
+    "sections": [
+      {
+        "code": ".CommonHeader, .MainContainer-marquee, .CommentRenderer, .MainContainer-playerPanel, .LiveTopicsContainer, .BottomSideContainer, .MainContainer-floatingPanel, .NicoruTipContainer, .ControllerBoxCommentAreaContainer, .NicoruNoticeContainer, .FooterContainer {\n    display: none !important;\n}\n\nbody, .HeaderContainer, .tagCaption, .formSearch, .tagListBox, .header, .list .contentHeader, .sub, .MainMenuContainer, .BottomContainer, .IchibaForWatch, .button.default, \n.SearchBox, input, .TagSuggestionList,  /*Search box*/\n.UserPageHeader, .UserPage-header, .UserDetailsHeader, .MainMenuContainer-menu, .NicorepoItem-item, .UserItem-content    /*User page*/ {\n    background: #111 !important;\n    background-color: #111 !important;\n}\n\n.Card, .VideoMetaOverflowMenuContainer-menu {\n    background-color: #111;\n    border: solid 1px #555;\n}\n\nhtml, body, input, .TagSuggestionList, .TagSuggestionList-item, .VideoTitle,\n.UserPageHeader, .UserPage-header, .UserDetailsHeader, .UserDetailsHeader-nickname, .UserDetailsHeader-account, .UserItem-content   /*User page*/\n{\n    color: #BBB !important;\n    font-size: 1.1em;\n}\n\n/*Links*/\n.SubMenuLink-label, .SubMenuLink-label, .NC-MediaObject .NC-MediaObjectTitle, a {\n    color: #090 !important;\n    font-size: 1em !important;\n}\n\na:visited {\n    color: #050 !important;\n}\n\n.SubMenuLink-link:hover, .SubMenuLink-link_active,.NC-MediaObject:hover .NC-MediaObjectTitle:hover, a:hover {\n    color: #0F0 !important;\n}\n\n/*Ads*/\n.PreVideoStartPremiumLinkOnEconomyTimeContainer,.VideoAdContainer, .UadVideosContainer, .OverlayBannerFrame, .RightSideContainer {\n    z-index: -1 !important;\n    visibility: hidden !important;\n    display: none !important;\n    pointer-events: none !important;\n}\n\n/*Player seek bar*/\n.SeekBar-hover {\n    background-color: rgba(100,500,100,0.75);\n}\n.SeekBar-buffered {\n    background-color: rgba(100,100,100,0.75);\n}\n.SeekBar-played, .VolumeBar-progress  {\n        background-color: rgba(200,200,200,1); \n}\n\n.TagContainer {\n    opacity: 0.5;\n}\n\n.VideoTitle {\n    font-size: 2.8em;\n}\n\n/*Expander*/\n.VideoDescriptionExpander .VideoDescriptionExpander-switchExpand,\n.VideoDescriptionExpander .VideoDescriptionExpander-switch {\n    color: #0A0 !important;\n    background: #111 !important;\n}\n\n/*Video player*/\n.VideoStartButton  {\n    opacity: 0.1 !important;\n}\n\n.MainContainer-player, .PlayerContainer  {\n    left: calc(25% - 130px);\n}\n\n/*Related video*/\n.BottomContainer {\n    opacity: 0.3;\n}\n\n.BottomContainer {\n    width: 100% !important;\n}\n\n.FollowButton, .NC-FollowButton, .IchibaForWatch_EditButton {\n    border-color: #555 !important;\n    color: #BBB !important;\n}\n\n.MainMenuContainer-activeBorder, .SubMenuLink-link_active {   /*Tab focus*/\n    background-color: #AAA !important;\n}   ",
+        "regexps": [
+          "^.*.nicovideo.jp/.*"
+        ]
+      }
+    ],
+    "updateDate": 1643286470188,
+    "_id": "86ed30ff-e8e7-4cc2-9bb2-8d5f6fe46ef3",
+    "_rev": 1660225319186,
+    "id": 26
+  },
+  {
+    "enabled": true,
+    "installDate": 1641617661452,
+    "name": "Twitch",
+    "sections": [
+      {
+        "code": "#sideNav, #twilight-sticky-footer-root, .channel-leaderboard, .picture-by-picture-overlay {\n    z-index: -1 !important;\n    display: none !important;\n}\n\n.top-nav__menu {\n    opacity: 0.1 !important;\n    top: -86% !important;\n    position: relative !important;\n}\n\n.top-nav__menu:hover {\n    opacity: 0.5 !important;\n    top: 0% !important;\n}",
+        "domains": [
+          "twitch.tv"
+        ]
+      }
+    ],
+    "updateDate": 1641619157588,
+    "_id": "4c7174e2-716f-4215-8792-2f0147069a05",
+    "_rev": 1660225319186,
+    "id": 27
+  },
+  {
+    "enabled": true,
+    "installDate": 1641757320222,
+    "name": "Danbooru",
+    "sections": [
+      {
+        "code": "#top, #tooltips, footer {\n    display: none !important;\n}\n\n#sidebar {\n    position: relative !important;\n    width: 10% !important;\n}\n\nsidebar:hover {\n    width: 15% !important;\n}\n\n#tag-list {\n    height: 5% !important;\n    overflow-y: scroll !important;\n}",
+        "domains": [
+          "danbooru.donmai.us"
+        ]
+      }
+    ],
+    "updateDate": 1649071215490,
+    "_id": "1b485633-3e9b-4beb-b726-a8f8cce09721",
+    "_rev": 1660225319186,
+    "id": 28
+  },
+  {
+    "enabled": false,
+    "installDate": 1648844819081,
+    "name": "Shopee",
+    "sections": [
+      {
+        "code": "html, body, \n/*Shopee main*/\n[class*=shopee], [class*=image-carousel], [class*=banner],\n[class*=category-list],\n._26mlgq, ._596Atc, ._2vFCfc, ._3IDGlB,\n/*Shopee main result*/\n._1C-0ut, ._1gZS6z,\n/*Shop info*/\n[class*=shop-],\n.container,\n/*Nav bar*/\n[class^=navbar],\n._3BwH6U,\n/*Item view*/\n._2477Dv,\n/*Left catagories*/\n._1_yYlR, \n/*Page number*/\n.shopee-button-no-outline,\n/*Product page*/\n[class*=card],\n/*Product page search bar*/\n[class*=shopee-searchbar],\n/*Product page shop*/\n[class*=product],[class*=seller],\n.page-product__shop,\n._1wVLAc, ._3ApBiN, ._1OYsyN,\n/*Vouchers*/\n._2RHirG._2PNEOW, ._2RHirG._23QPzF, ._3G8ebc,.uRSBSy, ._3RVYCx, ._8PJi42,\n/*Product detail*/\n.product-detail,\n.WhoL2w,.hoo2kB,\n.Mhqp_x, ._5RoKIR,\n/*Price*/\n._1900SS,\n/*Reviews*/\n._3NrdYc, ._39HxUo, .DW3H3c,\n/*Related*/\n._2DBXWK,\n/*Right related*/\n.product-shop-hot-sales\n{    \n    background: #121212 !important;\n    color: #9a9a9a !important;\n}\n.E7VmWW\n{\n    max-width: 5px !important;\n}\n.E7VmWW:hover\n{\n    max-width: 130px !important;   \n}\n.shop-page .container\n{\n    width: 100% !important;    \n}\n\nfooter \n{\n    display: none !important;\n}",
+        "urlPrefixes": [
+          "https://shopee.vn"
+        ]
+      }
+    ],
+    "updateDate": 1656007228790,
+    "_id": "f7c8cac5-81d8-49f0-acef-3cf44a6d2f26",
+    "_rev": 1665151943157,
+    "id": 29
+  },
+  {
+    "enabled": true,
+    "installDate": 1661346534880,
+    "name": "Twitter",
+    "sections": [
+      {
+        "code": "html {\n    overflow: scroll !important;\n}\n\ndiv[role=\"dialog\"], div[aria-label=\"Trending\"], div[data-testid=\"BottomBar\"], .GalleryNav, r-1xcajam /*Twitter login prompt*/ {\n    display: none !important;\n}\n\nhtml, article, span, header, div#react-root, div[aria-label*=\"imeline\"] {\n    background-color: #000 !important;\n    color: #DDD !important;\n}",
+        "domains": [
+          "twitter.com"
+        ]
+      }
+    ],
+    "updateDate": 1662684752214,
+    "_id": "f9ad2baa-d3f9-4c4d-aca8-da183869225c",
+    "_rev": 1665542779365,
+    "id": 30
+  }
+]
