@@ -1,0 +1,38 @@
+#!/bin/zsh
+inactiveborder=#734d5b
+activeborder=#a64170
+
+text1=#d95276
+text2=#734d5b
+text3=#bf5084
+text4=#a64170
+text5=#d95585
+text1d=#d95585
+text2d=#a64170
+text3d=#f2e2dc
+text4d=#f2e2dc
+text5d=#734d5b
+focus1=#d95276
+focus1d=#d95585
+active=#d95276
+inactive=#d95585
+warn=#f2a7a7
+bg1=#f2e2dc
+bg2=#f2a7a7
+
+#pink	#d95177
+#pinkd2	#a5346a
+#purplel	#b796dc
+#purpled	#4b3444
+#purplel2	#551a5e
+#purpled2	#3d293d
+#red	#92203e
+#redd	#701137
+#cyanl	#c0f4f2	#65d7a4
+#cyan	#6befc0	#18ffb2
+#pinkl	#efa3bf
+#white	#f8ebf5
+#whited	#d5c4e6
+#whitepurple	#a59aa8
+
+customtext="(▰╹◡╹▰)⚒"

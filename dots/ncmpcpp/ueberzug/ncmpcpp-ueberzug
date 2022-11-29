@@ -13,7 +13,7 @@ rm "$FIFO_UEBERZUG" 2>/dev/null
 mkfifo "$FIFO_UEBERZUG" >/dev/null
 trap cleanup EXIT 2>/dev/null
 tail --follow "$FIFO_UEBERZUG" | ueberzug layer --silent --parser simple >/dev/null 2>&1 &
-#bspc rule -a ncmpcpp state=floating center=on focus=on border=on rectangle=1770x680+150+260
-ncmpcpp -c ~/.config/ncmpcpp/ueber_layout -c .config/ncmpcpp/config
-#bspc rule -r ncmpcpp
+bspc rule -a ncmpcpp state=floating center=on focus=on border=on rectangle=1920x900+10+260
+ncmpcpp -c ~/.config/ncmpcpp/ueber_layout -c ~/.config/ncmpcpp/config
+bspc rule -r ncmpcpp
 cleanup

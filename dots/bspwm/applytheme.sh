@@ -3,7 +3,8 @@
 #. $HOME/.config/colors/color_polka
 #. $HOME/.config/colors/color_miku
 #. $HOME/.config/colors/color_hpe2
-. $HOME/.config/colors/color_azki
+#. $HOME/.config/colors/color_azki
+. $HOME/.config/colors/color_azki22
 #. $HOME/.config/colors/color_hachi
 #. $HOME/.config/colors/color_rushia
 

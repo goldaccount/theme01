@@ -2,15 +2,18 @@
 
 sxhkd &
 $HOME/bin/custominit
-#$HOME/.config/polybar/init.sh
+$HOME/.config/polybar/init.sh
 
+#include script to split monitors if exist
+.config/bspwm/monitorset.sh
 #bspc monitor -d I II III IV V VI VII VIII IX X
-bspc monitor -d 1 2 3 4 5 6 7 8 9 0
+#bspc monitor DP-0 -d 1 2 3 4 5
+#bspc monitor DP-3 -d 6 7 8 9 0
 
 bspc config border_width         3
 bspc config window_gap          3
 
-bspc config split_ratio          0.52
+bspc config split_ratio          0.5
 bspc config borderless_monocle   true
 bspc config gapless_monocle      true
 
@@ -18,13 +21,13 @@ bspc config gapless_monocle      true
 $HOME/.config/bspwm/applytheme.sh
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a Firefox follow=on
-bspc rule -a mplayer2 state=floating
+bspc rule -a firefox desktop='^1' follow=on
+#bspc rule -a mplayer2 state=floating
 bspc rule -a display state=floating follow=on manage=off
 bspc rule -a mpv desktop='^5' state=floating follow=on
-bspc rule -a galculator state=floating focus=on
 bspc rule -a feh state=floating follow=on
 bspc rule -a "Galculator" state=floating focus=on state=floating focus=on rectangle=320x320+15+865
+bspc rule -a obs state=floating rectangle=450x600
 bspc rule -a "*:Toolkit:Picture-in-Picture" state=floating sticky=on follow=off rectangle=640x360+5+840
 bspc rule -a dropdown state=floating follow=on focus=on rectangle=620x50+645+28
 #f float t top b bot l left r right c center
@@ -33,6 +36,4 @@ bspc rule -a ftl state=floating follow=on focus=on rectangle=620x360+5+28
 bspc rule -a fbr state=floating follow=on focus=on rectangle=620x360+1290+830
 bspc rule -a fbl state=floating follow=on focus=on rectangle=620x360+5+830
 bspc rule -a fc state=floating follow=on focus=on rectangle=1200x500+360+350
-
-#bspc rule -a Kupfer.py focus=on
-#bspc rule -a Screenkey manage=off
+bspc rule -a fcf state=floating follow=on focus=on rectangle=1920x1080+0+60

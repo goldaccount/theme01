@@ -191,3 +191,25 @@ writeCommonTags: couldn't write 'track' tag to 'Mmusic/HLL/20220410/20220122_dmz
 writeCommonTags: couldn't write 'track' tag to 'Mmusic/HLL/20220410/20220202_aINNB2g6cIA.m4a' as it's not a positive integer
 writeCommonTags: couldn't write 'track' tag to 'Mmusic/HLL/20220410/20220324_lv7UI1livw4.m4a' as it's not a positive integer
 writeCommonTags: couldn't write 'track' tag to 'Mmusic/HLL/20220410/20220331_kVpUEVhrC0U.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20191024_kvVKnYSaiZg.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20220128_wzjgnrIt4n8.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20191024_kvVKnYSaiZg.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20220206_IHSKq8SlZQw.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20220321_4vetC1XvwTw.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20200816_8TnDBj_DQVA.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20210831_tijSxyNGHo8.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/nayuta/20220416_5rrgQoha1xI.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/HACHI/20211224_R8ckcpssIWg.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20180726_lB0TkRmEXQA.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20190524_ybpvcZXvb1c.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20200919_p3e4_xE03_c.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20201226_iXQKQC8svq8.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20210331_S3gDMAfDfgQ.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20191115_PTGwc_Wk5jE.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20200606_Mc_sQ85y2Ec.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20201024_Tvzx7joiNpo.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20210702_EXozNy4j9UM.m4a' as it's not a positive integer
+writeCommonTags: couldn't write 'track' tag to 'Mmusic/Kotone/og/20210728_kQPK6vkNW_k.m4a' as it's not a positive integer
+TagLib: Could not open file /home/nr2/.config/mpd/music/AZKi/AZKi_オーバーライト/02.Existlog.mp3
+TagLib: Could not open file /home/nr2/.config/mpd/music/AZKi/AZKi_オーバーライト/01.オーバーライト.mp3
+TagLib: Could not open file /home/nr2/.config/mpd/music/AZKi/AZKi_canopus/01.canopus.mp3
