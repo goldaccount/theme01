@@ -20,23 +20,23 @@ bspc config gapless_monocle      true
 #Apply theme color
 $HOME/.config/bspwm/applytheme.sh
 
-bspc rule -a Gimp desktop='^8' state=floating desktop=^8 follow=on
+bspc rule -a Gimp desktop='^8' state=floating follow=on
 bspc rule -a firefox desktop='^1' follow=on
 #bspc rule -a mplayer2 state=floating desktop=^8
-bspc rule -a display state=floating desktop=^8 follow=on manage=off
-bspc rule -a mpv desktop='^5' state=floating desktop=^8 follow=on
-bspc rule -a feh state=floating desktop=^8 follow=on
+bspc rule -a display state=floating follow=on manage=off
+bspc rule -a mpv desktop='^5' state=floating follow=on
+bspc rule -a feh state=floating follow=on
 bspc rule -a "Galculator" state=floating state=floating focus=on rectangle=320x320+15+865
 bspc rule -a obs state=floating desktop=^8 rectangle=450x600
 bspc rule -a "*:Toolkit:Picture-in-Picture" state=floating sticky=on follow=off rectangle=640x360+5+840
-bspc rule -a Virt-manager state=floating desktop=^8 follow=off rectangle=693x362+2984+502
-bspc rule -a dropdown state=floating desktop=^8 follow=on focus=on rectangle=620x50+645+28
+bspc rule -a Virt-manager state=floating desktop=^9 follow=off rectangle=693x362+2984+502
+bspc rule -a dropdown state=floating follow=on focus=on rectangle=620x50+645+28
 #f float t top b bot l left r right c center
-bspc rule -a ftr state=floating desktop=^8 follow=on focus=on rectangle=620x360+1290+28
-bspc rule -a ftl state=floating desktop=^8 follow=on focus=on rectangle=620x360+5+28
-bspc rule -a fbr state=floating desktop=^8 follow=on focus=on rectangle=620x360+1290+830
-bspc rule -a fbl state=floating desktop=^8 follow=on focus=on rectangle=620x360+5+830
-bspc rule -a fc state=floating desktop=^8 follow=on focus=on rectangle=1200x500+360+350
+bspc rule -a ftr state=floating  follow=on focus=on rectangle=620x360+1290+28
+bspc rule -a ftl state=floating follow=on focus=on rectangle=620x360+5+28
+bspc rule -a fbr state=floating follow=on focus=on rectangle=620x360+1290+830
+bspc rule -a fbl state=floating follow=on focus=on rectangle=620x360+5+830
+bspc rule -a fc state=floating follow=on focus=on rectangle=1200x500+360+350
 #bspc rule -a fcf state=floating desktop=^8 follow=on focus=on rectangle=1920x1080+960+60
-bspc rule -a fcf state=floating desktop=^8 follow=on focus=on rectangle=1875x845+982+177
+bspc rule -a fcf state=floating follow=on focus=on rectangle=1875x845+982+177
 bspc rule -a Anydesk desktop=^9 state=floating focus=off follow=off rectangle=600x400+500+500
