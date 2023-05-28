@@ -1,0 +1,16 @@
+#u=pi,w=q312/
+country=vn
+update_config=1
+ctrl_interface=/var/run/wpa_supplicant GROUP=netdev
+
+network={
+ scan_ssid=1
+ ssid="b71"
+ psk="0203435232"
+}
+
+network={
+ scan_ssid=1
+ ssid="b72"
+ psk="0203435232"
+}

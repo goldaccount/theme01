@@ -1,0 +1,19 @@
+192.168.1.13
+14-EB-B6-6A-AF-73
+
+DHCP
+192.168.1.100 - 192.168.1.120
+lease 60 mins
+reserve: 
+04:d4:c4:4d:d7:e2	192.168.1.101
+00:28:f8:51:50:8b	192.168.1.139
+
+reboot 02:00 weekly Monday
+b71	0203435232	WPA2/WPA3
+b71_k	0bietpass	WPA2/WPA3
+qwfp,.,.
+
+
+block
+4C-BA-D7-49-8D-CA	LGTV
+

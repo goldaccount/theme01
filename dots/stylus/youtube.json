@@ -1,0 +1,184 @@
+#tp-yt-paper-dialog, #related, #comments, #alerts, #reorder, #logo, end/*Top right nav*/, #chips-wrapper,
+ytd-playlist-sidebar-renderer, ytd-mini-guide-renderer,
+.ytp-fullerscreen-edu-button,
+.ytp-youtube-button, .ytp-ad-persistent-progress-bar-container, .video-ads,
+.html5-endscreen, .ytp-ce-element, ytd-live-chat-frame,
+.ytp-pause-overlay,
+.ytp-prev-button, .ytp-play-button, .ytp-next-button, .sytp-gradient-bottom, .ytp-gradient-top, #voice-search-button, chat,
+.ytp-subtitles-button, .annotation, .ytp-large-play-button, .ytd-mini-guide-renderer, .ytp-size-button, .ytp-fullscreen-button, .ytp-miniplayer-button, .ytp-chrome-top
+{
+ 	display: none !important;
+}
+
+#masthead-container, .ytp-chrome-controls, .tp-yt-paper-tabs, .ytp-progress-bar, .yt-live-chat-header-renderer {
+ 	opacity: 0.0 !important;
+    position: fixed !important;
+}
+
+/*Unround things*/
+* {
+    border-radius: 1px !important;
+}
+
+/*Control bar*/
+
+.ytp-time-display {
+    text-shadow: 1px 2px #000, -1px 1px 5px black, -2px 0px 5px black, 0px 0px 5px black;
+}
+
+.ytp-chrome-controls {
+    /*-webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #FFF;*/
+    position: relative !important;
+    bottom: 10px !important;
+} 
+
+.ytp-pip-button {
+    opacity: 0.9 !important;
+}
+
+/*Seekbar thumbnail*/
+ytp-tooltip ytp-bottom ytp-preview {
+    
+}
+
+.ytp-tooltip-text {
+    text-shadow: 1px 2px #000, 0px 0px 10px #000 !important;
+}
+
+.ytp-exp-bottom-control-flexbox .ytp-chrome-controls {
+    display: block !important;
+}
+
+/*Playlist header*/
+.ytd-playlist-header-renderer {
+    opacity: 0.7 !important;
+}
+
+/*.ytp-chrome-bottom:hover, */
+#masthead-container:hover, .ytp-chrome-controls:hover, #masthead-container:active, #masthead-container:focus, .tp-yt-paper-tabs:hover, .ytp-progress-bar:hover,
+.ytp-gradient-bottom:hover, .ytp-big-mode .ytp-gradient-bottom:hover
+{
+    opacity: 0.9 !important;
+}
+
+#container.ytd-masthead, #search {
+    height: 25px;
+    width: 100%;
+    display: flex !important;
+}
+
+center {
+    left: 15% !important;
+    position: fixed !important;
+    width: 50% !important;
+}
+
+search-icon-legacy {
+    display: none !important;
+}
+
+tp-yt-paper-button {
+    border: none !important;
+}
+
+/*Gradient*/
+.ytp-exp-bigger-button-like-mobile, .ytp-gradient-bottom, .ytp-big-mode .ytp-gradient-bottom {
+    max-height: 1px !important;
+    z-index: 24;
+    background-position: bottom;
+    background-image: linear-gradient(transparent,#111);
+}
+
+/*Caption*/
+.ytp-caption-window-container {
+    display: inline !important;
+}
+
+#top, #page-manager.ytd-app {
+	margin-top: 5px !important;   
+}
+
+
+/*Info
+.ytd-watch-flexy {
+    max-width: 80% !important;
+    min-width: 50% !important;
+    flex: 0;
+}*/
+ytd-watch-flexy[flexy] #secondary.ytd-watch-flexy {
+    width: 50% !important;
+}
+h1.title {
+ 	position: relative !important;
+    top: 93% !important;
+    z-index: 100 !important;
+    opacity: 0 !important;
+    text-shadow: 1px 2px #000 !important;
+    /*background: rgba(0,0,0,0.4) !important;*/
+    /*background: linear-gradient(to top, rgba(0,0,0,0.5), rgba(0,0,0,0));*/
+    /*background: radial-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.2));*/
+}
+#background,
+.banner-visible-area,
+#channel-container {
+ 	display: none !important;
+}
+
+.ytp-chrome-bottom, .ytp-chome-top {
+    background-color: transparent !important;
+}
+
+app-toolbar, .ytp-menuitem, h1.title:hover,
+#tabs-container {
+    opacity: 0.5 !important;
+}
+
+/*Channel page*/
+.tp-yt-app-toolbar,
+#tabs-container
+{
+    top: -35px !important;
+    position: relative !important;
+}
+
+/*Videos*/
+#contents {
+    margin-top: 15px !important;
+}
+
+.ytp-swatch-background-color {
+    background-color: #FFF !important;
+}
+
+.ytd-browse {
+    padding-left: 0px !important;
+}
+
+.guide-icon.ytd-guide-entry-renderer, a {
+    background-color: transparent !important;
+    color: #DDD !important;
+}
+
+.ytp-progress-bar {
+    position: relative !important;
+    bottom: -620% !important;
+}
+
+.ytp-scrubber-button {
+    width: 5px !important;
+    border-radius: 0px !important;
+}
+
+/*Chat*/
+
+#input-panel {
+    opacity: 0.1 !important;
+    height: 10px !important;
+}
+
+#input-panel:hover {
+    opacity: 0.9 !important;
+    height: 25% !important;
+    transition: 0.25s !important;
+}

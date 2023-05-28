@@ -1,0 +1,22 @@
+192.168.1.10:4433 :8181
+d4:c9:ef:e3:25:fd
+nrad	
+arst@1234,.,.
+
+D4:C9:EF:E3:25:FD
+04:D4:C4:4D:D7:E2
+
+
+SNMP
+80:00:22:28:03:D4:C9:EF:E3:25:FD
+Port 161
+SNMP v2	Pmns@dm1nrw
+SNMP v2 Pmns@dm1nro
+SNMP v3	nosnmpuser/Pmns@dm1nv3	SHA/AES
+
+Wireless
+Port 1.	14:58:D0:34:76:60	Bridge
+Port 2	14:58:D0:34:76:70
+
+Channel
+56,64,108,112,132.136,140,144,165

@@ -1,0 +1,62 @@
+!TL-SG2210P
+#
+#
+#
+#
+hostname "1g10.sw"
+location "1403"
+contact-info "YOMOMMA"
+#
+mac address-table aging-time 300
+#
+#
+#
+#
+#
+user name admin privilege admin secret 5 $1$B0B2B>B8G9E6J4J6D2H8D9@=D9H/A>L2$'}./
+#
+user access-control port-based interface gigabitEthernet 1/0/1 snmp ssh https ping
+user access-control port-based interface gigabitEthernet 1/0/8 snmp ssh https ping
+#
+#
+#
+#
+#
+#
+ip ssh server
+no ip ssh version v1
+ip ssh timeout 30
+ip ssh max-client 3
+no ip ssh algorithm AES128-CBC
+no ip ssh algorithm AES192-CBC
+no ip ssh algorithm 3DES-CBC
+no ip ssh algorithm HMAC-MD5
+#
+#
+#
+#
+interface gigabitEthernet 1/0/1
+#
+interface gigabitEthernet 1/0/2
+#
+interface gigabitEthernet 1/0/3
+#
+interface gigabitEthernet 1/0/4
+#
+interface gigabitEthernet 1/0/5
+#
+interface gigabitEthernet 1/0/6
+#
+interface gigabitEthernet 1/0/7
+#
+interface gigabitEthernet 1/0/8
+#
+interface gigabitEthernet 1/0/9
+#
+interface gigabitEthernet 1/0/10
+#
+interface vlan 1
+ip address 192.168.0.1 255.255.255.0
+#
+end
+

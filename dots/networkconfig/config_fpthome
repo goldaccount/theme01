@@ -1,0 +1,214 @@
+fpt1
+192.168.1.5
+b71
+...,,,
+
+fpt2
+192.168.1.6
+b71
+b72 .,.,.,.,.,
+
+ppp0
+      WAN: enabled
+  service: 0_TR069_INTERNET_IPTV
+    ipver: BOTH
+   ipmode: PPPoE
+      NAT: Enabled
+      mtu: 1492
+   vlanEn:  Disabled
+PPPoE_config[username: sgdsl-090822-575, password: d272575, mode: ALWAYS_ON]
+
+ipv4 info:
+       ip: 21.240.186.189
+     mask: 255.255.255.255
+       gw: 100.123.1.62
+     dns1: 210.245.31.220
+     dns2: 210.245.31.221
+
+ipv6 info:
+       ip: 2405:4800:5712:2616:e88a:fca9:983d:2e4d
+   prefix: 2405:4800:5714:b0b0::/64
+       gw: fe80::8ad9:8fff:fe51:33c6
+     dns1: 2001:4860:4860::8888
+     dns2: 2001:4860:4860::8844
+
+Vender               : CIG
+Vender Part Number   : BOB30
+Manufacturing Date   : 110101
+Vender Serial Number : 1234567890BF86
+Vender Revision(hex) : 30-02-00-00
+Software Revision    : 1
+Power         : 3V3 (0.0) 12 (0.0)
+Temperature   : 29.8 C
+Data Rx Power : -19.6 dBm
+APD Prot      : No
+Data Tx bias  : 11.6 mA
+---ATECMDRESULT--- OK
+
+#ONT/system/manu>final_check
+
+----SW Info-----
+BOOT version  : V3.3.13
+OntSwVer  : R4.2.43.115
+Build Date: 2021-07-27 10:17:58
+Customer  : CIG
+SS_Type: sip
+
+ImageA_Ver: R4.2.43.115
+ImageB_Ver: R4.2.43.098b
+ImageA_CheckSum: PASS
+ImageB_CheckSum: PASS
+
+----Status Info----
+act_img: 01
+commit_img: 01
+admin_en: 00
+intenal_ip_en: 0
+
+----Product Info 1----
+mpcode: 15K-00020-21
+mpsn: 081760511227
+mac1: 9c:50:ee:f2:bf:80
+mac2: 9c:50:ee:f2:bf:87
+burnin: 00
+major: 0090
+minor: 23
+hwver: 02
+vendor: FPTT
+eqsn: FPTT1760E1C5
+provinceid: 0000
+eqvid: C30-401
+eqvid_hex: 4333302d34303100000000000000
+eqid: G-97RG3
+eqid_hex: 472d393752473300000000000000000000000000
+vdsl2_vendor: 1760e1c5
+pon_passwd: 001760e1c5
+SSID: unknow
+WAP: unknow
+WLP: unknow
+ONTID: unknow
+CTCLOID: 0x000000000000000000000000000000000000000000000000
+
+----Product Info 2----
+img_name: ont.z
+admin_ip: 192.168.1.251
+admin_mask: 255.255.255.0
+server_ip: 192.168.1.253
+admin_gw: 192.168.1.1
+ftp_user: ont
+ftp_passwd: ont
+bootflag: 0x0002
+
+----BOB Info1----
+bosa_Ver: 0x30
+bosa_Type: 0x02
+bosa_Preheat: 0
+bosa_Profile: 1
+bosa_Code: 10
+bosa_Stress: STOP
+
+----BOB Info2----
+lasersn: 1234567890BF86
+BOSA v1.1           | Type 2, Profile 1
+2090 Temperature    | 67.75 C [1353]
+Bosa Case Temp      | 29.75 C
+ONT Case Temp       | 29.75 C
+APD Bias            | 138
+MON                 | 64.69
+MON10               | 644.16
+Data Rx Power       | -19.65 dBm
+TxMON               | 607
+Data Tx Power       | 0.62 dBm
+Bias Cur            | 11633.69 uA
+Modulation current  | 21416.34 uA
+Init Bias Cur       | 13040.28 uA
+Init Mod Cur        | 30305.22 uA
+Mode                | Dual closed loop mode
+P0                  | 25
+P1                  | 47
+TIA range           | 8.2uA - 620uA
+Failure             | No failure
+Power Level         | 0
+---ATECMDRESULT--- OK
+
+#ONT/system/shell>ifconfig
+br0       Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet addr:192.168.1.1  Bcast:0.0.0.0  Mask:255.255.255.0
+          inet6 addr: fe80::1/64 Scope:Link
+          inet6 addr: 2405:4800:5714:b0b0:9e50:eeff:fef2:bf80/64 Scope:Global
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:12204875 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:18743759 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:805759701 (768.4 MiB)  TX bytes:3131808565 (2.9 GiB)
+
+eth0      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:118687352 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:120124528 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:273825250 (261.1 MiB)  TX bytes:3653474954 (3.4 GiB)
+          Interrupt:26 Base address:0x2000
+
+lan0      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:3292132 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:3839987 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:370260265 (353.1 MiB)  TX bytes:3125903422 (2.9 GiB)
+
+lan1      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:8731178 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:15386386 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:587306088 (560.0 MiB)  TX bytes:84187600 (80.2 MiB)
+
+lan2      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:640223 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:0 (0.0 B)  TX bytes:97483955 (92.9 MiB)
+
+lan3      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:80
+          inet6 addr: fe80::9e50:eeff:fef2:bf80/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:327438 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:940318 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:27828457 (26.5 MiB)  TX bytes:131830224 (125.7 MiB)
+
+lo        Link encap:Local Loopback
+          inet addr:127.0.0.1  Mask:255.0.0.0
+          inet6 addr: ::1/128 Scope:Host
+          UP LOOPBACK RUNNING  MTU:16436  Metric:1
+          RX packets:511 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:511 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:0
+          RX bytes:46525 (45.4 KiB)  TX bytes:46525 (45.4 KiB)
+
+ppp0      Link encap:Point-to-Point Protocol
+          inet addr:21.240.186.189  P-t-P:100.123.1.62  Mask:255.255.255.255
+          inet6 addr: 2405:4800:5712:2616:e88a:fca9:983d:2e4d/64 Scope:Global
+          inet6 addr: fe80::e88a:fca9:983d:2e4d/10 Scope:Link
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1492  Metric:1
+          RX packets:8685257 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:5397233 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:100
+          RX bytes:2592370314 (2.4 GiB)  TX bytes:349159338 (332.9 MiB)
+
+wan0      Link encap:Ethernet  HWaddr 9C:50:EE:F2:BF:86
+          inet6 addr: fe80::9e50:eeff:fef2:bf86/64 Scope:Link
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:24692391 errors:0 dropped:0 overruns:0 frame:0
+          TX packets:14313789 errors:0 dropped:0 overruns:0 carrier:0
+          collisions:0 txqueuelen:1000
+          RX bytes:3914327189 (3.6 GiB)  TX bytes:972551143 (927.4 MiB)
+
+
