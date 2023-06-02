@@ -1,0 +1,67 @@
+qwfp,.,.
+IP	192.168.1.12
+SN	221C773009732
+MAC	14-EB-B6-6B-07-B7
+DHCP	192.168.1.51-192.168.1.100
+Gateway	192.168.1.1
+DNS1	1.1.1.1
+DNS2	8.8.8.8
+SSID	B71_2F
+Type	WPA2/WPA3-Personal
+Version	Auto
+PSK	Nh@_Tr0_Th@nh_Binh
+Reboot	0200	Monday	Weekly
+
+IP	192.168.1.13
+SN	221C773009731
+MAC	14-EB-B6-6A-AF-73
+DHCP	192.168.1.101-192.168.1.150
+Gateway	192.168.1.1
+DNS1	1.1.1.1
+DNS2	8.8.8.8
+SSID	B71_3F
+Type	WPA2/WPA3-Personal
+Version	Auto
+PSK	Nh@_Tr0_Th@nh_Binh
+Reboot	0200	Monday	Weekly
+
+192.168.1.10
+nimad
+0bietPas\
+SN	221C773009731
+MAC	14-EB-B6-6A-AF-73
+DHCP	192.168.1.151-192.168.1.161
+Gateway	192.168.1.1
+DNS1	1.1.1.1
+DNS2	8.8.8.8
+SSID	B71_10
+Type	WPA2/WPA3-Personal
+Version	Auto
+PSK	Nh@_Tr0_Th@nh_Binh
+Reboot	0200	Monday	Weekly
+
+=====================================
+TL-WR840N v7.2
+3.13.9 Build 120201 Rel.54965n
+
+LAN
+192.168.0.1/28
+90-F6-52-6A-E2-B6
+DHCP
+192.168.0.2 - .14
+lease 30min
+
+WAN
+192.168.1.16/24
+90-F6-52-6A-E2-B7
+GW: 192.168.1.1
+
+WLAN
+B71_3F
+0203435232
+90-F6-52-6A-E2-B6
+
+Login
+ad / ____----
+
+

@@ -1,0 +1,16 @@
+[greeter]
+background = /home/nr2/Pictures/85242004_p0.png
+theme-name = Matcha-dark-azul
+xft-antialias = true
+xft-hintstyle = hintfull
+xft-rgba = rgb
+icon-theme-name = Papirus-Dark
+hide-user-image = false
+indicators = ~clock;~spacer;~session;~spacer;~a11y;~~⌨;~layout;~~☺;~language;~power
+keyboard = onboard
+a11y-states = ~keyboard
+position = 50%,center 5%,center
+user-background = false
+#clock-format = %c
+clock-format = %Y-%m-%d | %H:%M:%S | %s
+font-name = Liberation Sans Bold
