@@ -1,0 +1,192 @@
+/* This Source Code Form is subject to the terms of the Mozilla Public
+ * License, v. 2.0. If a copy of the MPL was not distributed with this
+ * file, You can obtain one at http://mozilla.org/MPL/2.0/. */
+
+/*
+ * Edit this file and copy it as userChrome.css into your
+ * profile-directory/chrome/
+ */
+
+/*
+ * This file can be used to customize the look of Mozilla's user interface
+ * You should consider using !important on rules which you want to
+ * override default settings.
+ */
+
+/*
+ * Do not remove the @namespace line -- it's required for correct functioning
+ */
+@namespace url("http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul"); /* set default namespace to XUL */
+
+
+/*
+ * Some possible accessibility enhancements:
+ */
+/*
+ * Make all the default font sizes 20 pt:
+ *
+ * * {
+ *   font-size: 20pt !important
+ * }
+ */
+/*
+ * Make menu items in particular 15 pt instead of the default size:
+ *
+ * menupopup > * {
+ *   font-size: 15pt !important
+ * }
+ */
+
+* {
+    --toolbar-field-color: #AAA !important; /*Url bar text color*/
+    --toolbar-field-background-color: #000 !important; /*Url bar bg*/
+    --toolbar-field-focus-background-color: #111 !important; /*Url bar focused*/
+    --toolbar-bgcolor: #000 !important; /*All nav bar*/
+    --lwt-accent-color: #000 !important;    /*All tab bar*/
+    --toolbar-color: #AAA !important;   /*Nav bar text color*/
+    --urlbar-icon-fill-opacity: 0.5 !important; /*Url bar icon opacity*/
+    --autocomplete-popup-highlight-background: #555; /*Url dropdown entry bg*/
+    --button-hover-bgcolor: #333;       /*Button bg when hover*/
+    --button-active-bgcolor: #888;      /*Button bg when clicked*/
+    --panel-item-hover-bgcolor: #000;   /*Menu item hover bg*/
+    --button-bgcolor: #CCC;             /*Menu button bg*/
+    --lwt-tabs-border-color: transparent; /*Tab bottom border*/
+    --chrome-content-separator-color: #111; /*Nav bar bottom border*/
+    --toolbar-field-border-color: #111; /*Url border*/
+    --toolbar-field-focus-color: #FFF;  /*Url focused text color*/
+    --focus-outline-color: #999;        /*Url bar focused border color*/
+    --lwt-text-color: #AAA;             /*Inactive tab text color*/
+    --lwt-tab-text: #FFF;               /*Active tab text color*/
+    --lwt-tab-line-color: #666 ;        /*Active tab border color*/
+    /*Size*/
+    --urlbar-height: 50px;              /*Url box height*/
+    --urlbar-toolbar-height: 42px;      /*Url box top offset*/
+    --urlbar-container-height: 42px;    /**/
+}
+
+::selection {
+}
+
+:root {
+    --tab-border-radius: 3px;   /*Tab curve*/
+    --inline-tab-padding: 3px;  /*Tab padding left right*/
+    --tab-block-margin: 4px;    /*Tab top bottom margin*/
+    --tab-min-height: 3em;      /*Tab height*/
+}
+/*Tab color*/
+.identity-color-red {
+    --identity-tab-color: #A00;
+    --identity-icon-color: #A00;
+}
+.identity-color-blue {
+    --identity-tab-color: #0A0;
+    --identity-icon-color: #0A0;
+}
+.tab-background[selected="true"]:-moz-lwtheme
+{
+        background-color: #111 !important;        
+}
+
+/*Tab size & label size*/
+.tabbrowser-tab > .tab-stack > .tab-background > .tab-context-line {
+    margin: calc(var(--urlbar-container-height)*.8) 0.15em 0;
+/*    max-width: 1.65em;*/
+}
+.tabbrowser-tab:not([pinned]) {
+}
+
+vbox.tab-background {
+   background-image: none !important;
+}
+
+.tab-text .tab-label {
+    font-size: 2vh;
+}
+
+.tab-secondary-label {
+    display: none;
+    color: #A50;
+}
+
+/* Give the Location (URL) Bar a fixed-width font */
+#urlbar {
+    font-size: 1em !important;
+	font-family: Monospace !important;
+}
+ 
+/* Eliminate the throbber and its annoying movement: */
+#throbber-box {
+display: none !important;
+}
+
+/*Text fields, autocomplete text field, url dropdown box
+ * tooltip labels
+ * Menu items
+ * */
+input, textarea, .textfield-popup, #ubhist-popup, #ubhist-popup > .popup-internal-box, .textfield-popup > .popup-internal-box,
+.tooltip-label,
+menubar, menubutton, menulist, menu, menuitem
+{
+	background-color: #333 !important;
+	color: #BBB !important;
+}
+
+.tooltip-label {
+	border: solid 1px #BBB !important; 
+}
+
+html {
+	scrollbar-color: #999 !imporant;
+	scrollbar-width: thin !important;
+	--default_tabs_bg_selected: linear-gradient(to bottom, #333, #999);
+	--default_tabs_toolbar_background: linear-gradient(to bottom,#000,#555);
+	--default_tabs_bg_default: linear-gradient(to bottom,#555,#000);
+	--default_tabs_bg_hovered: linear-gradient(to bottom,#000,#555);
+	--default_tabs_bg_unloaded: linear-gradient(to bottom,#000,#555);
+	--default_tabs_bg_newtab: linear-gradient(to bottom,#555,#999);
+	--default_tabs_bg_newtab_hovered: linear-gradient(to bottom,#999,#555);
+}
+
+/* selected tab ****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab[selected] .tab-content {
+  background: var(--default_tabs_bg_selected) !important;
+}
+
+/* default tab *****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab .tab-content {
+  background: var(--default_tabs_bg_default) !important;
+}
+
+/* hovered tab ****************************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab:hover:not([selected]) .tab-content {
+  background: var(--default_tabs_bg_hovered) !important;
+}
+
+/* unloaded/pending tab ********************/
+#TabsToolbar #tabbrowser-tabs .tabbrowser-tab[pending] .tab-content {
+  background: var(--default_tabs_bg_unloaded) !important;
+}
+
+/* new tab *********************************/
+#TabsToolbar #tabbrowser-tabs #tabs-newtab-button .toolbarbutton-icon {
+  background: unset !important;
+}
+
+#TabsToolbar #tabbrowser-tabs #tabs-newtab-button {
+  background: var(--default_tabs_bg_newtab) !important;
+}
+
+/* hovered new tab *************************/
+#TabsToolbar #tabbrowser-tabs #tabs-newtab-button:hover {
+  background: var(--default_tabs_bg_newtab_hovered) !important;
+}
+
+/*Fix bspwm auto right click
+ * ui.context_menus.after_mouseup = true
+ * */
+#contentAreaContextMenu { margin: 10px 0px 0px 10px; }
+
+/*
+ * For more examples see http://www.mozilla.org/unix/customizing.html
+ */
+ 
