@@ -1,0 +1,466 @@
+@-moz-document domain("holodex.net") {
+html, body, div, a, text {
+    user-select: auto !important;
+    cursor: auto !important;
+}
+
+/*Global transition param*/
+* {
+    transition: 0.2s !important;
+}
+
+.v-snack__wrapper {
+    display: none !important;
+}
+
+.v-btn--fab, v-overlay--absolute  /*Play button hover*/
+{
+    user-select: text !important; 
+    display: none;
+}
+
+.v-overlay--active { /*Black dim overlay of controls (Multiview)*/
+        opacity: 0.01 !important;
+} 
+
+.v-application py-1 {
+    opacity: 0.1 !important;
+    height: 0px !important;
+}
+
+.v-application .py-1:hover {
+    opacity: 0.9 !important;
+    height: 7% !important;
+}
+
+/*Make video links selectable*/
+.v-list-item--link {
+    cursor: auto !important;
+    user-select: text !important;
+}
+
+/*Various buttons*/
+.v-btn:not(.v-btn--round).v-size--x-small {
+    position: relative !important;
+    top: -10px !important;
+    background: none !important;
+    opacity: 0.1 !important;
+}
+
+.v-btn:not(.v-btn--round).v-size--x-small:hover { opacity: 0.5 !important;}
+
+.v-application .pa-lg-3 { padding: 2px !important; }
+
+/*Chat and TL panels*/
+.watch-live-chat, .show-tl-overlay .tl-overlay.tl-full-height {
+    padding-bottom: 0 !important;
+    min-height: 50px !important;
+}
+
+active-message {
+    position: absolute;
+    z-index:1000;
+}
+
+.cell-control { height: 1px !important; }
+
+#top-bar, /*Top nav bar + search*/
+.mv-toolbar 
+{ 
+    top: -45px !important; 
+    z-index:15 !important;
+    position:fixed !important;
+}
+ 
+#top-bar:hover, /*Top nav bar + search*/
+.mv-toolbar:hover 
+{ 
+    top: 0px !important; 
+}
+
+/*Nav bar*/
+.v-tabs {
+    position: relative !important;
+    top: -10px !important;
+    height: 1px !important;
+    margin-bottom: 40px !important;
+}
+
+.v-tabs-bar {
+    height: 2px !important;
+    padding: 5px !important;
+    opacity: 0.7 !important;
+}
+
+.v-tabs-bar:hover {
+    height: 50px !important;
+}
+
+#top-bar, .music-player-bar, .channels-tabs, .nav-scroll, .v-menu__content, .mv-toolbar,.video-card-action {
+    opacity: 0.01 !important;
+}
+
+#top-bar:hover, .music-player-bar:hover, .channels-tabs:hover, .nav-scroll:hover, .v-menu__content:hover, .mv-toolbar:hover, .video-thumbnail:hover, .video-card-action:hover {
+    opacity: 0.9 !important;
+}
+
+/*All video thumbnails*/
+.video-thumbnail    
+{
+    opacity: 0.4 !important;
+}
+
+/*Video thumbnail round*/
+.v-application .rounded {
+    border-radius: 10px !important;
+}
+
+song-card-artwork {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+/*Music player*/
+.music-player-bar {
+    background-image: linear-gradient(#000,#333) !important;
+    height: 1em !important;
+    bottom: 0% !important;
+}
+
+.music-player-bar:hover {
+    bottom: 0px !important;
+    height: 5em !important;
+}
+
+.song-player-container {
+    top: 63% !important;
+    right: 2% !important;
+    opacity: 0.3 !important;
+}
+
+.song-player-container:hover {
+    opacity: 1 !important;
+}
+
+.nav-scroll {
+    left: -11% !important;
+    z-index: 50 !important;
+}
+
+.nav-scroll:hover {
+    left: 0% !important;
+}
+
+.ytp-pip-button, .ytp-settings-button {
+    display: inline !important;
+}
+
+/*Multiview Resize*/
+.vue-resizable-handle.h-s { 
+    left: 25% !important;
+    width: 10% !important;
+}
+
+/*Multiview cell padding*/
+.mv-cell.edit-mode {
+    padding: 1px !important;
+}
+
+.mv-cell.edit-mode:hover {
+    padding: 35px !important;
+}
+}
+
+@-moz-document regexp("https://holodex.net/watch/.*") {
+/*Main div*/
+v-main  {
+    padding-top: 0 !important;
+}
+/*Chat and TL panels*/
+.pa-5, .d-flex .sidebar .flex-column {
+    display: none !important;
+}
+
+/*Main video container, exclude playlist video thumbnail*/
+
+.v-main  /*Main video container*/
+{ 
+    position: inherit !important;
+    top: 15px !important
+}
+
+.video {
+    height: 110vh !important;
+    z-index: 10 !important;
+}
+
+.v-application div.d-flex {
+    top: 0px !important;
+    display: block !important;
+}
+
+/*Playlist video thumbnail duration*/
+.video-duration {
+    display: flex !important;
+    position: relative !important;
+    bottom: -30px !important;
+    right: -90px !important;
+    max-width: 60px !important;
+    opacity: 0.6 !important;
+}
+
+.watch-live-chat {
+    top: -500px;
+    height: 1300px;
+}
+
+.watch-live-chat.show-tl-overlay .tl-overlay {
+    height: 100% !important;
+}
+
+/*CC*/
+.subtitle-text {
+    position: relative !important;
+    top: 52vw !important;
+    z-index: 11 !important;
+    opacity: 0.75 !important;
+}
+
+.watch-live-chat {
+    right: -300px;
+}
+
+.tl-body.archive { 
+    height: 100%;
+}
+
+.watch-live-chat:hover {
+    right: 0px;
+    opacity: 0.75 !important;
+    transition: 0.25s !important;
+}
+
+.watch-live-chat {
+    opacity: 0 !important;
+}
+
+.watch-btn-group {
+    position: relative;
+    left: 80%;
+}
+}
+
+@-moz-document url-prefix("https://holodex.net/music"), regexp("https://holodex.net/channel/.*/music.*") {
+/*Music containers*/
+
+.org-music-container, #songSearchTable {
+    opacity: 0.3 !important;
+}
+
+.org-music-container:hover  {
+    opacity: 0.75 !important;
+}
+.v-btn--fab {
+    display: inline !important;
+}
+}
+
+@-moz-document url-prefix("https://music-staging.holodex.net/"), url-prefix("https://music.holodex.net/") {
+/*opacity*/
+.css-19qj2kq, .css-1d7va4uz, /*Top bar*/.css-1sigv9r /*1row*/, .css-677ueb, .css-1t0zh9u , .css-1hjhz8m /*2row*/, .css-mekskw, .css-saedyi /*3row*/, .css-1rfnyk0 /*4row*/, .css-1ducnjr /*3rowoverlay*/, .css-rzv0oi /*Play symbol*/, .chakra-button,
+/*Search page-navigation*/ .css-x2306x-pagination
+{
+    opacity: 0.3 !important;
+}
+
+.css-19qj2kq:hover,  .css-1d7va4u:hover, .css-1sigv9r:hover, .css-677ueb:hover, .css-1t0zh9u:hover, .css-1hjhz8m:hover, .css-mekskw:hover, .css-saedyi:hover, .css-1rfnyk0:hover, .chakra-button:hover, .css-x2306x-pagination:hover {
+    transition: 0.5s opacity !important;
+    opacity: 1 !important;
+}
+
+/*Top bar*/
+.css-19qj2kq, .css-1d7va4u {
+    /*position: fixed !important;*/
+    top: 0;
+   /*left: 25vw;*/
+}
+
+.css-19qj2kq:hover, .css-1d7va4u:hover {
+    top: 0;
+}
+
+/*Search input*/
+.css-1mtw2bt {
+    margin-left: 13vw !important;
+    width: 50vw !important;
+}
+
+/*Channel cover*/
+.css-5aywnk, .css-yk85r0 {
+    opacity: 0.4;
+}
+
+/*Left nav*/
+.css-12v309e, .css-1s7fmfb {
+    position: relative;
+    width: 8vw;
+    overflow: hidden;
+    opacity: 1 !important;
+    transition: .25s width;
+}
+
+.css-12v309e:hover, .css-1s7fmfb:hover {
+    width: 8vw;
+    transition: .25s width;
+}
+/*Center div .css-1uqo04t css-um87gk new*/
+.css-1j7rd59, .css-1sq36xt, .css-um87gk {
+    margin-top: 1vw !important;
+    max-width: 100% !important;
+    opacity: 1 !important;
+}
+
+.css-622vwz {
+    background-color: rgba(50,50,50,1);
+}
+
+/*Main newest streams*/
+.snaplist {
+    max-width: 70vw !important;
+    margin-left: 0 !important;
+}
+/*Center div scroll dots*/
+.css-kjyef9 {
+    margin-left: 10vw !important;
+}
+
+/*Playlist table, Channel all songs*/
+.css-1hgw51i, .css-26osun,
+/*Playlist background*/
+.css-12sar92 {
+    background-color: rgba(50,50,50,.25);
+}
+
+/*Footer*/
+.css-1kmyg41 {
+    display: none !important;
+}
+
+/*Bottom player*/
+.css-971clj, .css-1apjtf3 {
+    bottom: 0;
+    height: 10px;
+}
+
+.css-971clj:hover, .css-1apjtf3:hover {
+    bottom: 0;
+    height: 7%;
+    transition: 0.25s;
+}
+
+/*Progress bar*/
+.css-1tqc7q6 {
+    background: linear-gradient(to right, var(--chakra-colors-teal-300), var(--chakra-colors-red-500));
+}
+
+/*Volume slider*/
+.css-awcgr6 {
+    margin-right: var(--chakra-space-3);
+}
+
+/*Filter*/
+.css-46f6tu {
+    background-color: rgba(50,50,50,0.5) !important;
+}
+
+/*Message*/
+.toast-3-title, .css-2xo9js {
+    display: none !important;
+}
+}
+
+@-moz-document url-prefix("https://holodex.net/edit/video"), url-prefix("https://staging.holodex.net/edit/video") {
+/*Seek bar, Put song button*/
+.rel-fgC, .v-application .success {
+    /*background: #85e783 !important;*/
+    /*background: var(--v-primary-base) !important;*/
+}
+
+/*Seek grabber*/
+.v-slider__thumb {
+    width: 9px !important;
+    border-radius: 2px !important;
+}
+
+/*
+.v-application .red, .v-application .red.accent-3 {
+    background-color: #999 !important;
+}
+*/
+
+/*Time button*/
+.tweak-btn, .v-application .success {
+    z-index: 5000 !important;
+}
+
+
+/*Bigger player*/
+.col-md-3 {
+    flex: 0 0 100% !important;
+}
+
+.col-lg-4 {
+    max-width: 55% !important;
+}
+
+.col-md-9 {
+    flex: 0 0 40% !important;
+}
+
+/*Time button, seek, reload button*/
+/*.v-application .red.accent-3, /*Small seek bar bg*/
+.v-application .red, /*Button, small seek bar*/
+/*rel-fgC, /*Big seek bar*/
+.v-application .success  /*Put song button*/
+{
+    /*background-color: #f44336 !important;*/
+    background: linear-gradient(to bottom,var(--v-primary-base),var(--v-primary-darken3)) !important;
+}
+
+/*Big seek bar*/
+.rel-start .v-slider__track-background {
+    background: linear-gradient(to left,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;
+}
+
+.rel-end .v-slider__track-fill {
+    background: linear-gradient(to right,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;
+}
+
+/*Big seek bar thumb*/
+.v-slider__thumb::after {
+    background-color: var(--v-primary-lighten1) !important;
+}
+/*Small seek bar bg*/
+.rel-start .red.accent-3 {
+    background: linear-gradient(to left,var(--v-primary-lighten2),var(--v-primary-base),var(--v-primary-darken4)) !important;
+}
+
+.rel-end .red.accent-3  {
+     background: linear-gradient(to right,var(--v-primary-lighten2),var(--v-primary-base)) !important;
+}
+
+.v-progress-linear {
+    background: var(--v-primary-darken4) !important; 
+}
+/*Disable background*/
+.v-progress-linear__background
+/*Disable apple music icon*/
+{
+    display: none !important;
+}
+
+/*Search results*/
+v-menu__content, menuable__content__active, .v-autocomplete__content {
+    max-width: 5vw !important;
+}
+}
