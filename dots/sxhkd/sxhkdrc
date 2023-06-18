@@ -2,12 +2,22 @@
 # wm independent hotkeys
 #
 
+#ctrl + z
+#	bspc quit	
+#ctrl + x
+#	xrandr --output HDMI-0 --off
+#ctrl + v
+#	xrandr --output HDMI-0 --auto && xrandr --output HDMI-0 --right-of DP-0
 # hotkeys
 # Screenshot
 Print
 	$HOME/bin/shota
 shift + Print
 	$HOME/bin/shotw
+ctrl + Print
+	$HOME/bin/shotsel
+ctrl + shift + Print
+	$HOME/bin/shotmon1
 # Media Next
 XF86AudioNext
 	mpc next
@@ -16,9 +26,11 @@ XF86AudioPrev
 XF86AudioMute
 	amixer set Master toggle
 XF86AudioLowerVolume
-	/home/rnx/sh/masterdown.sh
+	amixer set Master 2%-
+#	sh/pulsedown.sh
 XF86AudioRaiseVolume
-	/home/rnx/sh/masterup.sh
+	amixer set Master 2%+
+	sh/pulseup.sh
 XF86AudioPlay
 	mpc toggle
 # Lock screen
@@ -28,9 +40,9 @@ super + F11
 super + Return
 #	xfce4-terminal
 	kitty
-# terminal dropdown
+# drop down terminal
 super + shift + Return
-	kitty --class dropdown &
+    kitty --class dropdown &
 
 # program launcher
 super + @space
