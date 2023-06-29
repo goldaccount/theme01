@@ -1,4 +1,3 @@
-@-moz-document domain("www.youtube.com"), domain("www.youtube-nocookie.com") {
 #tp-yt-paper-dialog, #related, #comments, #alerts, #reorder, #logo, end/*Top right nav*/, #chips-wrapper,
 ytd-playlist-sidebar-renderer, ytd-mini-guide-renderer,
 .ytp-fullerscreen-edu-button,
@@ -6,8 +5,6 @@ ytd-playlist-sidebar-renderer, ytd-mini-guide-renderer,
 .html5-endscreen, .ytp-ce-element, ytd-live-chat-frame,
 .ytp-pause-overlay,
 .ytp-prev-button, .ytp-play-button, .ytp-next-button, .sytp-gradient-bottom, .ytp-gradient-top, #voice-search-button, chat,
-ytd-playlist-header-renderer,
-.ended-mode,
 .ytp-subtitles-button, .annotation, .ytp-large-play-button, .ytd-mini-guide-renderer, .ytp-size-button, .ytp-fullscreen-button, .ytp-miniplayer-button, .ytp-chrome-top
 {
  	display: none !important;
@@ -51,6 +48,11 @@ ytp-tooltip ytp-bottom ytp-preview {
 
 .ytp-exp-bottom-control-flexbox .ytp-chrome-controls {
     display: block !important;
+}
+
+/*Playlist header*/
+.ytd-playlist-header-renderer {
+    opacity: 0.7 !important;
 }
 
 /*.ytp-chrome-bottom:hover, */
@@ -141,17 +143,6 @@ app-toolbar, .ytp-menuitem, h1.title:hover,
 }
 
 /*Videos*/
-
-.video-stream {
-    width: 100% !important;
-    height: 1080px !important;
-    left: 0px !important;
-}
-
-#player-wide-container {
-    max-height: 100vh !important;
-}
-
 #contents {
     margin-top: 15px !important;
 }
@@ -190,5 +181,4 @@ app-toolbar, .ytp-menuitem, h1.title:hover,
     opacity: 0.9 !important;
     height: 25% !important;
     transition: 0.25s !important;
-}
 }
