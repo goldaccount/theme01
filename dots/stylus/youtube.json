@@ -147,6 +147,14 @@ app-toolbar, .ytp-menuitem, h1.title:hover,
     left: 0px !important;
 }
 
+/*Remove end screen*/
+
+.ended-mode > .html5-video-container > .html5-main-video {
+    top: 0px !important;
+}
+
+/*Make player full height*/
+
 #player-wide-container {
     max-height: 100vh !important;
 }
