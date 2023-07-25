@@ -1,0 +1,55 @@
+;https://design-system.hpe.design/foundation/color
+[colors]
+;green
+text1 = #17EBA0
+;teal
+text2 =	#82FFF2
+;purple
+text3 = #7630EA
+;red
+text4 = #C54E4B
+;yellow
+text5 = #FEC901
+;orange
+text6 = #FF8300
+;blue
+text7 = #00739D
+text1d = #008567
+text2d = #117B82
+text3d = #6633BC
+text4d = #A2423D
+text5d = #9B6310
+text6d = #8D741C
+text7d = #00567A
+;teal
+focus1 = #00E8CF
+focus1d = #117B82
+;teal
+active = #00E8CF
+inactive = #117B82
+;orange
+warn = #FEC901
+;grey
+bg1 = #263040
+;light grey
+bg2 = #404B5C
+
+;hpefocus = #00E8CF
+;hpegreen = #01A982
+;hpeteal = #00E8CF
+;hpepurple = #7630EA
+;hpered = #C54E4B
+;hpeyellow = #FEC901
+;hpeorange = #FF8300
+;hpeblue = #00739D
+;hpedgreen = #008567
+;hpedpurple = #6633BC
+;hpedteal = #117B82
+;hpedblue = #00567A
+;hpedred = #A2423D
+;hpedorange = #9B6310
+;hpedyellow = #8D741C
+;hpebg = #263040
+;hpefg = #404B5C
+;hpestatusok = #17EBA0
+;hpestatuswarning = #FFBC44

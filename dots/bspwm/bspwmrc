@@ -2,7 +2,7 @@
 
 sxhkd &
 $HOME/bin/custominit
-$HOME/.config/polybar/init.sh
+#$HOME/.config/polybar/init.sh
 
 #include script to split monitors if exist
 .config/bspwm/monitorset.sh

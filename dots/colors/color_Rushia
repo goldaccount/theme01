@@ -1,0 +1,54 @@
+#!/bin/zsh
+activeborder=#27fac6
+inactiveborder=#364474
+
+text1=#27fac6
+text2=#edc3e9
+text3=#b2facb
+text4=#93b7e9
+text5=#ecabf2
+text1d=#7e6364
+text2d=#6dbccb
+text3d=#364474
+text4d=#7e6364
+text5d=#b48ada
+focus1=#27fac6
+focus1d=#2c3964
+active=#4499cc
+inactive=#2e7aa7
+warn=#fdfeab
+bg2=#4a5681
+bg1=#2a3459
+
+
+#main	#b2facb	light springgreen
+#maind	#6fccb5	springgreen
+#main2	#93b7e9	light bluepurple
+#main2d	#364474	bluepurple
+#dark	#272727	dark reddish
+#dark2	#7e6364	dark red
+#dark3	#4f4f4f	lighter dark reddish
+#redd	#902621	
+#red	#c22b24	brighter red
+#blue	#4499cc	blue
+#blue2	#2c3964	#2a3459 darker blue
+#teal2	#27fac6	main cyan
+#white	#fdfcfd	
+#skin	#fff1e6
+#skind	#f2b2b0
+#skin2	#fdb6a8
+#
+#Alt
+#main	#9ef6f1	lighter cyan
+#maind	#6dbccb	lighter bluepurple
+#main2	#ecabf2	light purple
+#main2d	#b48ada	purple
+#yellow	#fdfeab	
+#yellowd	#e7c775
+#purple	#edc3e9	lighter purplepink
+#purpled	#d478c0	
+#dark	#303030
+#dark2	#2c2e2d
+
+
+
