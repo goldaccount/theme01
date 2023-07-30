@@ -1,0 +1,23 @@
+[
+  {
+    "uuid": "066153da-b03a-4088-a290-8c66264a3a08",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "shopee.vn"
+      ],
+      "path": [
+        "*-i*",
+        "*atk*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Shopee",
+    "redirectUrl": "{protocol}//{hostname}/{pathname/.*-i\\./product/|/\\.//}",
+    "description": "Redirect%20rule%20to%20%7Bprotocol%7D%2F%2F%7Bhostname%7D%2F%7Bpathname%2F%5C.*.*.%5C%2Faaa%7D"
+  }
+]
