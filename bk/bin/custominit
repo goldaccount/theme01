@@ -1,0 +1,17 @@
+#!/bin/zsh
+#Set monitors
+#bin/displaysetup.sh
+#Set background
+feh --image-bg "#000" --bg-max $HOME/Pictures/84933825_p0.jpg
+#feh --image-bg "#000" --bg-fill $HOME/w11.jpg
+./wallchange.sh list 900 &
+vol f 0
+vol s 0
+vol c 0
+vol lfe 0
+mpd &
+#.config/mpd/mpdinit.sh
+#Init picom
+#picom -b --config=$HOME/.config/picom/picom.conf
+#.config/polybar/init.sh
+#xrandr --output DP-2 --auto --right-of DP-0

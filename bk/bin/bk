@@ -1,0 +1,12 @@
+#!/bin/bash
+today=".config/backup"$(date +%Y%m%d)".log"
+rsync -chiru --log-file=$today .config $1/BackupLinux/. \
+	--exclude=.config/BraveSoftware* \
+	--exclude=.config/transmission* \
+	--exclude=.config/Microsoft* \
+	--exclude=*Analytics* \
+	--exclude=*GIMP* \
+	--exclude=*libre*
+rsync -clhiru --log-file=$today .local/bin $1/BackupLinux/.local/. 
+rsync -clhiru --log-file=$today bin $1/BackupLinux/. \
+	--exclude=*kitty*
