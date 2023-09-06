@@ -1,0 +1,3 @@
+tmpfs /tmp tmpfs defaults,size=8G 0 0
+tn1:/mnt/p1/p1a /home/nr2/mount/p1a nfs rw 1 2
+tn1:/mnt/p1/p1a/Music /home/nr2/mount/Music nfs ro 1 2
