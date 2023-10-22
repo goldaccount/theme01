@@ -3,15 +3,15 @@
 sxhkd &
 $HOME/bin/custominit
 #$HOME/.config/polybar/init.sh
-
+fcitx &
 #include script to split monitors if exist
 .config/bspwm/monitorset.sh
 #bspc monitor -d I II III IV V VI VII VIII IX X
 #bspc monitor DP-0 -d 1 2 3 4 5
 #bspc monitor DP-3 -d 6 7 8 9 0
 
-bspc config border_width         3
-bspc config window_gap          3
+bspc config border_width         2
+bspc config window_gap          1
 
 bspc config split_ratio          0.5
 bspc config borderless_monocle   true
@@ -21,7 +21,6 @@ bspc config gapless_monocle      true
 $HOME/.config/bspwm/applytheme.sh
 
 bspc rule -a Gimp desktop='^8' state=floating follow=on
-bspc rule -a firefox desktop='^1' follow=on
 #bspc rule -a mplayer2 state=floating desktop=^8
 bspc rule -a display state=floating follow=on manage=off
 bspc rule -a mpv desktop='^5' state=floating follow=on
@@ -40,3 +39,8 @@ bspc rule -a fc state=floating follow=on focus=on rectangle=1200x500+360+350
 #bspc rule -a fcf state=floating desktop=^8 follow=on focus=on rectangle=1920x1080+960+60
 bspc rule -a fcf state=floating follow=on focus=on rectangle=1875x845+982+177
 bspc rule -a Anydesk desktop=^9 state=floating focus=off follow=off rectangle=600x400+500+500
+bspc rule -a Steam state=floating follow=off
+bspc rule -a steam state=floating follow=off
+bspc rule -a firefox follow=off focus=off
+bspc rule -a Devtools state=floating follow=off focus=off
+bspc rule -a "steam_app_0":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20
