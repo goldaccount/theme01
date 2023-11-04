@@ -1,0 +1,47 @@
+cursor
+#normal text, vim border, currentsong
+foreground
+background
+selection_background
+selection_foreground
+
+color0	
+color8
+color1
+color9
+color2
+color10
+color3
+color11
+color4
+color12
+color5
+color13
+color6
+color14
+color7
+color15
+
+active_tab_foreground
+active_tab_background
+inactive_tab_foreground
+inactive_tab_background
+tab_bar_background
+
+#color0		ls invalid dir bg
+#color8		ls dir fg
+#color1 	archive fg, seek fill
+#color9		??
+#color2		bins, 777 dir, cursor, track no.
+#color10	var color $
+#color3		string color?
+#color11	shell commands + vim line number
+#color4		dir fg
+#color12	string color?
+#color5		media files, track duration, select fg
+#color13	value fg
+#color6		shortcuts, artist album
+#color14	;comment?  
+#color7		slash ~, songtitle, trackfill2, var color, vim bottom bar
+#color15	??
+#
