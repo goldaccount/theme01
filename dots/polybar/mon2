@@ -1,4 +1,4 @@
 include-file = $HOME/.config/polybar/config.ini
 
 [bar/general]
-monitor = DP-4
+monitor = DP-2

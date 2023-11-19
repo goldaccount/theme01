@@ -1,6 +1,6 @@
 #!/bin/zsh
-/usr/local/bin/polybar -r -c .config/polybar/mon2 wm &
-/usr/local/bin/polybar -r -c .config/polybar/mon2 menu &
+polybar -r -c .config/polybar/mon2 wm &
+polybar -r -c .config/polybar/mon2 menu &
 polybar -r -c .config/polybar/mon2 music &
 polybar -r -c .config/polybar/mon2 info &
 polybar -r -c .config/polybar/mon2 clock &
