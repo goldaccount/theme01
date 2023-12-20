@@ -44,3 +44,5 @@ bspc rule -a steam state=floating follow=off
 bspc rule -a firefox follow=off focus=off
 bspc rule -a Devtools state=floating follow=off focus=off
 bspc rule -a "steam_app_0":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20
+bspc rule -a "HoloParade":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20
+bspc rule -a "Onboard" state=floating follow=off focus=off desktop=focused
