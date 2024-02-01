@@ -1,10 +1,11 @@
 [mpd]
-mpd_music_dir = ~/.config/mpd/music/music
+mpd_music_dir = ~/.config/mpd/music/
+#mpd_music_dir = /tmp/hololive
 #mpd_host = "localhost"
 #mpd_port = 6600
 mpd_host = "~/.config/mpd/socket"
 #execute_on_song_change = ~/test.sh
-execute_on_song_change = ~/.config/ncmpcpp/ueberzug/ncmpcpp_cover_art.sh
+#execute_on_song_change = ~/.config/ncmpcpp/ueberzug/ncmpcpp_cover_art.sh
 mpd_crossfade-time = 2
 
 [global]

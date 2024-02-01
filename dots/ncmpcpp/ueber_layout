@@ -1,10 +1,10 @@
 #Ueberzug
-#[mpd]
-#execute_on_song_change = /home/nr2/ncmpcpp_cover_art.sh
+[mpd]
+execute_on_song_change = $HOME/.config/ncmpcpp/ueberzug/ncmpcpp_cover_art.sh
 
 [global]
 visualizer_look = "  "
 startup_screen = visualizer
 startup_slave_screen = "playlist"
 startup_slave_screen_focus = yes
-locked_screen_width_part = 40
+locked_screen_width_part = 30

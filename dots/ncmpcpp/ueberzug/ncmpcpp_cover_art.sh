@@ -4,10 +4,10 @@
 # SETTINGS
 music_library="/home/nr2/.config/mpd/music"
 fallback_image="/home/nr2/.config/ncmpcpp/ueberzug/default.png"
-padding_top=2
-padding_bottom=2
+padding_top=5
+padding_bottom=3
 padding_right=1
-max_width=40
+max_width=39
 reserved_playlist_cols=40
 reserved_cols_in_percent="true"
 force_square="false"
@@ -42,8 +42,8 @@ kill_previous_instances() {
 find_cover_image() {
 	tempIFS=$IFS
 	IFS="\b"
-input=$music_library/music/`mpc --host="/home/nr2/.config/mpd/socket" --format %file% current`                                                                      
-ext=`echo "$input" | sed 's/^.*\.//'`
+	input=$music_library/`mpc --host="/home/nr2/.config/mpd/socket" --format %file% current` 
+	ext=`echo "$input" | sed 's/^.*\.//'`
 	if [ "$ext" = "flac" ]; then                                   
     	metaflac --export-picture-to=/tmp/mpd_cover.jpg $input &&  
 	    cover_path="/tmp/mpd_cover.jpg" && return
@@ -60,173 +60,20 @@ ext=`echo "$input" | sed 's/^.*\.//'`
 }
 
 display_cover_image() {
-	compute_geometry
-	send_to_ueberzug \
-        action "add" \
-        identifier "mpd_cover" \
-        path "$cover_path" \
-        x "$ueber_left" \
-        y "$padding_top" \
-        height "$ueber_height" \
-        width "$ueber_width" \
-        synchronously_draw "True" \
-        scaler "forced_cover" \
-        scaling_position_x "0.5"
+	term_x=`kitty +kitten icat --print-window-size | cut -dx -f1`
+	term_y=`kitty +kitten icat --print-window-size | cut -dx -f2`
+	img_x=`expr ${term_x} / ${max_width}`
+	img_y=`expr ${term_y} \* ${max_width} / 1000 - ${padding_bottom} `
+	kitty +kitten icat --clear
+	kitty +kitten icat --engine magick -z -5 --align left --scale-up --place ${img_x}x${img_y}@${padding_left}x${padding_top} ${cover_path}
+	#kitty +kitten icat --align left --scale-up --place 50x50@${padding_left}x${padding_top} ${cover_path}
 }
 
 detect_window_resizes() {
     {
-        trap 'display_cover_image' WINCH
-        while :; do sleep .1; done
+#        trap 'display_cover_image' WINCH
+#        while :; do sleep .1; done
     } &
 }
-
-
-# ==== Helper functions =========================================================
-
-compute_geometry() {
-    unset LINES COLUMNS # Required in order for tput to work in a script
-    term_lines=$(tput lines)
-    term_cols=$(tput cols)
-    if [ -z "$font_height" ] || [ -z "$font_height" ]; then
-        guess_font_size
-    fi
-
-    ueber_height=$(( term_lines - padding_top - padding_bottom ))
-    # Because Ueberzug uses characters as a unit we must multiply
-    # the line count (height) by the font size ratio in order to
-    # obtain an equivalent width in column count
-    ueber_width=$(( ueber_height * font_height / font_width ))
-    ueber_left=$(( term_cols - ueber_width - padding_right ))
-
-    if [ "$left_aligned" = "true" ]; then
-        compute_geometry_left_aligned
-    else
-        compute_geometry_right_aligned
-    fi
-
-    apply_force_square_setting
-}
-
-compute_geometry_left_aligned() {
-    ueber_left=$padding_left
-    max_width_chars=$(( term_cols * max_width / 100 ))
-    if [ "$max_width" != 0 ] &&
-        [ $(( ueber_width + padding_right + padding_left )) -gt "$max_width_chars" ]; then
-        ueber_width=$(( max_width_chars - padding_left - padding_right ))
-    fi
-}
-
-compute_geometry_right_aligned() {
-    if [ "$reserved_cols_in_percent" = "true" ]; then
-        ueber_left_percent=$(printf "%.0f\n" $(calc "$ueber_left" / "$term_cols" '*' 100))
-        if [ "$ueber_left_percent" -lt "$reserved_playlist_cols" ]; then
-            ueber_left=$(( term_cols * reserved_playlist_cols / 100  ))
-            ueber_width=$(( term_cols - ueber_left - padding_right ))
-        fi
-    else
-        if [ "$ueber_left" -lt "$reserved_playlist_cols" ]; then
-            ueber_left=$reserved_playlist_cols
-            ueber_width=$(( term_cols - ueber_left - padding_right ))
-        fi
-
-    fi
-
-    if [ "$max_width" != 0 ] && [ "$ueber_width" -gt "$max_width" ]; then
-        ueber_width=$max_width
-        ueber_left=$(( term_cols - ueber_width - padding_right ))
-    fi
-}
-
-apply_force_square_setting() {
-    if [ $force_square = "true" ]; then
-        ueber_height=$(( ueber_width * font_width / font_height ))
-        case "$square_alignment" in
-            center)
-                area=$(( term_lines - padding_top - padding_bottom ))
-                padding_top=$(( padding_top + area / 2 - ueber_height / 2  ))
-                ;;
-            bottom)
-                padding_top=$(( term_lines - padding_bottom - ueber_height ))
-                ;;
-            *) ;;
-        esac
-    fi
-}
-
-guess_font_size() {
-    # A font width and height estimate is required to
-    # properly compute the cover width (in columns).
-    # We are reproducing the arithmetic used by Ueberzug
-    # to guess font size.
-    # https://github.com/seebye/ueberzug/blob/master/ueberzug/terminal.py#L24
-
-    guess_terminal_pixelsize
-
-    approx_font_width=$(( term_width / term_cols ))
-    approx_font_height=$(( term_height / term_lines ))
-
-    term_xpadding=$(( ( - approx_font_width * term_cols + term_width ) / 2 ))
-    term_ypadding=$(( ( - approx_font_height * term_lines + term_height ) / 2 ))
-
-    font_width=$(( (term_width - 2 * term_xpadding) / term_cols ))
-    font_height=$(( (term_height - 2 * term_ypadding) / term_lines ))
-}
-
-guess_terminal_pixelsize() {
-    # We are re-using the same Python snippet that
-    # Ueberzug utilizes to retrieve terminal window size.
-    # https://github.com/seebye/ueberzug/blob/master/ueberzug/terminal.py#L10
-
-    python <<END
-import sys, struct, fcntl, termios
-
-def get_geometry():
-    fd_pty = sys.stdout.fileno()
-    farg = struct.pack("HHHH", 0, 0, 0, 0)
-    fretint = fcntl.ioctl(fd_pty, termios.TIOCGWINSZ, farg)
-    rows, cols, xpixels, ypixels = struct.unpack("HHHH", fretint)
-    return "{} {}".format(xpixels, ypixels)
-
-output = get_geometry()
-f = open("/tmp/ncmpcpp_geometry.txt", "w")
-f.write(output)
-f.close()
-END
-
-    # ioctl doesn't work inside $() for some reason so we
-    # must use a temporary file
-    term_width=$(awk '{print $1}' /tmp/ncmpcpp_geometry.txt)
-    term_height=$(awk '{print $2}' /tmp/ncmpcpp_geometry.txt)
-    rm "/tmp/ncmpcpp_geometry.txt"
-
-    if ! is_font_size_successfully_computed; then
-        echo "Failed to guess font size, try setting it in ncmpcpp_cover_art.sh settings"
-    fi
-}
-
-is_font_size_successfully_computed() {
-    [ -n "$term_height" ] && [ -n "$term_width" ] &&
-        [ "$term_height" != "0" ] && [ "$term_width" != "0" ]
-}
-
-
-calc() {
-    awk "BEGIN{print $*}"
-}
-
-send_to_ueberzug() {
-    old_IFS="$IFS"
-#	fifoueber="/tmp/mpd_ueberzug"
-    # Ueberzug's "simple parser" uses tab-separated
-    # keys and values so we separate words with tabs
-    # and send the result to the wrapper's FIFO
-    IFS="$(printf "\t")"
-#    echo "$*" > "$fifoueber"
-    echo "$*" > "$FIFO_UEBERZUG"
-
-    IFS=${old_IFS}
-}
-
 
 main

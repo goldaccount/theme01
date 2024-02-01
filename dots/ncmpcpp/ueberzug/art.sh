@@ -2,7 +2,7 @@
 
 #put this file to ~/.ncmpcpp/
 
-MUSIC_DIR=$HOME/.config/mpd/music #path to your music dir
+MUSIC_DIR=$HOME/.config/mpd/music/music #path to your music dir
 
 COVER=/tmp/cover.jpg
 
