@@ -20,9 +20,9 @@ ctrl + shift + Print
 	$HOME/bin/shotmon1
 # Media Next
 XF86AudioNext
-	mpc next
+	mpc -h /home/nr2/.config/mpd/socket next
 XF86AudioPrev
-	mpc prev
+	mpc -h /home/nr2/.config/mpd/socket prev
 XF86AudioMute
 	amixer set Master toggle
 XF86AudioLowerVolume
@@ -32,7 +32,7 @@ XF86AudioRaiseVolume
 	amixer set Master 2%+
 	sh/pulseup.sh
 XF86AudioPlay
-	mpc toggle
+	mpc -h /home/nr2/.config/mpd/socket toggle
 # Lock screen
 super + F11
 	xlock
@@ -51,6 +51,12 @@ super + @space
 # make sxhkd reload its configuration files:
 super + F12
 	pkill -USR1 -x sxhkd
+
+# Auto click
+ctrl + alt + b
+   xdotool click --delay 200 --repeat 5000 1
+ctrl + alt + d
+   killall xdotool
 
 #
 # bspwm hotkeys

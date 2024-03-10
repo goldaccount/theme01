@@ -20,13 +20,13 @@ bspc config gapless_monocle      true
 #Apply theme color
 $HOME/.config/bspwm/applytheme.sh
 
-bspc rule -a Gimp state=floating follow=on
+bspc rule -a Gimp desktop='^8' state=floating follow=on
 #bspc rule -a mplayer2 state=floating desktop=^8
 bspc rule -a display state=floating follow=on manage=off
-bspc rule -a mpv state=floating follow=on
+bspc rule -a mpv desktop='^5' state=floating follow=on
 bspc rule -a feh state=floating follow=on
 bspc rule -a "Galculator" state=floating state=floating focus=on rectangle=320x320+15+865
-bspc rule -a obs state=floating rectangle=450x600
+bspc rule -a obs state=floating desktop=^8 rectangle=450x600
 bspc rule -a "*:Toolkit:Picture-in-Picture" state=floating sticky=on follow=off rectangle=640x360+5+840
 bspc rule -a Virt-manager state=floating desktop=^9 follow=off rectangle=693x362+2984+502
 bspc rule -a dropdown state=floating follow=on focus=on rectangle=620x50+645+28
@@ -43,8 +43,5 @@ bspc rule -a Steam state=floating follow=off
 bspc rule -a steam state=floating follow=off
 bspc rule -a firefox follow=off focus=off
 bspc rule -a Devtools state=floating follow=off focus=off
-bspc rule -a "steam_app_0":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20 border=off
-bspc rule -a "HoloParade":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20
-bspc rule -a "Onboard" state=floating follow=off focus=off desktop=focused
-bspc rule -a steam_app_1856480 state=floating desktop=^1 follow=on focus=on rectangle=1920x1080+15+15
-bspc rule -a steam_app_0\:\*\:Textractor state=floating rectangle=400x350+20+30 desktop=^6 focus=off follow=off
+bspc rule -a "steam_app_0":\*:\* state=floating focus=on follow=on desktop=^1 rectangle=1920x1080+20+20
+bspc rule -a "Onboard" state=floating follow=off focus=off
