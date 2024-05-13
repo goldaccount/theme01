@@ -1,0 +1,846 @@
+[
+  {
+    "uuid": "3baa759b-9afc-41ef-b770-c60e1d9383d2",
+    "description": "Filter rule to skip and prevent redirection tracking on multiple hosts.",
+    "tag": "filter-multiple",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.tradedoubler.com",
+        "out.reddit.com",
+        "steamcommunity.com"
+      ],
+      "path": "*url=*"
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "title": "Stop Google search link tracking",
+    "uuid": "60f46cfa-b906-4a2d-ab66-8f26dc35e97f",
+    "description": "This%20filter%20rule%20prevents%20Google%20from%20obtaining%20the%20URL%20of%20clicked%20search%20link%20via%20URL%20redirection.%20The%20tracking%20request%20done%20in%20background%20is%20classified%20as%20a%20Sub%20Document%20type.%20This%20rule%20provides%20an%20example%20of%20using%20the%20top-level%20domains%20pattern.",
+    "tag": "filter-google",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.google.*"
+      ],
+      "topLevelDomains": [
+        "com",
+        "ad",
+        "ae",
+        "com.af",
+        "com.ag",
+        "com.ai",
+        "al",
+        "am",
+        "co.ao",
+        "com.ar",
+        "as",
+        "at",
+        "com.au",
+        "az",
+        "ba",
+        "com.bd",
+        "be",
+        "bf",
+        "bg",
+        "com.bh",
+        "bi",
+        "bj",
+        "com.bn",
+        "com.bo",
+        "com.br",
+        "bs",
+        "bt",
+        "co.bw",
+        "by",
+        "com.bz",
+        "ca",
+        "cd",
+        "cf",
+        "cg",
+        "ch",
+        "ci",
+        "co.ck",
+        "cl",
+        "cm",
+        "cn",
+        "com.co",
+        "co.cr",
+        "com.cu",
+        "cv",
+        "com.cy",
+        "cz",
+        "de",
+        "dj",
+        "dk",
+        "dm",
+        "com.do",
+        "dz",
+        "com.ec",
+        "ee",
+        "com.eg",
+        "es",
+        "com.et",
+        "fi",
+        "com.fj",
+        "fm",
+        "fr",
+        "ga",
+        "ge",
+        "gg",
+        "com.gh",
+        "com.gi",
+        "gl",
+        "gm",
+        "gp",
+        "gr",
+        "com.gt",
+        "gy",
+        "com.hk",
+        "hn",
+        "hr",
+        "ht",
+        "hu",
+        "co.id",
+        "ie",
+        "co.il",
+        "im",
+        "co.in",
+        "iq",
+        "is",
+        "it",
+        "je",
+        "com.jm",
+        "jo",
+        "co.jp",
+        "co.ke",
+        "com.kh",
+        "ki",
+        "kg",
+        "co.kr",
+        "com.kw",
+        "kz",
+        "la",
+        "com.lb",
+        "li",
+        "lk",
+        "co.ls",
+        "lt",
+        "lu",
+        "lv",
+        "com.ly",
+        "co.ma",
+        "md",
+        "me",
+        "mg",
+        "mk",
+        "ml",
+        "com.mm",
+        "mn",
+        "ms",
+        "com.mt",
+        "mu",
+        "mv",
+        "mw",
+        "com.mx",
+        "com.my",
+        "co.mz",
+        "com.na",
+        "com.nf",
+        "com.ng",
+        "com.ni",
+        "ng",
+        "ne",
+        "nl",
+        "no",
+        "com.np",
+        "nr",
+        "nu",
+        "co.nz",
+        "com.om",
+        "com.pa",
+        "com.pe",
+        "com.pg",
+        "com.ph",
+        "com.pk",
+        "pl",
+        "pn",
+        "com.pr",
+        "ps",
+        "pt",
+        "com.py",
+        "com.qa",
+        "ro",
+        "ru",
+        "rw",
+        "com.sa",
+        "com.sb",
+        "sc",
+        "se",
+        "com.sg",
+        "sh",
+        "si",
+        "sk",
+        "com.sl",
+        "sn",
+        "so",
+        "sm",
+        "sr",
+        "st",
+        "com.sv",
+        "td",
+        "tg",
+        "co.th",
+        "com.tj",
+        "tk",
+        "tl",
+        "tm",
+        "tn",
+        "to",
+        "com.tr",
+        "tt",
+        "com.tw",
+        "co.tz",
+        "com.ua",
+        "co.ug",
+        "co.uk",
+        "com.uy",
+        "co.uz",
+        "com.vc",
+        "co.ve",
+        "vg",
+        "co.vi",
+        "com.vn",
+        "vu",
+        "ws",
+        "rs",
+        "co.za",
+        "co.zm",
+        "co.zw",
+        "cat"
+      ],
+      "path": [
+        "url?*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame",
+      "beacon"
+    ],
+    "action": "filter",
+    "redirectDocument": true,
+    "active": true
+  },
+  {
+    "title": "Skip outgoing page confirmation on DeviantArt",
+    "uuid": "bc145190-0b68-4ff4-84d3-321e131cd253",
+    "tag": "filter-deviantArt",
+    "pattern": {
+      "scheme": "*",
+      "host": "*.deviantart.com",
+      "path": "*outgoing?*"
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "title": "Skip Mozilla's outgoing link redirection service",
+    "uuid": "3c4d6fa0-e2fb-4079-b3f0-e453ebe289ae",
+    "tag": "filter-mozilla",
+    "pattern": {
+      "scheme": "*",
+      "host": "outgoing.prod.mozaws.net",
+      "path": "*"
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "title": "Remove UTM query parameters",
+    "uuid": "5276a290-b21a-4deb-a86e-aa54c3ff1bcc",
+    "description": "Remove UTM query parameters from requests. UTM query parameters are commonly used as a method to analyze the origin of traffic.",
+    "tag": "filter-utm",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*"
+      ],
+      "path": [
+        "*utm_*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "skipRedirectionFilter": true,
+    "paramsFilter": {
+      "values": [
+        "utm_*"
+      ]
+    }
+  },
+  {
+    "title": "Block Beacon and Ping requests",
+    "uuid": "32db1f93-f99d-4c45-8485-e5c7beec5a69",
+    "pattern": {
+      "allUrls": true
+    },
+    "action": "block",
+    "active": true,
+    "types": [
+      "beacon",
+      "ping"
+    ],
+    "tag": "block-beacon",
+    "description": "The%20Beacon%20API%20is%20often%20used%20for%20logging%20user%20activity%20and%20sending%20analytics%20data%20to%20the%20server."
+  },
+  {
+    "title": "Stop Facebook's outgoing link redirection service tracking",
+    "uuid": "07be1337-ceec-4a93-a49e-67e051124a7f",
+    "description": "This filter rule prevents Facebook from obtaining the URL of clicked search link via URL redirection.",
+    "tag": "filter-facebook",
+    "pattern": {
+      "scheme": "*",
+      "host": "l.facebook.*",
+      "topLevelDomains": [
+        "com",
+        "net"
+      ],
+      "path": "l.php?u=*"
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true
+  },
+  {
+    "title": "Remove FBCLID query parameters",
+    "uuid": "07be1337-4d49-475b-9062-8b191099621b",
+    "description": "Remove fbclid query parameters from requests. Facebook click identifier query parameters are commonly used as a method to analyze the origin of traffic.",
+    "tag": "filter-facebook",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*"
+      ],
+      "path": [
+        "*fbclid*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "paramsFilter": {
+      "values": [
+        "fbclid"
+      ]
+    },
+    "skipRedirectionFilter": true
+  },
+  {
+    "uuid": "e5f9d651-90f8-4bb7-ae7a-7d3eb96f6c93",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "www.reddit.com"
+      ],
+      "path": [
+        "*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname/www/old}{pathname}",
+    "title": "Redirect%20to%20old%20reddit",
+    "description": "Redirect%20rule%20to%20https%3A%2F%2F%7Bhostname%2Fwww%2Fold%7D%7Bpathname%7D",
+    "tag": "reddit"
+  },
+  {
+    "uuid": "84ac7000-51e5-4074-8f20-62ba5fbf4604",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "danbooru.donmai.us"
+      ],
+      "path": [
+        "*?q=*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname}{pathname/\\?q=*/}",
+    "paramsFilter": {
+      "values": [
+        "?q=*",
+        "\\?q=*",
+        "q=*"
+      ]
+    },
+    "title": "Redirect%3A%20danbooru.donmai.us%20%E2%86%92%20https%3A%2F%2F%7Bhostname%7D%7Bpathname%2F%5C%3Fq%3D*%2F%7D"
+  },
+  {
+    "uuid": "156171ed-fd30-4f75-866c-e3c29046204c",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.donmai.us"
+      ],
+      "path": [
+        "*sample*"
+      ]
+    },
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname}{pathname//sample\\//original/|//sample-/}",
+    "paramsFilter": {
+      "values": [
+        "sample"
+      ]
+    },
+    "types": [
+      "image"
+    ],
+    "tag": "base",
+    "title": "Redirect%3A%20donmai.us%20%E2%86%92%20https%3A%2F%2F%7Bhostname%7D%7Bpathname%2F%2Fsample%5C%2F%2Foriginal%2F%7C%2F%2Fsample-%2F%7D"
+  },
+  {
+    "uuid": "d9626181-3b85-403e-bcf6-15a1f913d44b",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "i.pximg.net"
+      ],
+      "path": [
+        "img-*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame",
+      "image"
+    ],
+    "action": "redirect",
+    "active": false,
+    "redirectUrl": "https://{hostname}{pathname/master/original|//_master1200/}",
+    "tag": "pixiv",
+    "description": "Redirect%20rule%20to%20https%3A%2F%2F%7Bhostname%7D%7Bpathname%2Fmaster%2Foriginal%7C%2F%2F_master1200%2F%7D",
+    "title": "Pixiv%20original%20image"
+  },
+  {
+    "uuid": "dd57fb22-0aef-413a-8105-d4bcba89fe07",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "media.discordapp.net/stickers"
+      ],
+      "path": [
+        "*&passthrough=false"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "redirectUrl": "",
+    "title": "Trimm%20Discord%20stickers",
+    "paramsFilter": {
+      "values": [
+        "passthrough"
+      ]
+    },
+    "tag": "discord"
+  },
+  {
+    "uuid": "6d74faa4-3507-4a34-bef2-7e93ca96bff4",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "music.holodex.net"
+      ],
+      "path": [
+        "/video/*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Holodex%20edit%20redir",
+    "redirectUrl": "{protocol}//{hostname//music\\./}{pathname/video/edit/video}",
+    "tag": "holodex"
+  },
+  {
+    "uuid": "3055543a-7aa3-4015-b1c6-ee658a334505",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*",
+        "twitter.com"
+      ],
+      "path": [
+        "?ref_src*"
+      ],
+      "topLevelDomains": []
+    },
+    "types": [
+      "main_frame",
+      "sub_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Remove%20twitter%20tracking",
+    "paramsFilter": {
+      "values": [
+        "?ref_src=*"
+      ]
+    },
+    "skipRedirectionFilter": true
+  },
+  {
+    "uuid": "a3455729-9e00-44a3-80c8-e8d7c7764447",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "cdn.discordapp.com"
+      ],
+      "path": [
+        "/emojis/*size=*"
+      ]
+    },
+    "types": [
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "{protocol}//{hostname}{pathname}{search/size=.*/size=128}&quality=lossless",
+    "title": "Discord%20emote",
+    "tag": "discord%2C%20base"
+  },
+  {
+    "uuid": "a9b82928-df54-41d6-ba71-ad001f7cfcf3",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "pbs.twimg.com"
+      ],
+      "path": [
+        "/media/*"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "{protocol}//{hostname}{pathname/.jpg/?format=jpg&name=orig}{search/format=.*/format=jpg&name=orig}",
+    "title": "Twitter%20original%20image",
+    "tag": "base%2C%20twitter"
+  },
+  {
+    "uuid": "7991aa1f-fa65-47c6-a14d-5541e6fa9914",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "pbs.twimg.com"
+      ],
+      "path": [
+        "/media/*.jpg:large"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Twitter%20direct%20link%20image",
+    "redirectUrl": "{protocol}//{hostname}{pathname/.jpg/?format=jpg&name=orig|/:large/}",
+    "tag": "base%2C%20twitter"
+  },
+  {
+    "uuid": "8d4a9b46-b039-455f-8bd1-3e006e1574bd",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "holodex.net"
+      ],
+      "path": [
+        "/watch/*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": false,
+    "title": "Holodex%20watch%20edit%20redir",
+    "redirectUrl": "{protocol}//{hostname}{pathname/watch/edit/video}",
+    "tag": "holodex"
+  },
+  {
+    "uuid": "88d93a15-c1fd-4649-9a3e-a96382406924",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.ebay.com"
+      ],
+      "path": [
+        "*?epid*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "{protocol}//{hostname}{pathname/epid.*/}",
+    "title": "ebay%20link",
+    "paramsFilter": {
+      "values": [
+        "epid*",
+        "hash*"
+      ]
+    },
+    "skipRedirectionFilter": true
+  },
+  {
+    "uuid": "9c6869c0-9dbd-41ef-bb12-0e07992142dd",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "www.youtube.com"
+      ],
+      "path": [
+        "shorts/*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "YouTube%20Shorts",
+    "redirectUrl": "{protocol}//youtu.be{pathname/shorts\\//}",
+    "tag": "youtube"
+  },
+  {
+    "uuid": "875ffc5a-e9a6-458b-afd9-820be8fd9669",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.pixiv.net",
+        "*.youtube.com"
+      ],
+      "path": [
+        "jump*",
+        "redirect*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "filter",
+    "active": true,
+    "title": "Skip%20YouTube%20%26%20pixiv%20Redirect",
+    "paramsFilter": {
+      "values": [
+        "event",
+        "redir_token"
+      ]
+    },
+    "tag": "youtube%2C%20pixiv"
+  },
+  {
+    "uuid": "c9a1523a-1284-468a-ab81-b402c0047440",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*.redd.it"
+      ],
+      "path": [
+        "*width*"
+      ]
+    },
+    "action": "redirect",
+    "active": true,
+    "title": "Redirect%20Reddit%20gallery%20image",
+    "redirectUrl": "{protocol}//{hostname/preview/i}{pathname}",
+    "paramsFilter": {
+      "values": [
+        "auto",
+        "crop",
+        "s",
+        "v",
+        "width"
+      ]
+    },
+    "description": "Redirect%20rule%20to%20%7Bprotocol%7D%2F%2F%7Bhostname%2Fpreview%2Fi%7D%7Bpathname%7D%20for%20direct%20link%20image%20from%20reddit%20gallery",
+    "types": [
+      "image",
+      "main_frame"
+    ],
+    "tag": "reddit"
+  },
+  {
+    "uuid": "712f97c5-d58f-4c87-a9ab-3aeed4d96e07",
+    "pattern": {
+      "scheme": "https",
+      "host": [
+        "cdn.shopify.com",
+        "shop.hololivepro.com"
+      ],
+      "path": [
+        "*"
+      ],
+      "includes": [
+        "/.*?00.*/"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "{protocol}//{hostname}/{pathname/_.00x/}",
+    "title": "Shopify%20base%20image",
+    "tag": "base"
+  },
+  {
+    "uuid": "066153da-b03a-4088-a290-8c66264a3a08",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "shopee.vn"
+      ],
+      "path": [
+        "*-i*",
+        "*atk*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Shopee",
+    "redirectUrl": "{protocol}//{hostname}/{pathname/.*-i\\./product/|/\\.//}",
+    "description": "Redirect%20rule%20to%20%7Bprotocol%7D%2F%2F%7Bhostname%7D%2F%7Bpathname%2F%5C.*.*.%5C%2Faaa%7D"
+  },
+  {
+    "uuid": "7a1eb0ad-a397-4c3b-8de3-4b1926111bc6",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "*"
+      ],
+      "path": [
+        "/*"
+      ],
+      "includes": [
+        "lsp*"
+      ]
+    },
+    "action": "redirect",
+    "active": false,
+    "title": "Proxmox",
+    "redirectUrl": "[protocol=https:]//{hostname}[port=:8006]",
+    "types": [
+      "main_frame"
+    ]
+  },
+  {
+    "uuid": "fc37ffd5-231c-4c19-a57a-33c920a60fe7",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "i0.hdslb.com"
+      ],
+      "path": [
+        "*avif"
+      ]
+    },
+    "types": [
+      "main_frame",
+      "sub_frame",
+      "image"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "{protocol}//{hostname}{pathname/@.*/}",
+    "title": "Original%20image%20hdslb"
+  },
+  {
+    "uuid": "091b0817-4beb-446c-ad61-54fc9bf048d6",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "cdn.cloudflare.steamstatic.com"
+      ],
+      "path": [
+        "/steam/apps/*/library_600x900.jpg*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "redirectUrl": "https://{hostname}{pathname/900/900_2x}",
+    "title": "Steam%20Library%202x"
+  },
+  {
+    "uuid": "92c2a4c7-c73e-4dd5-9118-7c32facf4aa8",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "booth.pximg.net"
+      ],
+      "path": [
+        "*base_resized*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "Booth%20original",
+    "paramsFilter": {
+      "values": [
+        "https://{hostname}{pathname/_base_resized/s}"
+      ]
+    },
+    "redirectUrl": "https://{hostname}{pathname/_base_resized/}"
+  }
+]

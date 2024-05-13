@@ -1,5 +1,5 @@
 // ==UserScript==
-// @name         Discord links remove
+// @name         Discord links
 // @namespace    http://tampermonkey.net/
 // @version      0.1
 // @description  try to take over the world!
@@ -10,17 +10,15 @@
 // ==/UserScript==
 
 function func2(){
-  for (const ax of document.getElementsByClassName("anchor-1X4H4q anchorUnderlineOnHover-wiZFZ_")) {
+  for (const ax of document.getElementsByClassName("anchor_c8ddc0 anchorUnderlineOnHover__03b72")) {
   ax.innerHTML = ax.href;
 	}
-  newchild.style = "top: 20px; left: 70%; position: relative; text-decoration: underline; color: #A00 !important;";
 }
 
 var parentbody = document.querySelector("body");
 var newchild = document.createElement("a");
 newchild.textContent = "LinkDel";
 newchild.href = "#nowhere";
-newchild.style = "top: 20px; left: 70%; position: relative;";
+newchild.style = "top: 10%; left: 80%; position: relative; z-index:200 !important;";
 newchild.onclick = func2;
 parentbody.appendChild(newchild);
-

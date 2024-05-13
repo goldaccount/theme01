@@ -115,3 +115,4 @@ alias rire="rsync -hvriP --ignore-existing"
 alias edge="microsoft-edge"
 # Created by `pipx` on 2024-01-18 13:25:30
 export PATH="$PATH:/home/nr2/.local/bin"
+alias chrome=google-chrome
