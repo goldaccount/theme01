@@ -1,0 +1,9 @@
+
+E:\Gamezz\あけいろ怪奇譚DL版　Ver1.06\WASABIIMAGE\Akeiro.exe
+E:\Gamez\Akeiro\akeiro.exe , |0:1:HSNX0@B3590:Akeiro.EXE
+E:\Gamezz\あけいろ怪奇譚DL版　Ver1.06\WASABIIMAGE\Akeiro.exe
+Z:\home\nr2\steamlib\Games\Akeiro\akeiro.exe , |4870499:0:HA8@0:gdi32.dll:GetGlyphOutlineA
+Z:\home\nr2\steamlib\Games\Yourou\yourou.exe , |0:2:HS-20:-4@2D9C3:yourou.exe
+Z:\home\nr2\steamlib\Games\ButterflySeeker\ButterflySeeker.exe , |4853987:0:HA8@0:gdi32.dll:GetGlyphOutlineA
+Z:\home\nr2\g\ButterflySeeker\ButterflySeeker.exe , |4853987:0:HA8@0:gdi32.dll:GetGlyphOutlineA
+Z:\home\nr2\g5\g\fuyukuru\fuyukuru.exe , |4461884:0:HW8@0:gdi32.dll:GetGlyphOutlineW

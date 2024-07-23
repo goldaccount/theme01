@@ -1,0 +1,1 @@
+Remove Repeated Characters>Regex Filter>Regex Replacer>Google Translate>Replacer>Regex Replacer>Extra Window>Extra Newlines>
