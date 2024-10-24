@@ -1,0 +1,12 @@
+katfile.com##div:nth-of-type(4)
+
+! 2023-10-01 https://serverfault.com
+serverfault.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2023-10-25 https://discord.com
+!discord.com##.buttons_ce5b56 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9 > .button__55e53.button_f0455c.contents_fb6220 > .buttonWrapper__69593 > svg
+
+! Aug 9, 2024 https://gameost.net
+gameost.net##span > div
+gameost.net##div:nth-of-type(3)
+gameost.net##kbd
