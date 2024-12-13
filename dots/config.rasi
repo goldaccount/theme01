@@ -1,0 +1,18 @@
+configuration {
+
+	modi: "calc:qalc,combi,window,ssh";
+	location: 2;
+	yoffset: 22;
+	combi-modes: "run,drun";
+	terminal: "kitty";
+	width: 5;
+	show-icons: true;
+	icon-theme: "papirus";
+	lines: 10;
+	fake-transparency: true;
+	sidebar-mode: true;
+	
+}
+
+
+@import "Monokai.rasi"
