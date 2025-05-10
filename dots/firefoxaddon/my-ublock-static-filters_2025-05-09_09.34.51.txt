@@ -1,0 +1,31 @@
+katfile.com##div:nth-of-type(4)
+
+! 2023-10-01 https://serverfault.com
+serverfault.com##.js-consent-banner.r16.l16.b16.bar-lg.fc-white.bg-black-750.sm\:p16.p32.sm\:w-auto.ws4.z-nav-fixed.ps-fixed.ff-sans
+
+! 2023-10-25 https://discord.com
+!discord.com##.buttons_ce5b56 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9 > .button__55e53.button_f0455c.contents_fb6220 > .buttonWrapper__69593 > svg
+
+! Aug 9, 2024 https://gameost.net
+gameost.net##span > div
+gameost.net##div:nth-of-type(3)
+gameost.net##kbd
+
+! Nov 12, 2024 https://fitgirl-repacks.site
+*.imageban.ru$domain=fitgirl-repacks.site,image
+||*.imageban.ru$image
+
+! Nov 16, 2024 https://fitgirl-repacks.site
+||s01.riotpixels.net/data/$domain=fitgirl-repacks.site,image
+||shared.cloudflare.steamstatic.com/$domain=fitgirl-repacks.site,image
+||shared.akamai.steamstatic.com/store_item_assets/$domain=fitgirl-repacks.site,image
+||media1.tenor.com/$domain=fitgirl-repacks.site,image
+||shared.fastly.steamstatic.com/$domain=fitgirl-repacks.site,image
+
+! Dec 16, 2024 https://www.youtube.com
+||i.ytimg.com/vi/v9qsgWRW3vQ/maxresdefault.jpg$image
+!www.youtube.com###main
+||www.gstatic.com/youtube/img/promos/growth/6ad5a99c727579634bc3e2fb67562a2621170bdd11578967392667be5a05c5e4_384x384.png$image
+
+! Mar 1, 2025 https://poorlydrawnlines.com
+||disqus.com/embed/comments/?base=default&f=poorlydrawnlines&t_i=257721&t_u=https%3A%2F%2Fpoorlydrawnlines.com%2Fcomic%2Fcritic%2F&t_d=Poorly%20Drawn%20Lines%20%7C%20Comics%20by%20Reza%20Farazmand&t_t=Poorly%20Drawn%20Lines%20%7C%20Comics%20by%20Reza%20Farazmand&s_o=default$subdocument

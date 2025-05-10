@@ -1,0 +1,199 @@
+@-moz-document domain("discord.com") {
+* {
+    user-select: text !important;  
+}
+*::selection {
+    background-color: #555 !important;
+    color: #000 !important;
+}
+
+.theme-dark {
+    /*Jump to new button*/
+    --button-filled-brand-background: #333 !important;
+}
+
+a {
+    color: #0AF !important;
+}
+
+/*Servers*/
+[class^=wrapper] {
+    /*width: 80px !important;*/
+}
+
+[class^=wrapper]:hover/*, .wrapper-1_HaEi:hover*/ {
+   /*width: 120px !important;*/
+}
+/*Global var*/
+body {
+    /*--custom-guild-sidebar-width: 100px !important;*/
+    --custom-app-top-bar-height: 0.5vh !important;
+}
+
+/*Channels*/
+[class^="sidebarList"] {
+    width: 1vw !important;
+}
+
+[class^="sidebarList"]:hover {
+    width: 15vw !important;
+}
+
+/*.visual-refresh .sidebarList_c48ade,*/
+/*[aria-label="Servers sidebar"],*/
+[aria-label="Resize Sidebarss"],
+[aria-label="User area"]
+{
+    width: 1vw !important;
+    transition: 0s !important;
+}
+/*.visual-refresh .sidebarList_c48ade:hover,*/
+/*[aria-label="Servers sidebar"]:hover,*/
+[aria-label="User area"]:hover,
+[aria-label*="(server)"]:hover
+/*#channels:hover,[class^="sidebar"]*/
+{
+/*    width: 240px !important;*/
+    transition: 0s !important;
+}
+
+[class^="notice"], [class^="upsell"],[id^="Subscribe"],[class^="channelNotice"]
+{
+    display: none !important;
+}
+
+[class*=jumpToPresentBar], /*Jump to present chat*/
+/*[class^=videoControls], [class^=metadata],*/
+[aria-label="Servers sidebar"],
+[class^="trees"], 
+[class^="title"],
+[class^="centerContent"], [class^="playPausePop"], [class^="playCenter"] {
+    opacity: 0.01 !important;  
+}
+[aria-label="Servers sidebar"]:hover,
+[class*=jumpToPresentBar]:hover, /*Jump to present chat*/
+[class^="tree"]:hover,
+[class^="title"]:hover
+{
+    opacity: 0.5 !important;
+}
+
+
+/*Chat*/
+[aria-label="Channel header"],
+[class^="container"], .highlight,
+[class^="chats"], .wrapper-1_HaEi, container-1NXEtd, .inner__9fd0b {
+    background: #030303 !important;
+    background-color: #030303 !important;
+}
+/*Channels*/
+[class^="title"], [aria-label="Servers sidebar"],
+.container-1NXEtd, .panels-3wFtMD,
+/*Message*/
+[class*="channelTextArea"], [class*="themedBackground"], .scrollableContainer-15eg7h, [class^="message"],
+[class*="formWithLoadedChatInput"],
+/*Search*/
+[class^="searchHeader"], [class^="searchResult"], .channelName-3w2Y3c
+{
+        background: #030303 !important;
+        background-color: #030303 !important;
+}
+
+.attachWrapper-3slhXI {
+    width: 25px !important;
+}
+
+.sansAttachButton-1ERHue {
+    padding-left: 0px !important;
+}
+
+.buttons-uaqb-5 {
+    display: block !important;
+    height: 1px !important;
+    position: relative !important;
+    margin-top: 3px !important;
+}
+
+.placeholder-1_mJY1, .slateTextArea-27tjG0 {
+    padding-right: 0px !important;
+}
+
+.wrapper-Hd8H2G, [id=popout], [class^=aanimatorBottom], [class^=aanimatorTop], [class*=contentPremium], .container-3Csys8, /*Stupid ad*/
+.buttons-uaqb-5, /*All buttons*/
+.buttons-uaqb-5 > .button-f2h6uQ, .icon-1d5zch,
+.toolbar-3_r2xA > .iconWrapper-2awDjA > .icon-2xnN2Y, /*Notification button*/
+[aria-label^="Click to"], /*Inline reaction*/
+#message-add-reaction-1, #message-actions-add-reaction-1, [aria-label="Add Super Reaction"], /*Super reaction*/
+.toolbar-3_r2xA > a.anchor-1MIwyf, /*Discord help button*/
+.shinyButton-2Q9MDB,
+/*.buttons_ce5b56 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9,*/
+[aria-label="Send a gift"],[aria-label="Open GIF picker"],[aria-label="Open sticker picker"],[aria-label="Apps"],
+[class^=blockedSystemMessage], /*Blocked message*/
+.buttons_ce5b56 > .container__5eb17 > .container__5eb17 > .grow__4c8a4.colorBrand_b2253e.lookBlank__7ca0a.button_afdfd9,
+.shinyButton_fc8363, .ctaButton_abf121, /*Get Nitro button*/
+.barButtonMain__0f481, /*Jump to new text*/
+.contentWrapper_e66e14, .content__4f323, .contentExpanded__56788, .wrapper__78610, [class*=quest], .wrapper_a571fb, .wrapperVisible__2ef0b, /*Loot box*/
+[aria-label="Mute"],[aria-label="Deafen"], /*Mute & deafen butons next to setting*/
+[class*=categorySectionNitroLocked],[classs*=nitroTopDividerContainer], 
+[class*=emojiLockIconContainer], /*Nitro gate emoji*/
+[aria-label*="Nitro"]/*All nitro label*/
+{
+    display: none !important;
+}
+
+/*Chat button*/
+.buttons-3dF5Kd, .container-2gUZhU {
+    top: -32px !important;
+}
+
+/*Emoji button*/
+.buttons__74017 {
+    position: relative !important;
+    top: 3.2vh !important;
+    right: 75vw !important;
+    max-height: 1px !important;
+}
+
+/*Chat jump to new*/
+/*jumpToPresentBar__0f481 bottomBar__0f481 barBase__0f481 barWithAppLauncherButton__0f481*/
+[class*=jumpToPresentBar] {
+    
+    min-width: 0px !important;
+    width: 0px !important;
+    margin: 0px 1vw 0px 70vw !important;
+}
+
+/*Emoji & stickers*/
+.emoji {
+    width: 2.375em !important;
+    height: 2.375em !important;
+}
+
+[class^=assetWrapper] {
+    width: 8em !important;
+    height: 8em !important;
+}
+
+/*Search panel*/
+[class^=searchResultsWrap] {
+    width: 35% !important;
+}
+
+.children__32014 {
+    max-width: 70% !important;
+}
+
+.toolbar__88c63 {
+    width: 25% !important;
+}
+
+[class^=searchBar] {
+    width: 35vw !important;
+}
+
+/*Replied text fix discord dum dum*/
+[class^=repliedTextPreview] {
+    max-height: 100% !important;
+}
+
+}
