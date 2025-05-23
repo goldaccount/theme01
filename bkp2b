@@ -1,0 +1,6 @@
+#!/bin/bash
+today=$(date +%Y%m%d)
+echo "bk <new snapshot> <old snapshot>"
+rsync -hiru --files-from=listp2b . z16a/p2b/ > ${today}.log
+sudo zfs snapshot z16a/p2b@${1}
+sudo zfs send -i z16a/p2b@${2} z16a/p2b@${1} | pv -ptber | ssh tn2 "sudo /sbin/zfs recv p2/p2b@${1}"

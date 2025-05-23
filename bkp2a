@@ -1,0 +1,37 @@
+#!/bin/zsh
+fx_mklist() {
+	cat << EOF > /tmp/listp2a
++ Concerts/
++ Concerts/*/
++ M/
++ M/*
++ Mn/
++ Mn/*/
++ sv/
++ sv/*/
++ id/
++ id/*/
++ edu/
++ edu/*/
++ ln/
++ ln/*/
++ v/
+- *
+- */*
+- */*/*
+EOF
+}
+
+fx_mkdir() {
+	rsync -dri --include-from=/tmp/listp2a $HOME/mount/p2a/ $HOME/z16a/aa/
+}
+
+fx_sync() {
+	sed -iE 's/+ //;s/- //;s/\*//g;s/\///g' /tmp/listp2a
+	rsync -irn --files-from=/tmp/listp2a $HOME/z16a/aa/ $HOME/mount/p2a/
+}
+
+
+fx_mklist
+#fx_mkdir
+fx_sync

@@ -1,0 +1,30 @@
+#!/bin/zsh
+fx_mklist() {
+	cat << EOF > /tmp/listp2d
++ gamecapture/
++ gamecapture/*/
++ gameiso/
++ ImageBackup/
++ vn/
++ vn/*/
++ vt/*
++ vt/*/
+- *
++ */*
++ */*/*
+EOF
+}
+
+fx_mkdir() {
+	rsync -dri --include-from=/tmp/listp2d $HOME/mount/p2d/ $HOME/z16a/ad/
+}
+
+fx_sync() {
+	sed -iE 's/+ //;s/- //;s/\*//g;s/\///g' /tmp/listp2d
+	rsync -irn --files-from=/tmp/listp2d $HOME/z16a/ad/ $HOME/mount/p2d/
+}
+
+
+fx_mklist
+#fx_mkdir
+fx_sync

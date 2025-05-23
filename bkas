@@ -1,0 +1,4 @@
+#!/bin/zsh
+echo "bkas <new> <old>"
+sudo zfs snapshot z16a/as@${1}
+sudo zfs send -i z16a/as@${2} | pv -ptb | ssh tn2 "sudo zfs recv p2/p2a/as@${1}"

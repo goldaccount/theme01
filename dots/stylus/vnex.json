@@ -1,4 +1,7 @@
-.page-detail.top-detail,
+@-moz-document domain("vnexpress.net") {
+body, header, nav, article,
+.page-detail.top-detail, .container, .wrap-main-nav, .sub,
+.inner-section-video:before, /*video bg*/
 .wrap-all-menu /*main menu dropdown*/ {
     background: #000 !important;
 }
@@ -10,6 +13,7 @@
     margin: 0 !important;
 }
 
+p, div, section, body, a, li,
 /*sub menu text*/
 .main-nav .sub li a {
     color: #AAA !important;
@@ -45,4 +49,5 @@ p.Image, /*Image text*/
 .social_pin /*Left nav button*/
 {
     display: none !important;
+}
 }

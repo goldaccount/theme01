@@ -1,0 +1,5 @@
+#!/bin/bash
+today=$(date +%Y%m%d)
+echo "bk <new snapshot> <old snapshot>"
+sudo zfs snapshot z6e/g@${1}
+sudo zfs send -i z6e/g@${2} z6e/g@${1} | pv -ptb | sudo zfs recv z16a/g@${1}
