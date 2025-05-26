@@ -1,0 +1,21 @@
+/* Example: change font size of item title */
+.title-link {
+    font-size: 15px;
+}
+body, #sidebar, .full-container-inner {
+    background-color: #000 !important;
+    background: #000 !important;
+}
+
+.headline-feed-name, .headline-title, tree-item>.title, a, .content, .unread-count {
+    color: #FFF !important;
+}
+
+tree-item:hover, .headline-container:hover > .headline-header {
+    background-color: #333 !important;
+    color: #FFF !important;
+}
+
+.headline-feed-name:hover, .headline-title:hover, a:hover {
+    color: #111 !important;
+}

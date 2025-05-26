@@ -17,6 +17,7 @@ p
 .config/stylus
 .config/sxhkd
 .config/xfce4
+.ssh
 run
 vnnotes
 theme01
