@@ -1,0 +1,21 @@
+[
+  {
+    "uuid": "714531fb-8761-4400-b1bb-22156749a70e",
+    "pattern": {
+      "scheme": "*",
+      "host": [
+        "d1.vnecdn.net"
+      ],
+      "path": [
+        "/vnexpress/video/video/web/mp4/*"
+      ]
+    },
+    "types": [
+      "main_frame"
+    ],
+    "action": "redirect",
+    "active": true,
+    "title": "vne%20video",
+    "redirectUrl": "https://{hostname/d1/v}{pathname/\\/video/|/,360.*,\\//|/\\/vne\\/master.m3u8/.mp4}"
+  }
+]
