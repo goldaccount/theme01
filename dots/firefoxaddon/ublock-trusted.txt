@@ -1,0 +1,14 @@
+chrome-extension-scheme
+moz-extension-scheme
+azure.com
+login.microsoftonline.com
+microsoft.com
+microsoftonline.com
+msauth.net
+msftauth.net
+office.com
+office.net
+office365.com
+vietnamairports.sharepoint.com
+www.aliexpress.com
+
