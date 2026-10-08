@@ -1,0 +1,28 @@
+/* Example: change font size of item title */
+.title-link {
+    font-size: 15px;
+}
+body, #sidebar, #feed-view-header, .full-container-inner {
+    background-color: #000 !important;
+    background: #000 !important;
+    color: #BBB !important;
+}
+
+#sidebar {
+    min-width: 70px !important;
+    width: 10% !important;
+}
+
+tree-item.selected {
+    background-color: #333 !important;
+}
+.sidebar-button,
+.unread-count, .content,
+#view-list > tree-item > .title,
+tree-item > .title {
+    color: #BBB !important;
+}
+
+.content a {
+    color: #070 !important;
+}
